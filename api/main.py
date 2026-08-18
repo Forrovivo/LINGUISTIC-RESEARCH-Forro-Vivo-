@@ -1,13 +1,22 @@
-"""Read-only FastAPI application over isolated dictionary JSON files."""
+"""Read-only FastAPI service for ForroVivo Linguistic Research datasets."""
 
 from __future__ import annotations
 
 from typing import Any, Dict, Optional
 
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
+from uvicorn.middleware.proxy_headers import ProxyHeadersMiddleware
 
+from api.settings import (
+    API_HOST,
+    API_ORIGIN,
+    APP_STORE_URL,
+    CORS_ORIGINS,
+    GITHUB_URL,
+    SITE_ORIGIN,
+)
 from api.store import (
     Store,
     audio_file,
@@ -22,20 +31,35 @@ DEFAULT_LIMIT = 50
 MAX_LIMIT = 1000
 
 app = FastAPI(
-    title="Forro Languages Dictionary API",
+    title="ForroVivo Linguistic Research API",
     description=(
-        "Read-only HTTP API for attested Portuguese-lexifier creole lexicons. "
+        "ForroVivo is the platform and ecosystem. This API is the machine-readable "
+        "layer of the Linguistic Research initiative within it. "
+        "Public host: https://api.forrovivo.com. "
         "Each dataset is isolated. Missing terms return TERM_NOT_FOUND. "
         "This API does not invent translations or merge languages."
     ),
-    version="1.0.0",
+    version="2.0.6",
+    servers=[
+        {"url": API_ORIGIN, "description": "Production"},
+        {"url": "http://127.0.0.1:8000", "description": "Local"},
+    ],
 )
+app.add_middleware(ProxyHeadersMiddleware, trusted_hosts="*")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["GET"],
+    allow_origins=CORS_ORIGINS,
+    allow_methods=["GET", "HEAD", "OPTIONS"],
     allow_headers=["*"],
 )
+
+
+def request_origin(request: Request) -> str:
+    return str(request.base_url).rstrip("/")
+
+
+def present(dataset, entry, request: Request) -> Dict[str, Any]:
+    return present_entry(dataset, entry, base_url=request_origin(request))
 
 
 def term_not_found(dataset) -> JSONResponse:
@@ -84,22 +108,29 @@ def health() -> Dict[str, str]:
 @app.get("/v1")
 def root() -> Dict[str, Any]:
     return {
-        "name": "Forro Languages Dictionary API",
-        "version": "1.0.0",
+        "name": "ForroVivo Linguistic Research API",
+        "version": "2.0.6",
+        "platform": "ForroVivo",
+        "initiative": "Linguistic Research",
+        "host": API_HOST,
+        "url": API_ORIGIN,
+        "homepage": SITE_ORIGIN,
+        "github": GITHUB_URL,
+        "app_store": APP_STORE_URL,
         "project_start_date": "2023-03-23",
         "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
         "isolation": (
             "Each path serves one dataset. Parent indexes are not merged lexicons. "
-            "dictionary/angola/ is an alias of saotome/angolar."
+            "data/angola/ is an alias of data/saotome/angolar."
         ),
         "license": {
             "project_original": "CC BY 4.0",
             "source_extracts": (
-                "Third-party dictionaries and papers keep their original licenses. See SOURCES.md."
+                "Third-party dictionaries and papers keep their original licenses. See research/sources/README.md."
             ),
         },
-        "docs": "/docs",
-        "catalog": "/v1/datasets",
+        "docs": f"{API_ORIGIN}/docs",
+        "catalog": f"{API_ORIGIN}/v1/datasets",
     }
 
 
@@ -111,6 +142,7 @@ def list_datasets() -> Dict[str, Any]:
 @app.get("/v1/{family}/lookup")
 @app.get("/v1/{family}/{variety}/lookup")
 def lookup(
+    request: Request,
     family: str,
     variety: Optional[str] = None,
     headword: str = Query(..., min_length=1),
@@ -129,14 +161,14 @@ def lookup(
             "query": {"headword": headword},
             "match": match,
             "count": len(entries),
-            "entries": [present_entry(dataset, entry) for entry in entries],
+            "entries": [present(dataset, entry, request) for entry in entries],
         },
     )
 
 
 @app.get("/v1/{family}/entries/{entry_id}")
 @app.get("/v1/{family}/{variety}/entries/{entry_id}")
-def get_entry(entry_id: str, family: str, variety: Optional[str] = None) -> Any:
+def get_entry(request: Request, entry_id: str, family: str, variety: Optional[str] = None) -> Any:
     dataset, error = resolve(family, variety)
     if error is not None:
         return error
@@ -145,12 +177,13 @@ def get_entry(entry_id: str, family: str, variety: Optional[str] = None) -> Any:
     entry = dataset.by_id.get(entry_id)
     if entry is None:
         return term_not_found(dataset)
-    return envelope(dataset, {"entry": present_entry(dataset, entry)})
+    return envelope(dataset, {"entry": present(dataset, entry, request)})
 
 
 @app.get("/v1/{family}/entries")
 @app.get("/v1/{family}/{variety}/entries")
 def list_entries(
+    request: Request,
     family: str,
     variety: Optional[str] = None,
     q: Optional[str] = Query(None, description="Search inside this dataset only."),
@@ -171,7 +204,7 @@ def list_entries(
             "total": len(rows),
             "offset": offset,
             "limit": limit,
-            "entries": [present_entry(dataset, entry) for entry in page],
+            "entries": [present(dataset, entry, request) for entry in page],
         },
     )
 

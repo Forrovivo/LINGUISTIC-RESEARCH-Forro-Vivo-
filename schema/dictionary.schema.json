@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.forrovivo.com/schema/dictionary.schema.json",
+  "title": "ForroVivo dictionary file",
+  "type": "object",
+  "required": ["language", "principle", "missing_term", "entries"],
+  "properties": {
+    "language": { "type": "string" },
+    "language_name": { "type": ["string", "null"] },
+    "language_aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "iso_639_3": { "type": ["string", "null"] },
+    "kind": {
+      "type": "string",
+      "enum": ["lexicon", "country_index", "variety_index", "alias"]
+    },
+    "orthography": { "type": ["string", "null"] },
+    "translation_pairs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "isolation": { "type": "string" },
+    "principle": { "type": "string" },
+    "missing_term": { "$ref": "source.schema.json#/$defs/termNotFound" },
+    "license": { "type": "object" },
+    "project_start_date": { "type": "string" },
+    "alias_of": { "type": "string" },
+    "canonical_path": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "source.schema.json" }
+    },
+    "languages": {
+      "type": "array",
+      "items": { "$ref": "language.schema.json" }
+    },
+    "varieties": {
+      "type": "array",
+      "items": { "$ref": "language.schema.json" }
+    },
+    "entry_count": { "type": "integer", "minimum": 0 },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": ["id", "language", "headword", "source"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "minLength": 1 },
+        "language_name": { "type": ["string", "null"] },
+        "language_aliases": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "headword": { "type": "string", "minLength": 1 },
+        "orthography": { "type": ["string", "null"] },
+        "part_of_speech": { "type": ["string", "null"] },
+        "part_of_speech_label": { "type": ["string", "null"] },
+        "translation_pt": { "type": ["string", "null"] },
+        "translation_en": { "type": ["string", "null"] },
+        "definition_pt": { "type": ["string", "null"] },
+        "definition_en": { "type": ["string", "null"] },
+        "example": { "type": ["string", "null"] },
+        "example_translation_pt": { "type": ["string", "null"] },
+        "example_translation_en": { "type": ["string", "null"] },
+        "pronunciation": { "type": ["string", "null"] },
+        "ipa": { "type": ["string", "null"] },
+        "grammatical_information": { "type": ["string", "null"] },
+        "semantic_category": { "type": ["string", "null"] },
+        "cultural_context": { "type": ["string", "null"] },
+        "etymology": { "type": ["string", "null"] },
+        "regional_information": { "type": ["string", "null"] },
+        "usage_notes": { "type": ["string", "null"] },
+        "variants": { "type": "array" },
+        "synonyms": { "type": "array" },
+        "related_terms": { "type": "array" },
+        "source": { "type": "string", "minLength": 1 },
+        "source_type": { "type": ["string", "null"] },
+        "source_title": { "type": ["string", "null"] },
+        "source_page": { "type": ["string", "integer", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "source_file": { "type": ["string", "null"] },
+        "verification_status": { "type": ["string", "null"] },
+        "confidence": {
+          "type": ["string", "null"],
+          "enum": ["high", "medium", "low", "unverified", "disputed", null]
+        },
+        "notes": { "type": ["string", "null"] },
+        "cross_language_relation": { "type": ["object", "null"] },
+        "audio": {
+          "type": "array",
+          "items": { "type": "object" }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

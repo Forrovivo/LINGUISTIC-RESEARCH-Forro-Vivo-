@@ -1,0 +1,19 @@
+{
+  "dataset": "saotome/forro",
+  "kind": "lexicon",
+  "language": "forro",
+  "match": "exact",
+  "count": 2,
+  "entries": [
+    {
+      "id": "forro-kume-n",
+      "language": "forro",
+      "headword": "kume",
+      "part_of_speech": "n.",
+      "translation_pt": "Comida.",
+      "translation_en": null,
+      "source": "Araujo, Gabriel Antunes de; Hagemeijer, Tjerk. 2013. Dicionário livre santome/português — Livlu-nglandji santome/putugêji. São Paulo: Hedra. CC BY-NC.",
+      "confidence": "high"
+    }
+  ]
+}

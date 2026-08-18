@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+"""Rebuild parent index JSON from isolated data/ folders.
+
+Does not merge lexicons. Writes only id/path pointers.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+
+
+def write_json(path: Path, document: dict) -> None:
+    path.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    saotome = json.loads((DATA / "saotome" / "dictionary.json").read_text(encoding="utf-8"))
+    saotome["languages"] = [
+        {"id": "forro", "island": "São Tomé", "path": "data/saotome/forro/"},
+        {"id": "angolar", "island": "São Tomé", "path": "data/saotome/angolar/"},
+        {"id": "lungie", "island": "Príncipe", "path": "data/saotome/lungie/"},
+    ]
+    saotome["entries"] = []
+    saotome["entry_count"] = 0
+    write_json(DATA / "saotome" / "dictionary.json", saotome)
+
+    caboverde = json.loads((DATA / "caboverde" / "dictionary.json").read_text(encoding="utf-8"))
+    for variety in caboverde.get("varieties") or []:
+        variety["path"] = f"data/caboverde/{variety['id']}/"
+    caboverde["entries"] = []
+    caboverde["entry_count"] = 0
+    write_json(DATA / "caboverde" / "dictionary.json", caboverde)
+
+    guinebissau = json.loads((DATA / "guinebissau" / "dictionary.json").read_text(encoding="utf-8"))
+    for variety in guinebissau.get("varieties") or []:
+        variety["path"] = f"data/guinebissau/{variety['id']}/"
+    guinebissau["entries"] = []
+    guinebissau["entry_count"] = 0
+    write_json(DATA / "guinebissau" / "dictionary.json", guinebissau)
+
+    angola = json.loads((DATA / "angola" / "dictionary.json").read_text(encoding="utf-8"))
+    angola["canonical_path"] = "data/saotome/angolar/"
+    angola["alias_of"] = "angolar"
+    angola["entries"] = []
+    angola["entry_count"] = 0
+    write_json(DATA / "angola" / "dictionary.json", angola)
+
+    print("Rebuilt data/saotome, data/caboverde, data/guinebissau, and data/angola indexes")
+
+
+if __name__ == "__main__":
+    main()

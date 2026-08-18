@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+"""Import attested entries into one isolated data/ lexicon.
+
+The JSON file must be an object with an entries array, or a bare array of
+entries. Every entry must already name the target language and a source.
+This script does not invent translations and will not copy into another folder.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+
+DATASETS = {
+    "forro": DATA / "saotome" / "forro" / "dictionary.json",
+    "angolar": DATA / "saotome" / "angolar" / "dictionary.json",
+    "lungie": DATA / "saotome" / "lungie" / "dictionary.json",
+}
+
+
+def load_entries(path: Path):
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(payload, list):
+        return payload
+    if isinstance(payload, dict) and isinstance(payload.get("entries"), list):
+        return payload["entries"]
+    raise SystemExit("Input must be a JSON array of entries or an object with entries.")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--language", required=True, choices=sorted(DATASETS))
+    parser.add_argument("--from", dest="source_file", required=True, type=Path)
+    args = parser.parse_args()
+
+    target = DATASETS[args.language]
+    incoming = load_entries(args.source_file)
+    document = json.loads(target.read_text(encoding="utf-8"))
+    existing_ids = {entry.get("id") for entry in document.get("entries") or []}
+
+    accepted = []
+    for index, entry in enumerate(incoming):
+        language = entry.get("language")
+        if language != args.language:
+            print(
+                f"entries[{index}]: language {language!r} is not {args.language}; skipped",
+                file=sys.stderr,
+            )
+            return 1
+        if not entry.get("headword") or not entry.get("source"):
+            print(f"entries[{index}]: headword and source are required", file=sys.stderr)
+            return 1
+        if not entry.get("id"):
+            print(f"entries[{index}]: id is required", file=sys.stderr)
+            return 1
+        if entry["id"] in existing_ids:
+            print(f"entries[{index}]: id {entry['id']!r} already exists", file=sys.stderr)
+            return 1
+        accepted.append(entry)
+
+    document.setdefault("entries", []).extend(accepted)
+    document["entry_count"] = len(document["entries"])
+    target.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Imported {len(accepted)} entries into {target.relative_to(ROOT)}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

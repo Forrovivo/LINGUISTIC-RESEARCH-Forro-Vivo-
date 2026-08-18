@@ -11,6 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api import REPO_ROOT
 from api.catalog import DatasetRef, load_catalog
+from api.settings import API_ORIGIN
 
 APOSTROPHES = dict.fromkeys(map(ord, "‘’ʼ´`"), "'")
 META_SKIP = frozenset({"entries"})
@@ -141,14 +142,19 @@ def _index_entries(dataset: Dataset, entries: List[Dict[str, Any]]) -> None:
             dataset.by_loose.setdefault(fold_loose(value), []).append(entry)
 
 
-def present_entry(dataset: Dataset, entry: Dict[str, Any]) -> Dict[str, Any]:
+def present_entry(
+    dataset: Dataset,
+    entry: Dict[str, Any],
+    base_url: Optional[str] = None,
+) -> Dict[str, Any]:
+    origin = (base_url or API_ORIGIN).rstrip("/")
     payload = copy.deepcopy(entry)
     audio_items = payload.get("audio") or []
     for item in audio_items:
         relative = (item.get("file") or "").replace("\\", "/")
         filename = Path(relative).name
         if filename:
-            item["url"] = f"/v1/{dataset.ref.key}/audio/{filename}"
+            item["url"] = f"{origin}/v1/{dataset.ref.key}/audio/{filename}"
     return payload
 
 

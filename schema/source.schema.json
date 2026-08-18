@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.forrovivo.com/schema/source.schema.json",
+  "title": "Cited source",
+  "type": "object",
+  "required": ["source"],
+  "properties": {
+    "source": { "type": "string", "minLength": 1 },
+    "source_type": { "type": ["string", "null"] },
+    "source_title": { "type": ["string", "null"] },
+    "source_file": { "type": ["string", "null"] },
+    "source_url": { "type": ["string", "null"] },
+    "source_page": { "type": ["string", "integer", "null"] },
+    "language_coverage": { "type": ["string", "null"] },
+    "license": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "termNotFound": {
+      "type": "object",
+      "required": ["status", "code", "message"],
+      "properties": {
+        "status": { "const": "error" },
+        "code": { "const": "TERM_NOT_FOUND" },
+        "message": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

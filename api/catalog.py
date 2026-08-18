@@ -1,4 +1,4 @@
-"""Dataset registry derived from the existing dictionary/ indexes."""
+"""Dataset registry derived from data/ indexes."""
 
 from __future__ import annotations
 
@@ -9,12 +9,12 @@ from typing import Dict, Optional
 
 from api import REPO_ROOT
 
-DICTIONARY_ROOT = REPO_ROOT / "dictionary"
+DATA_ROOT = REPO_ROOT / "data"
 
 FAMILY_INDEXES = (
-    ("saotome", DICTIONARY_ROOT / "saotome" / "dictionary.json"),
-    ("caboverde", DICTIONARY_ROOT / "caboverde" / "dictionary.json"),
-    ("guinebissau", DICTIONARY_ROOT / "guinebissau" / "dictionary.json"),
+    ("saotome", DATA_ROOT / "saotome" / "dictionary.json"),
+    ("caboverde", DATA_ROOT / "caboverde" / "dictionary.json"),
+    ("guinebissau", DATA_ROOT / "guinebissau" / "dictionary.json"),
 )
 
 
@@ -61,7 +61,7 @@ def load_catalog() -> Dict[str, DatasetRef]:
                 json_path=_json_path(child["path"]),
             )
 
-    angola_path = DICTIONARY_ROOT / "angola" / "dictionary.json"
+    angola_path = DATA_ROOT / "angola" / "dictionary.json"
     with angola_path.open(encoding="utf-8") as handle:
         angola = json.load(handle)
     catalog["angola"] = DatasetRef(
@@ -80,5 +80,3 @@ def load_catalog() -> Dict[str, DatasetRef]:
     if missing:
         raise FileNotFoundError("Missing dictionary.json for: " + ", ".join(missing))
     return catalog
-
-

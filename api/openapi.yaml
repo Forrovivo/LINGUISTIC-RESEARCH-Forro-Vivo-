@@ -1,0 +1,179 @@
+openapi: 3.0.3
+info:
+  title: ForroVivo Linguistic Research API
+  version: "2.0.6"
+  description: >
+    ForroVivo is the platform and ecosystem. This API publishes machine-readable
+    linguistic data for the Linguistic Research initiative within it.
+    Each path serves one isolated dataset. Missing terms return TERM_NOT_FOUND.
+  license:
+    name: Mixed. Project materials CC BY 4.0. Source extracts keep original terms.
+servers:
+  - url: https://api.forrovivo.com
+    description: Production
+  - url: http://127.0.0.1:8000
+    description: Local
+paths:
+  /health:
+    get:
+      summary: Process health
+      responses:
+        "200":
+          description: OK
+  /v1:
+    get:
+      summary: API metadata
+      responses:
+        "200":
+          description: Host, license, and catalog links
+  /v1/datasets:
+    get:
+      summary: Isolated dataset catalog
+      responses:
+        "200":
+          description: One object per dataset; indexes are not merged lexicons
+  /v1/{family}:
+    get:
+      summary: Dataset metadata
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+            enum: [saotome, caboverde, guinebissau, angola]
+      responses:
+        "200":
+          description: Metadata without the full entry list
+        "404":
+          description: DATASET_NOT_FOUND
+  /v1/{family}/lookup:
+    get:
+      summary: Headword lookup in one dataset
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: headword
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Matching entries from that dataset only
+        "404":
+          description: TERM_NOT_FOUND or DATASET_NOT_FOUND
+  /v1/{family}/{variety}:
+    get:
+      summary: Island or region dataset metadata
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+            enum: [saotome, caboverde, guinebissau]
+        - in: path
+          name: variety
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Metadata
+        "404":
+          description: DATASET_NOT_FOUND
+  /v1/{family}/{variety}/lookup:
+    get:
+      summary: Headword lookup in one island or region
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: variety
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: headword
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Matching entries from that variety only
+        "404":
+          description: TERM_NOT_FOUND or DATASET_NOT_FOUND
+  /v1/{family}/entries:
+    get:
+      summary: Paginated list or search inside one dataset
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: q
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: offset
+          schema:
+            type: integer
+            minimum: 0
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        "200":
+          description: Page of entries
+        "404":
+          description: TERM_NOT_FOUND for indexes
+  /v1/{family}/entries/{entry_id}:
+    get:
+      summary: One entry by id
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: entry_id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Entry
+        "404":
+          description: TERM_NOT_FOUND
+  /v1/{family}/audio/{filename}:
+    get:
+      summary: Audio file from that dataset only
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: filename
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: audio/mpeg
+        "404":
+          description: AUDIO_NOT_FOUND

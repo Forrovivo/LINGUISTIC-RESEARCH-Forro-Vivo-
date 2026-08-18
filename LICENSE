@@ -1,4 +1,5 @@
-This repository uses mixed licensing.
+This repository is the ForroVivo Linguistic Research initiative. It uses mixed
+licensing.
 
 This project started on 23 March 2023.
 
@@ -27,7 +28,7 @@ In particular:
   Huber, Magnus (eds.). 2013. Atlas of Pidgin and Creole Language
   Structures Online. Leipzig: Max Planck Institute for Evolutionary
   Anthropology. Licensed as Creative Commons Attribution 4.0 (CC BY
-  4.0). Santome audio copied into dictionary/saotome/forro/Audio/ remains CC BY
+  4.0). Santome audio copied into data/saotome/forro/Audio/ remains CC BY
   4.0. Cite Hagemeijer (Santome) and the APiCS editors.
 
 - Academic articles, survey chapters, theses, and other published works

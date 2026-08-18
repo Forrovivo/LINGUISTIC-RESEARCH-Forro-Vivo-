@@ -11,11 +11,26 @@ def test_health():
     assert response.json()["status"] == "ok"
 
 
+def test_public_api_is_api_forrovivo_com():
+    payload = client.get("/v1").json()
+    assert payload["platform"] == "ForroVivo"
+    assert payload["initiative"] == "Linguistic Research"
+    assert payload["host"] == "api.forrovivo.com"
+    assert payload["url"] == "https://api.forrovivo.com"
+    assert payload["homepage"] == "https://www.forrovivo.com"
+    assert payload["github"] == "https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-"
+    assert payload["app_store"] == "https://apps.apple.com/app/id6751409176"
+    assert payload["docs"] == "https://api.forrovivo.com/docs"
+    spec = client.get("/openapi.json").json()
+    assert spec["servers"][0]["url"] == "https://api.forrovivo.com"
+
+
 def test_catalog_lists_isolated_datasets():
     payload = client.get("/v1/datasets").json()
     keys = {item["dataset"] for item in payload["datasets"]}
     assert "saotome/forro" in keys
     assert "saotome/angolar" in keys
+    assert "saotome/lungie" in keys
     assert "caboverde/santiago" in keys
     assert "guinebissau/bissau" in keys
     assert "angola" in keys
@@ -85,6 +100,12 @@ def test_unknown_dataset():
     response = client.get("/v1/saotome/unknown/lookup", params={"headword": "kume"})
     assert response.status_code == 404
     assert response.json()["code"] == "DATASET_NOT_FOUND"
+
+
+def test_saotome_index_is_not_a_merged_lexicon():
+    response = client.get("/v1/saotome/lookup", params={"headword": "kume"})
+    assert response.status_code == 404
+    assert response.json()["code"] == "TERM_NOT_FOUND"
 
 
 def test_search_stays_inside_one_dataset():

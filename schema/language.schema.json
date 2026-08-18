@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.forrovivo.com/schema/language.schema.json",
+  "title": "Isolated language or variety",
+  "type": "object",
+  "required": ["id", "path"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Folder id: forro, angolar, lungie, an island id, or a region id."
+    },
+    "language_name": { "type": "string" },
+    "iso_639_3": { "type": ["string", "null"] },
+    "island": { "type": "string" },
+    "region": { "type": "string" },
+    "group": { "type": "string" },
+    "administrative_unit": { "type": "string" },
+    "path": {
+      "type": "string",
+      "pattern": "^data/",
+      "description": "Repository-relative folder for this isolated lexicon."
+    }
+  },
+  "additionalProperties": true
+}

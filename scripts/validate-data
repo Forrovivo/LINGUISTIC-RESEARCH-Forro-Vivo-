@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+"""Validate isolated dictionary JSON files under data/."""
+
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+
+REQUIRED_ENTRY = ("id", "language", "headword", "source")
+FOLDER_LANGUAGE = {
+    "saotome/forro": "forro",
+    "saotome/angolar": "angolar",
+    "saotome/lungie": "lungie",
+}
+
+
+def lexicon_files():
+    for path in sorted(DATA.rglob("dictionary.json")):
+        yield path
+
+
+def folder_language(path: Path):
+    relative = path.parent.relative_to(DATA).as_posix()
+    if relative in FOLDER_LANGUAGE:
+        return FOLDER_LANGUAGE[relative]
+    if relative.startswith("caboverde/") and relative.count("/") == 1:
+        return f"caboverde-{relative.split('/', 1)[1]}"
+    if relative.startswith("guinebissau/") and relative.count("/") == 1:
+        return f"guinebissau"  # region files use kriol of region; check isolation text instead
+    return None
+
+
+def validate_file(path: Path) -> list:
+    errors = []
+    with path.open(encoding="utf-8") as handle:
+        try:
+            document = json.load(handle)
+        except json.JSONDecodeError as exc:
+            return [f"{path}: invalid JSON ({exc})"]
+
+    if "entries" not in document:
+        return [f"{path}: missing entries"]
+    if "missing_term" not in document:
+        errors.append(f"{path}: missing missing_term")
+    else:
+        code = document["missing_term"].get("code")
+        if code != "TERM_NOT_FOUND":
+            errors.append(f"{path}: missing_term.code must be TERM_NOT_FOUND")
+
+    expected = document.get("language")
+    kind = document.get("kind")
+    if kind in {"country_index", "variety_index"} or document.get("alias_of"):
+        if document.get("entries"):
+            errors.append(f"{path}: index or alias must not store a lexicon")
+        return errors
+
+    for index, entry in enumerate(document.get("entries") or []):
+        for field in REQUIRED_ENTRY:
+            if not entry.get(field):
+                errors.append(f"{path}: entries[{index}] missing {field}")
+        language = entry.get("language")
+        if expected and language and language != expected:
+            errors.append(
+                f"{path}: entries[{index}] language {language!r} does not match file language {expected!r}"
+            )
+        if not entry.get("source"):
+            errors.append(f"{path}: entries[{index}] has no source")
+    declared = document.get("entry_count")
+    actual = len(document.get("entries") or [])
+    if declared is not None and declared != actual:
+        errors.append(f"{path}: entry_count {declared} != {actual} entries")
+    return errors
+
+
+def main() -> int:
+    errors = []
+    files = list(lexicon_files())
+    if not files:
+        print("No dictionary.json files under data/", file=sys.stderr)
+        return 1
+    for path in files:
+        errors.extend(validate_file(path))
+    if errors:
+        print("\n".join(errors), file=sys.stderr)
+        return 1
+    print(f"OK {len(files)} dictionary files")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
