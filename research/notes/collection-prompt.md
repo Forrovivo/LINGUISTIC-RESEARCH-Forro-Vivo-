@@ -413,6 +413,8 @@ The cultural context must describe the relationship between the word and the cul
 
 Do not turn the dictionary into a general cultural encyclopedia.
 
+Standalone culture, food, music, dance, folklore, stories, places, expressions, proverbs, and grammar sketches that are **not** a dictionary headword belong in that folder’s `knowledge.json`, in the matching collection array. Same isolation. Same citation rule. Do not copy a Forro proverb into Angolar, or a Santiago story into São Vicente.
+
 ---
 
 # 9. GRAMMAR AND LANGUAGE INFORMATION

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.forrovivo.com/schema/knowledge.schema.json",
+  "title": "ForroVivo isolated knowledge file",
+  "type": "object",
+  "required": ["language"],
+  "properties": {
+    "language": { "type": "string", "minLength": 1 },
+    "language_name": { "type": ["string", "null"] },
+    "isolation": { "type": "string" },
+    "principle": { "type": "string" },
+    "grammar": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "expressions": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "proverbs": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "culture": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "food": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "music": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "dance": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "folklore": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "stories": { "type": "array", "items": { "$ref": "#/$defs/record" } },
+    "places": { "type": "array", "items": { "$ref": "#/$defs/record" } }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "record": {
+      "type": "object",
+      "required": ["id", "language", "collection", "source"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "minLength": 1 },
+        "collection": {
+          "type": "string",
+          "enum": [
+            "grammar",
+            "expressions",
+            "proverbs",
+            "culture",
+            "food",
+            "music",
+            "dance",
+            "folklore",
+            "stories",
+            "places"
+          ]
+        },
+        "title": { "type": ["string", "null"] },
+        "headword": { "type": ["string", "null"] },
+        "text": { "type": ["string", "null"] },
+        "text_pt": { "type": ["string", "null"] },
+        "text_en": { "type": ["string", "null"] },
+        "related_entry_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "source": { "type": "string", "minLength": 1 },
+        "source_type": { "type": ["string", "null"] },
+        "source_title": { "type": ["string", "null"] },
+        "source_page": { "type": ["string", "integer", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "source_file": { "type": ["string", "null"] },
+        "verification_status": { "type": ["string", "null"] },
+        "confidence": {
+          "type": ["string", "null"],
+          "enum": ["high", "medium", "low", "unverified", "disputed", null]
+        },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    }
+  }
+}

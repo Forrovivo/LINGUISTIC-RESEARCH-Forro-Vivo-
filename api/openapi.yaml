@@ -1,11 +1,16 @@
 openapi: 3.0.3
 info:
   title: ForroVivo Linguistic Research API
-  version: "2.0.6"
+  version: "2.2.0"
   description: >
     ForroVivo is the platform and ecosystem. This API publishes machine-readable
     linguistic data for the Linguistic Research initiative within it.
     Each path serves one isolated dataset. Missing terms return TERM_NOT_FOUND.
+    The Knowledge Base collections (grammar, expressions, proverbs, culture,
+    food, music, dance, folklore, stories, places) stay empty until a cited
+    source fills them. Search never crosses folders.
+    Each entry includes an attested relation graph (means, belongs_to,
+    related_to, appears_in, documented_by). Missing edges stay empty.
   license:
     name: Mixed. Project materials CC BY 4.0. Source extracts keep original terms.
 servers:
@@ -32,6 +37,92 @@ paths:
       responses:
         "200":
           description: One object per dataset; indexes are not merged lexicons
+  /v1/kb:
+    get:
+      summary: Knowledge Base map
+      responses:
+        "200":
+          description: Isolated collection list (languages, entries, grammar, search, …)
+  /v1/languages:
+    get:
+      summary: Isolated language catalog
+      responses:
+        "200":
+          description: One lexicon per object; parent indexes are omitted
+  /v1/search:
+    get:
+      summary: Search one dataset
+      parameters:
+        - in: query
+          name: dataset
+          required: true
+          schema:
+            type: string
+          description: Isolated key such as saotome/forro
+        - in: query
+          name: q
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Hits from that dataset only
+        "400":
+          description: DATASET_REQUIRED or QUERY_REQUIRED
+  /v1/grammar:
+    get:
+      summary: Grammar index (counts per isolated dataset; no merged records)
+      responses:
+        "200":
+          description: Directory of /v1/{dataset}/grammar paths
+  /v1/{family}/{variety}/grammar:
+    get:
+      summary: Grammar records in one isolated dataset
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: variety
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: q
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Attested grammar records, or an empty list
+        "404":
+          description: TERM_NOT_FOUND for parent indexes
+  /v1/{family}/{variety}/search:
+    get:
+      summary: Search entries, knowledge, and sources inside one dataset
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: variety
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: q
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Isolated hits
+        "400":
+          description: QUERY_REQUIRED
   /v1/{family}:
     get:
       summary: Dataset metadata

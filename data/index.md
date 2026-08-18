@@ -37,6 +37,7 @@ Parent index: [saotome_dataset/dictionary.md](saotome_dataset/dictionary.md)
 - [saotome_dataset/forro/dictionary.md](saotome_dataset/forro/dictionary.md)
 - [saotome_dataset/forro/dictionary.json](saotome_dataset/forro/dictionary.json)
 - [saotome_dataset/forro/sources.md](saotome_dataset/forro/sources.md)
+- Optional `knowledge.json` in the same folder for Knowledge Base collections
 - [saotome_dataset/forro/Audio/](saotome_dataset/forro/Audio/) — APiCS Santome recordings linked from matching entries
 
 If a Forro term is not attested there, return `TERM_NOT_FOUND` for Forro.

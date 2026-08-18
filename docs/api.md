@@ -34,12 +34,27 @@ São Tomé languages live under `data/saotome_dataset/`, matching `/v1/saotome/f
 | Method | Path |
 |---|---|
 | GET | `/v1` |
+| GET | `/v1/kb` |
+| GET | `/v1/languages` |
 | GET | `/v1/datasets` |
 | GET | `/v1/saotome/forro` |
 | GET | `/v1/saotome/forro/lookup?headword=kume` |
 | GET | `/v1/saotome/forro/entries?q=` |
 | GET | `/v1/saotome/forro/entries/{id}` |
 | GET | `/v1/saotome/forro/audio/{file}` |
+| GET | `/v1/saotome/forro/grammar` |
+| GET | `/v1/saotome/forro/expressions` |
+| GET | `/v1/saotome/forro/proverbs` |
+| GET | `/v1/saotome/forro/culture` |
+| GET | `/v1/saotome/forro/food` |
+| GET | `/v1/saotome/forro/music` |
+| GET | `/v1/saotome/forro/dance` |
+| GET | `/v1/saotome/forro/folklore` |
+| GET | `/v1/saotome/forro/stories` |
+| GET | `/v1/saotome/forro/places` |
+| GET | `/v1/saotome/forro/sources` |
+| GET | `/v1/saotome/forro/search?q=` |
+| GET | `/v1/search?dataset=saotome/forro&q=` |
 | GET | `/v1/saotome/angolar/lookup?headword=` |
 | GET | `/v1/saotome/lungie/lookup?headword=` |
 | GET | `/v1/caboverde/santiago/lookup?headword=` |
@@ -48,6 +63,10 @@ São Tomé languages live under `data/saotome_dataset/`, matching `/v1/saotome/f
 
 `/v1/saotome`, `/v1/caboverde`, and `/v1/guinebissau` are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola` is Angola Contruy. It does not serve Angolar.
 
+The Knowledge Base uses the same isolation. `/v1/languages` lists lexicons, not a merged word list. `/v1/grammar` (and the sibling collection indexes) list **counts per folder**. Records are read from `/v1/{dataset}/grammar`, `/v1/{dataset}/proverbs`, and the other collections. Empty means unsourced, not “fill from another creole”. `/v1/search` requires `dataset=`.
+
 A missing headword in a lexicon returns that dataset’s `TERM_NOT_FOUND` object. An unknown path returns `DATASET_NOT_FOUND`. Search never crosses folders.
+
+Each returned entry includes `graph`: meaning concepts (Portuguese / English), `belongs_to` (one language), `related_to` (grammar, culture), `appears_in` (proverb, story), and `documented_by` (source). Empty arrays mean unsourced, not “fill from another creole”.
 
 Interactive docs: https://api.forrovivo.com/docs

@@ -13,6 +13,7 @@ Each isolated lexicon folder contains:
 | `dictionary.json` | Machine-readable lexicon |
 | `dictionary.md` | Human-readable lexicon |
 | `sources.md` | Extraction record for that language or variety |
+| `knowledge.json` | Optional Knowledge Base records (grammar, proverbs, culture, …) |
 | `Audio/` | Recordings linked from matching entries, when present |
 
 Parent folders `data/saotome_dataset/`, `data/caboverde_dataset/`, and `data/guinebissau_dataset/` are indexes. They must not store a merged word list. `data/angola_dataset/` is Angola Contruy, not an alias of Angolar.
@@ -22,6 +23,7 @@ Schemas:
 - [dictionary.schema.json](../schema/dictionary.schema.json)
 - [source.schema.json](../schema/source.schema.json)
 - [language.schema.json](../schema/language.schema.json)
+- [knowledge.schema.json](../schema/knowledge.schema.json)
 
 ## Entry
 
@@ -43,6 +45,53 @@ Present when the source supplies them; otherwise `null`:
 Homographs are separate entries. Variants stay tagged to their sources. Disagreements are `disputed`.
 
 Cross-language comparison is metadata only. It must not rewrite an isolated entry.
+
+## Word graph
+
+Lookup returns an attested relation graph on each entry. Portuguese and English glosses are **concepts the word means**, not proof that the word belongs to Portuguese or English.
+
+```text
+headword
+     │
+     ├── means → Portuguese concept
+     ├── means → English concept
+     ├── belongs to → one isolated language
+     ├── related to → grammar rule
+     ├── appears in → proverb
+     ├── related to → cultural practice
+     └── documented by → source
+```
+
+The API object is `graph`:
+
+| Edge | When it is present |
+|---|---|
+| `belongs_to` | Always, from the folder that stores the entry |
+| `means` | `translation_pt` / `translation_en` when the source supplies them |
+| `related_to` | `grammatical_information`, `cultural_context`, or a `knowledge.json` grammar/culture record linked by `related_entry_ids` or the same headword |
+| `appears_in` | A proverb, expression, or story in **that** folder’s `knowledge.json`, linked the same way |
+| `documented_by` | The entry `source` |
+
+Missing edges stay empty. A Forro graph never includes Angolar records. Do not invent a proverb or grammar rule to complete the tree.
+
+## Knowledge Base
+
+Non-lexical records (grammar sketches, expressions, proverbs, culture, food, music, dance, folklore, stories, places) live in `knowledge.json` in the **same isolated folder** as `dictionary.json`. They are not a second encyclopedia copied across languages.
+
+Required when a row exists:
+
+- `id`, `language`, `collection`, `source`
+
+Present when the source supplies them; otherwise `null`:
+
+- `title`, `headword`
+- `text`, `text_pt`, `text_en`
+- `related_entry_ids`
+- source metadata, `verification_status`, `confidence`
+
+If `knowledge.json` is absent, the API still serves the collections as empty lists. Do not invent a proverb, story, or cultural note to fill them.
+
+`/v1/languages` is the catalog. `/v1/{dataset}/entries` is the lexicon. `/v1/{dataset}/sources` is that folder’s bibliography. `/v1/{dataset}/search` searches that folder only.
 
 ## Isolation
 

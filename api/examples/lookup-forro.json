@@ -13,7 +13,19 @@
       "translation_pt": "Comida.",
       "translation_en": null,
       "source": "Araujo, Gabriel Antunes de; Hagemeijer, Tjerk. 2013. Dicionário livre santome/português — Livlu-nglandji santome/putugêji. São Paulo: Hedra. CC BY-NC.",
-      "confidence": "high"
+      "confidence": "high",
+      "graph": {
+        "word": {"id": "forro-kume-n", "headword": "kume", "type": "headword"},
+        "belongs_to": {"language": "forro", "language_name": "Forro", "dataset": "saotome/forro"},
+        "means": [{"language": "pt", "concept": "Comida."}],
+        "related_to": [],
+        "appears_in": [],
+        "documented_by": [
+          {
+            "source": "Araujo, Gabriel Antunes de; Hagemeijer, Tjerk. 2013. Dicionário livre santome/português — Livlu-nglandji santome/putugêji. São Paulo: Hedra. CC BY-NC."
+          }
+        ]
+      }
     }
   ]
 }

@@ -17,6 +17,16 @@ from api.settings import (
     GITHUB_URL,
     SITE_ORIGIN,
 )
+from api.knowledge import (
+    DOCUMENT_COLLECTIONS,
+    collection_directory,
+    knowledge_base_map,
+    languages_catalog,
+    page_rows,
+    record_by_id,
+    search_collection,
+    search_dataset,
+)
 from api.store import (
     Store,
     audio_file,
@@ -39,7 +49,7 @@ app = FastAPI(
         "Each dataset is isolated. Missing terms return TERM_NOT_FOUND. "
         "This API does not invent translations or merge languages."
     ),
-    version="2.0.6",
+    version="2.2.0",
     servers=[
         {"url": API_ORIGIN, "description": "Production"},
         {"url": "http://127.0.0.1:8000", "description": "Local"},
@@ -100,6 +110,34 @@ def envelope(dataset, extra: Dict[str, Any]) -> Dict[str, Any]:
     return payload
 
 
+def dataset_required(collection: str) -> JSONResponse:
+    return JSONResponse(
+        status_code=400,
+        content={
+            "status": "error",
+            "code": "DATASET_REQUIRED",
+            "message": "This collection is isolated. Name one dataset; do not search across languages.",
+            "collection": collection,
+            "example": f"/v1/saotome/forro/{collection}" if collection != "search" else "/v1/search?dataset=saotome/forro&q=kume",
+        },
+    )
+
+
+def present_hit(dataset, hit: Dict[str, Any], request: Request) -> Dict[str, Any]:
+    if hit.get("collection") == "entries":
+        return {
+            "collection": "entries",
+            "item": present(dataset, hit["item"], request),
+        }
+    return hit
+
+
+def present_records(dataset, collection: str, rows: list, request: Request) -> list:
+    if collection == "entries":
+        return [present(dataset, row, request) for row in rows]
+    return rows
+
+
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok"}
@@ -109,7 +147,7 @@ def health() -> Dict[str, str]:
 def root() -> Dict[str, Any]:
     return {
         "name": "ForroVivo Linguistic Research API",
-        "version": "2.0.6",
+        "version": "2.2.0",
         "platform": "ForroVivo",
         "initiative": "Linguistic Research",
         "host": API_HOST,
@@ -123,6 +161,12 @@ def root() -> Dict[str, Any]:
             "Each path serves one dataset. Parent indexes are not merged lexicons. "
             "data/angola_dataset/ is Angola Contruy (country). It is not Angolar / Ngola."
         ),
+        "graph": (
+            "Each entry includes an attested relation graph: "
+            "means (Portuguese / English concepts), belongs_to (one language), "
+            "related_to (grammar, culture), appears_in (proverb, story), "
+            "documented_by (source). Missing edges stay empty. Edges never cross folders."
+        ),
         "license": {
             "project_original": "CC BY 4.0",
             "source_extracts": (
@@ -131,12 +175,84 @@ def root() -> Dict[str, Any]:
         },
         "docs": f"{API_ORIGIN}/docs",
         "catalog": f"{API_ORIGIN}/v1/datasets",
+        "knowledge_base": f"{API_ORIGIN}/v1/kb",
+        "languages": f"{API_ORIGIN}/v1/languages",
     }
 
 
 @app.get("/v1/datasets")
 def list_datasets() -> Dict[str, Any]:
     return {"datasets": STORE.catalog()}
+
+
+@app.get("/v1/kb")
+def knowledge_base() -> Dict[str, Any]:
+    return knowledge_base_map(API_ORIGIN)
+
+
+@app.get("/v1/languages")
+def list_languages() -> Dict[str, Any]:
+    return languages_catalog(STORE, API_ORIGIN)
+
+
+@app.get("/v1/search")
+def search_isolated(
+    request: Request,
+    dataset: Optional[str] = Query(None, description="Isolated dataset key, for example saotome/forro."),
+    q: Optional[str] = Query(None, description="Search inside that dataset only."),
+    offset: int = Query(0, ge=0),
+    limit: int = Query(DEFAULT_LIMIT, ge=1, le=MAX_LIMIT),
+) -> Any:
+    if not dataset:
+        return dataset_required("search")
+    parts = dataset.strip("/").split("/")
+    family = parts[0]
+    variety = parts[1] if len(parts) > 1 else None
+    loaded, error = resolve(family, variety)
+    if error is not None:
+        return error
+    if loaded.kind == "index":
+        return term_not_found(loaded)
+    if not q:
+        return JSONResponse(
+            status_code=400,
+            content={
+                "status": "error",
+                "code": "QUERY_REQUIRED",
+                "message": "Search requires q= inside one isolated dataset.",
+                "dataset": loaded.ref.key,
+            },
+        )
+    rows = search_dataset(loaded, q)
+    page, total = page_rows(rows, offset, limit)
+    return envelope(
+        loaded,
+        {
+            "collection": "search",
+            "query": q,
+            "total": total,
+            "offset": offset,
+            "limit": limit,
+            "results": [present_hit(loaded, hit, request) for hit in page],
+        },
+    )
+
+
+@app.get("/v1/entries")
+@app.get("/v1/grammar")
+@app.get("/v1/expressions")
+@app.get("/v1/proverbs")
+@app.get("/v1/culture")
+@app.get("/v1/food")
+@app.get("/v1/music")
+@app.get("/v1/dance")
+@app.get("/v1/folklore")
+@app.get("/v1/stories")
+@app.get("/v1/places")
+@app.get("/v1/sources")
+def knowledge_collection_index(request: Request) -> Dict[str, Any]:
+    collection = request.url.path.rstrip("/").rsplit("/", 1)[-1]
+    return collection_directory(STORE, collection)
 
 
 @app.get("/v1/{family}/lookup")
@@ -230,6 +346,104 @@ def get_audio(filename: str, family: str, variety: Optional[str] = None) -> Any:
             },
         )
     return FileResponse(path, media_type="audio/mpeg")
+
+
+def list_knowledge_collection(
+    request: Request,
+    family: str,
+    variety: Optional[str] = None,
+    q: Optional[str] = Query(None),
+    offset: int = Query(0, ge=0),
+    limit: int = Query(DEFAULT_LIMIT, ge=1, le=MAX_LIMIT),
+) -> Any:
+    collection = request.url.path.rstrip("/").rsplit("/", 1)[-1]
+    dataset, error = resolve(family, variety)
+    if error is not None:
+        return error
+    if dataset.kind == "index":
+        return term_not_found(dataset)
+    rows = search_collection(dataset, collection, q)
+    page, total = page_rows(rows, offset, limit)
+    return envelope(
+        dataset,
+        {
+            "collection": collection,
+            "query": q,
+            "total": total,
+            "offset": offset,
+            "limit": limit,
+            "items": present_records(dataset, collection, page, request),
+        },
+    )
+
+
+def get_knowledge_item(
+    request: Request,
+    item_id: str,
+    family: str,
+    variety: Optional[str] = None,
+) -> Any:
+    collection = request.url.path.rstrip("/").rsplit("/", 2)[-2]
+    dataset, error = resolve(family, variety)
+    if error is not None:
+        return error
+    if dataset.kind == "index":
+        return term_not_found(dataset)
+    item = record_by_id(dataset, collection, item_id)
+    if item is None:
+        return term_not_found(dataset)
+    payload = item
+    if collection == "entries":
+        payload = present(dataset, item, request)
+    return envelope(dataset, {"collection": collection, "item": payload})
+
+
+def search_one_dataset(
+    request: Request,
+    family: str,
+    variety: Optional[str] = None,
+    q: Optional[str] = Query(None, description="Search inside this dataset only."),
+    offset: int = Query(0, ge=0),
+    limit: int = Query(DEFAULT_LIMIT, ge=1, le=MAX_LIMIT),
+) -> Any:
+    dataset, error = resolve(family, variety)
+    if error is not None:
+        return error
+    if dataset.kind == "index":
+        return term_not_found(dataset)
+    if not q:
+        return JSONResponse(
+            status_code=400,
+            content={
+                "status": "error",
+                "code": "QUERY_REQUIRED",
+                "message": "Search requires q= inside one isolated dataset.",
+                "dataset": dataset.ref.key,
+            },
+        )
+    rows = search_dataset(dataset, q)
+    page, total = page_rows(rows, offset, limit)
+    return envelope(
+        dataset,
+        {
+            "collection": "search",
+            "query": q,
+            "total": total,
+            "offset": offset,
+            "limit": limit,
+            "results": [present_hit(dataset, hit, request) for hit in page],
+        },
+    )
+
+
+for _name in (*DOCUMENT_COLLECTIONS, "sources"):
+    app.add_api_route(f"/v1/{{family}}/{_name}", list_knowledge_collection, methods=["GET"])
+    app.add_api_route(f"/v1/{{family}}/{{variety}}/{_name}", list_knowledge_collection, methods=["GET"])
+    app.add_api_route(f"/v1/{{family}}/{_name}/{{item_id}}", get_knowledge_item, methods=["GET"])
+    app.add_api_route(f"/v1/{{family}}/{{variety}}/{_name}/{{item_id}}", get_knowledge_item, methods=["GET"])
+
+app.add_api_route("/v1/{family}/search", search_one_dataset, methods=["GET"])
+app.add_api_route("/v1/{family}/{variety}/search", search_one_dataset, methods=["GET"])
 
 
 @app.get("/v1/{family}")

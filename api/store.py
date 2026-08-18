@@ -11,6 +11,8 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api import REPO_ROOT
 from api.catalog import DatasetRef, load_catalog
+from api.graph import entry_graph, index_knowledge_links
+from api.knowledge import DOCUMENT_COLLECTIONS, empty_knowledge, load_knowledge
 from api.settings import API_ORIGIN
 
 APOSTROPHES = dict.fromkeys(map(ord, "‘’ʼ´`"), "'")
@@ -46,6 +48,9 @@ class Dataset:
     by_id: Dict[str, Dict[str, Any]] = field(default_factory=dict)
     by_fold: Dict[str, List[Dict[str, Any]]] = field(default_factory=dict)
     by_loose: Dict[str, List[Dict[str, Any]]] = field(default_factory=dict)
+    knowledge: Dict[str, List[Dict[str, Any]]] = field(default_factory=empty_knowledge)
+    knowledge_by_entry_id: Dict[str, List[Tuple[str, Dict[str, Any]]]] = field(default_factory=dict)
+    knowledge_by_headword: Dict[str, List[Tuple[str, Dict[str, Any]]]] = field(default_factory=dict)
 
     @property
     def kind(self) -> str:
@@ -70,6 +75,10 @@ class Dataset:
         if self.ref.canonical_key:
             payload["canonical_dataset"] = self.ref.canonical_key
         payload["entry_count"] = len(self.entries)
+        payload["knowledge"] = {
+            name: len(self.knowledge.get(name) or [])
+            for name in DOCUMENT_COLLECTIONS
+        }
         return payload
 
 
@@ -87,6 +96,11 @@ class Store:
             dataset = Dataset(ref=ref, document=document)
             if ref.kind == "lexicon":
                 _index_entries(dataset, document.get("entries") or [])
+                dataset.knowledge = load_knowledge(
+                    ref.json_path,
+                    document.get("language"),
+                )
+                index_knowledge_links(dataset)
             loaded[key] = dataset
 
         return cls(loaded)
@@ -149,6 +163,7 @@ def present_entry(
         filename = Path(relative).name
         if filename:
             item["url"] = f"{origin}/v1/{dataset.ref.key}/audio/{filename}"
+    payload["graph"] = entry_graph(dataset, entry, origin)
     return payload
 
 

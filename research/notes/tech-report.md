@@ -61,6 +61,7 @@ Each lexicon folder holds:
 - `dictionary.json` — machine-readable entries
 - `dictionary.md` — human-readable entries
 - `sources.md` — what was extracted from which work
+- `knowledge.json` — optional Knowledge Base records (grammar, proverbs, culture, …)
 - `Audio/` — recordings linked from matching entries, when present
 
 Parent `dictionary.json` files under `data/saotome_dataset/`, `data/caboverde_dataset/`, and `data/guinebissau_dataset/` are **indexes**. They do not store a merged word list. `research/notes/comparative-seed.md` is a small comparative seed, not a merged lexicon.
@@ -123,7 +124,7 @@ Orthography follows the source. ALUSTP is used when that is the spelling in the 
 
 ## API architecture
 
-The service is FastAPI (`api/main.py`). At startup it loads every `dictionary.json` into memory and builds per-dataset indexes by `id` and headword. It does not query a separate database and does not generate lexical content.
+The service is FastAPI (`api/main.py`). At startup it loads every `dictionary.json` into memory and builds per-dataset indexes by `id` and headword. Optional `knowledge.json` files are linked to those entries by `related_entry_ids` or matching headword. Lookup attaches an attested relation graph: Portuguese/English meaning concepts, language membership, grammar/culture, proverb/story, and source. It does not query a separate database and does not generate lexical content.
 
 Public host: **https://api.forrovivo.com**  
 Local host: `http://127.0.0.1:8000`  
@@ -133,9 +134,14 @@ URL layout follows the folders:
 
 ```text
 GET /v1
+GET /v1/kb
+GET /v1/languages
 GET /v1/datasets
+GET /v1/search?dataset=saotome/forro&q=
 GET /v1/saotome/forro
 GET /v1/saotome/forro/lookup?headword=
+GET /v1/saotome/forro/grammar
+GET /v1/saotome/forro/search?q=
 GET /v1/saotome/angolar/lookup?headword=
 GET /v1/saotome/lungie/lookup?headword=
 GET /v1/caboverde/{island}/lookup?headword=
@@ -155,6 +161,9 @@ Behaviour:
 | Unknown path | `DATASET_NOT_FOUND` |
 | `/v1/angola/…` | Angola Contruy only. Does not serve Angolar |
 | Search `q=` | Restricted to the dataset in the path |
+| Knowledge Base collection, no `knowledge.json` yet | Empty list for that folder |
+| `/v1/search` without `dataset=` | `DATASET_REQUIRED` |
+| Entry `graph` | Attested edges only; empty arrays when unsourced |
 
 The API is GET, HEAD, and OPTIONS only. CORS allows ForroVivo brand origins. TLS-terminating proxies are supported through forwarded headers. Audio URLs are absolute and stay inside the queried dataset’s `Audio/` folder. Path traversal outside that folder is rejected.
 
@@ -195,7 +204,7 @@ Licenses stay on the entry. Original project materials are CC BY 4.0. *Dicionár
 This technical design does not include:
 
 - generative translation
-- a merged “all creoles” search
+- a merged “all creoles” search or a word graph that hops folders
 - write APIs for lexicon data
 - the ForroVivo.com website UI or the App Store language-learning product
 - substitution of Portuguese, Kimbundu, Umbundu, or Casamance Kriyol for a missing creole form

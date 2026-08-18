@@ -31,8 +31,9 @@ Jump:
 [![Stack](https://img.shields.io/badge/4-Tech-2563eb)](#technology-stack)
 [![Map](https://img.shields.io/badge/5-Folders-a855f7)](#repository-layout)
 [![API](https://img.shields.io/badge/6-API-0ea5e9)](#dictionary-api)
-[![Roadmap](https://img.shields.io/badge/7-Roadmap-f59e0b)](#collection-roadmap)
-[![Help](https://img.shields.io/badge/8-Contribute-111111)](#contributing)
+[![KB](https://img.shields.io/badge/7-Knowledge_Base-db2777)](#knowledge-base)
+[![Roadmap](https://img.shields.io/badge/8-Roadmap-f59e0b)](#collection-roadmap)
+[![Help](https://img.shields.io/badge/9-Contribute-111111)](#contributing)
 
 ---
 
@@ -109,6 +110,7 @@ ForroVivo.com and the App Store app = other codebases.
 | Layer | What we use |
 |---|---|
 | 📚 Lexicons | JSON + Markdown in `data/` |
+| 🧠 Knowledge Base | Optional `knowledge.json` per isolated folder |
 | 🧪 Validation | JSON Schema in `schema/` |
 | 🔊 Audio | MPEG, linked from matching entries |
 | ⚡ API | Python · FastAPI · Uvicorn |
@@ -170,6 +172,8 @@ curl "https://api.forrovivo.com/v1/saotome/forro/lookup?headword=kume"
 | Try | Path |
 |---|---|
 | 🏠 | `/v1` |
+| 🧠 | `/v1/kb` |
+| 🗺️ | `/v1/languages` |
 | 📋 | `/v1/datasets` |
 | 🇸🇹 Forro | `/v1/saotome/forro/lookup?headword=` |
 | 🟠 Angolar | `/v1/saotome/angolar/lookup?headword=` |
@@ -177,6 +181,7 @@ curl "https://api.forrovivo.com/v1/saotome/forro/lookup?headword=kume"
 | 🇨🇻 island | `/v1/caboverde/{island}/lookup?headword=` |
 | 🇬🇼 region | `/v1/guinebissau/{region}/lookup?headword=` |
 | ➡️ Angola Contruy | `/v1/angola/lookup?headword=` |
+| 🔎 Search | `/v1/search?dataset=saotome/forro&q=` |
 
 `/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau` = indexes → `TERM_NOT_FOUND`.  
 `/v1/angola` = Angola Contruy, **not** Angolar. Search never hops folders.
@@ -191,6 +196,48 @@ PYTHONPATH=. uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Playground: https://api.forrovivo.com/docs · [OpenAPI](api/openapi.yaml) · [API guide](docs/api.md)
+
+---
+
+<a id="knowledge-base"></a>
+
+## 🧠 Knowledge Base
+
+Same isolation as the dictionary. Not a website. Not a merged encyclopedia.
+
+| Collection | Path | What it is |
+|---|---|---|
+| Languages | `/v1/languages` | Isolated lexicons (Forro, Angolar, islands, regions, Angola Contruy) |
+| Entries | `/v1/{dataset}/entries` | Headwords from that folder only |
+| Grammar | `/v1/{dataset}/grammar` | Grammar notes with a citation |
+| Expressions | `/v1/{dataset}/expressions` | Attested expressions |
+| Proverbs | `/v1/{dataset}/proverbs` | Attested proverbs |
+| Culture | `/v1/{dataset}/culture` | Culture notes tied to that language |
+| Food | `/v1/{dataset}/food` | Food notes from a source |
+| Music | `/v1/{dataset}/music` | Music notes from a source |
+| Dance | `/v1/{dataset}/dance` | Dance notes from a source |
+| Folklore | `/v1/{dataset}/folklore` | Folklore from a source |
+| Stories | `/v1/{dataset}/stories` | Stories from a source |
+| Places | `/v1/{dataset}/places` | Places named by a source |
+| Sources | `/v1/{dataset}/sources` | Bibliography for that folder |
+| Search | `/v1/{dataset}/search?q=` | Search **inside** that folder |
+
+Map: [`/v1/kb`](https://api.forrovivo.com/v1/kb).  
+Records live in `knowledge.json` next to `dictionary.json`. If the file is missing, the collection is empty — not guessed.
+
+Lookup already walks that graph for a word:
+
+```text
+kume
+  means → Portuguese concept
+  means → English concept (when the source has one)
+  belongs to → Forro
+  related to → grammar / culture (when cited)
+  appears in → proverb (when cited)
+  documented by → source
+```
+
+`/v1/search` without `dataset=` is rejected. `/v1/grammar` (and the other top-level collection paths) list **counts per folder**, not a blended document.
 
 ---
 
@@ -245,7 +292,7 @@ Angola Contruy is **not Angolar**. Angolar stays in `data/saotome_dataset/angola
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Adding a real entry |
 | [docs/methodology.md](docs/methodology.md) | Isolation + verification |
 | [docs/data-model.md](docs/data-model.md) | Entry shape |
-| [docs/api.md](docs/api.md) | HTTP paths |
+| [docs/api.md](docs/api.md) | HTTP paths, including the Knowledge Base |
 | [research/sources/README.md](research/sources/README.md) | Bibliography |
 | [research/notes/tech-report.md](research/notes/tech-report.md) | How the API is built |
 | [data/index.md](data/index.md) | Dataset map |

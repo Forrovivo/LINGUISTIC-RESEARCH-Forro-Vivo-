@@ -47,6 +47,8 @@ Never:
 
 If evidence does not exist, mark the field as unavailable (`null`). Do not invent empty fields that look complete.
 
+Knowledge Base collections (grammar, expressions, proverbs, culture, food, music, dance, folklore, stories, places) follow the same rule. They are stored in `knowledge.json` in the isolated folder. An empty collection is the correct result until a source names that language.
+
 ## Source verification
 
 For every lexical item, record:

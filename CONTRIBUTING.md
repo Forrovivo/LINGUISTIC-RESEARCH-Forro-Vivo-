@@ -21,6 +21,7 @@ Follow [docs/methodology.md](docs/methodology.md) for collection rules and [rese
 - Missing Portuguese or English glosses **only when that source supplies them**
 - Example sentences copied from the source
 - Pronunciation, grammar, etymology, and cultural notes when the source documents them
+- Knowledge Base records (grammar, expressions, proverbs, culture, food, music, dance, folklore, stories, places) **only when a cited source supplies that text**, in that folder’s `knowledge.json`
 - Source disagreements recorded as disputed, not silently resolved
 - Corrections that fix a wrong language assignment or a mis-copied field
 
@@ -59,8 +60,9 @@ If the source says only “Cape Verdean” and does not name the island, do not 
 3. Confirm which language the evidence belongs to. Reject evidence for the wrong creole, for Portuguese, or for an unnamed island or region.
 4. Add the entry only in that folder, with source and confidence.
 5. Update both `dictionary.json` and `dictionary.md` in the same folder.
-6. Record the work in that folder’s `sources.md` if the citation is new to the folder.
-7. Leave other languages empty until they have their own citation.
+6. If the source is a grammar note, proverb, story, or other Knowledge Base record (not a dictionary headword), add it to `knowledge.json` in that same folder. Do not copy it into another language.
+7. Record the work in that folder’s `sources.md` if the citation is new to the folder.
+8. Leave other languages empty until they have their own citation.
 
 Human-readable entries follow the format in section 17 of the collection prompt. JSON entries use the fields in [docs/data-model.md](docs/data-model.md).
 

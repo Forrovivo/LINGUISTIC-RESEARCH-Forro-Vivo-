@@ -11,6 +11,19 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
 REQUIRED_ENTRY = ("id", "language", "headword", "source")
+KNOWLEDGE_COLLECTIONS = (
+    "grammar",
+    "expressions",
+    "proverbs",
+    "culture",
+    "food",
+    "music",
+    "dance",
+    "folklore",
+    "stories",
+    "places",
+)
+REQUIRED_KNOWLEDGE = ("id", "language", "collection", "source")
 FOLDER_LANGUAGE = {
     "saotome_dataset/forro": "forro",
     "saotome_dataset/angolar": "angolar",
@@ -74,6 +87,38 @@ def validate_file(path: Path) -> list:
     actual = len(document.get("entries") or [])
     if declared is not None and declared != actual:
         errors.append(f"{path}: entry_count {declared} != {actual} entries")
+    errors.extend(validate_knowledge(path.parent / "knowledge.json", expected))
+    return errors
+
+
+def validate_knowledge(path: Path, expected_language) -> list:
+    if not path.is_file():
+        return []
+    errors = []
+    with path.open(encoding="utf-8") as handle:
+        try:
+            document = json.load(handle)
+        except json.JSONDecodeError as exc:
+            return [f"{path}: invalid JSON ({exc})"]
+    file_language = document.get("language")
+    if expected_language and file_language and file_language != expected_language:
+        errors.append(
+            f"{path}: language {file_language!r} does not match dictionary language {expected_language!r}"
+        )
+    for collection in KNOWLEDGE_COLLECTIONS:
+        for index, row in enumerate(document.get(collection) or []):
+            for field in REQUIRED_KNOWLEDGE:
+                if not row.get(field):
+                    errors.append(f"{path}: {collection}[{index}] missing {field}")
+            if row.get("collection") and row.get("collection") != collection:
+                errors.append(
+                    f"{path}: {collection}[{index}] collection {row.get('collection')!r} does not match folder array"
+                )
+            language = row.get("language")
+            if expected_language and language and language != expected_language:
+                errors.append(
+                    f"{path}: {collection}[{index}] language {language!r} does not match {expected_language!r}"
+                )
     return errors
 
 
