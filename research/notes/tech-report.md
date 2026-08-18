@@ -185,13 +185,7 @@ Runtime settings live in `api/settings.py`:
 | https://apps.apple.com/app/id6751409176 | Language-learning product |
 | http://127.0.0.1:8000 | Local API process |
 
-DNS for `api.forrovivo.com` must point at the process that runs:
-
-```text
-PYTHONPATH=. uvicorn api.main:app --host 0.0.0.0 --port 8000
-```
-
-The public brand host is not this API. Do not serve a merged lexicon from `forrovivo.com` as a substitute for isolated dataset paths.
+DNS for `api.forrovivo.com` must point at this FastAPI app. On Vercel, the entrypoint is `api.main:app` in [pyproject.toml](../../pyproject.toml). The WebPage project on Vercel is `www.forrovivo.com` only.
 
 ## Quality controls
 

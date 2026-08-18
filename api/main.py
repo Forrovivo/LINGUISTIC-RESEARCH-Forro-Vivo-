@@ -6,7 +6,7 @@ from typing import Any, Dict, Optional
 
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from uvicorn.middleware.proxy_headers import ProxyHeadersMiddleware
 
 from api.settings import (
@@ -141,6 +141,11 @@ def present_records(dataset, collection: str, rows: list, request: Request) -> l
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok"}
+
+
+@app.get("/")
+def site_root() -> RedirectResponse:
+    return RedirectResponse(url="/v1", status_code=307)
 
 
 @app.get("/v1")

@@ -25,7 +25,31 @@ pip install -r api/requirements.txt
 PYTHONPATH=. uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-Point DNS `api.forrovivo.com` at the process that serves this app. The public brand stays on `www.forrovivo.com`. The language-learning product stays on the App Store.
+Point DNS `api.forrovivo.com` at **this FastAPI process**, not at the ForroVivo.com website.
+
+`www.forrovivo.com` is a separate Vite site on Vercel. That project has no `/v1` and no `/health`. Do not attach the API hostname to the website project.
+
+## Production (Vercel)
+
+This repository is a FastAPI app. Vercel only detects it when `fastapi` is declared at the **repository root** and the entrypoint is `api.main:app`.
+
+| File | Role |
+|---|---|
+| [requirements.txt](../requirements.txt) | Root runtime deps so Vercel selects FastAPI |
+| [pyproject.toml](../pyproject.toml) | `tool.vercel.entrypoint = "api.main:app"` |
+| [vercel.json](../vercel.json) | FastAPI function, 60s, includes `data/` |
+| [Dockerfile](../Dockerfile) | Optional container image |
+
+In the Vercel project for **this** GitHub repo:
+
+- Root Directory: repository root (empty). Not `api/`.
+- Framework: FastAPI (or leave automatic)
+- Do not set an Output Directory
+- Domain: `api.forrovivo.com` on **this** project, not on the WebPage project
+
+A Vercel `NOT_FOUND` page means the FastAPI function was not built (static deploy). After these files are on `main`, Redeploy.
+
+`/` redirects to `/v1`. Health check: `/health`.
 
 ## Paths
 

@@ -12,6 +12,12 @@ def test_health():
     assert response.json()["status"] == "ok"
 
 
+def test_root_redirects_to_v1():
+    response = client.get("/", follow_redirects=False)
+    assert response.status_code == 307
+    assert response.headers["location"] == "/v1"
+
+
 def test_public_api_is_api_forrovivo_com():
     payload = client.get("/v1").json()
     assert payload["platform"] == "ForroVivo"

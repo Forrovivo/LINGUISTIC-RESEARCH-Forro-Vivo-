@@ -114,11 +114,11 @@ ForroVivo.com and the App Store app = other codebases.
 | 🧪 Validation | JSON Schema in `schema/` |
 | 🔊 Audio | MPEG, linked from matching entries |
 | ⚡ API | Python · FastAPI · Uvicorn |
+| 📦 Host | Vercel FastAPI function; DNS `api.forrovivo.com` |
 | 📜 Contract | OpenAPI → [`api/openapi.yaml`](api/openapi.yaml) |
 | 🧠 Runtime | In-memory indexes over the **real** `dictionary.json` files |
 | ✅ Tests | pytest, using attested headwords |
 | 🧰 Scripts | `validate-data` · `import-data` · `build-index` |
-| 🌍 Host | `api.forrovivo.com` |
 
 [requirements.txt](api/requirements.txt) · [tech report](research/notes/tech-report.md)
 

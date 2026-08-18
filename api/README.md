@@ -22,4 +22,4 @@ https://api.forrovivo.com/v1/languages
 https://api.forrovivo.com/v1/search?dataset=saotome/forro&q=kume
 ```
 
-The service loads `data/*/dictionary.json` and, when present, `knowledge.json` in the same folder. It does not invent translations or merge languages. DNS for `api.forrovivo.com` must point at this process. The public brand is `www.forrovivo.com`. The language-learning product is on the App Store.
+The service loads `data/*/dictionary.json` and, when present, `knowledge.json` in the same folder. It does not invent translations or merge languages. Production on Vercel uses the root [requirements.txt](../requirements.txt) and [pyproject.toml](../pyproject.toml) entrypoint `api.main:app`. DNS for `api.forrovivo.com` must point at **this** Vercel project, not at the WebPage project. The public brand is `www.forrovivo.com`. The language-learning product is on the App Store.
