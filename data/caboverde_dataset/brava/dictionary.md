@@ -7130,3 +7130,21 @@ El da-nu zimola e da senpri se pon di kada dia.
 **Verification:** VERIFIED
 
 **Confidence:** high
+
+---
+
+## adiyáp
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** verb
+
+### English
+Hurry up.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava, citing Meintel 1975. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+

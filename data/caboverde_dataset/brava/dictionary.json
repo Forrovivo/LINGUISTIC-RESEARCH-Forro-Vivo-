@@ -33,7 +33,7 @@
     }
   ],
   "extraction_notes": "Lexicon isolated from APiCS language 31 (Marlyse Baptista 2013), labelled Cape Verdean Creole of Brava. No headword was copied from another Cabo Verdean island, from Guinea-Bissau Kriol, or from a São Tomé creole. Portuguese is null when APiCS only gives English.",
-  "entry_count": 362,
+  "entry_count": 363,
   "entries": [
     {
       "id": "caboverde-brava-aldeia-unk",
@@ -14875,6 +14875,46 @@
       "verification_status": "verified",
       "confidence": "high",
       "notes": "English gloss taken from APiCS interlinear glosses only when that lemma also occurs in the English example translation, or when the free translation is Portuguese and the gloss is a content word. Portuguese is recorded only from APiCS alt_translation labelled Portuguese, or from a Portuguese free translation. Grammatical labels were not stored as dictionary senses. Other Cabo Verdean islands were not copied.",
+      "cross_language_relation": null
+    },
+    {
+      "id": "caboverde-brava-adiyap-v",
+      "language": "caboverde-brava",
+      "language_name": "Kabuverdianu of Brava",
+      "language_aliases": [
+        "Brava Creole"
+      ],
+      "headword": "adiyáp",
+      "orthography": null,
+      "part_of_speech": "v.",
+      "part_of_speech_label": "verb",
+      "translation_pt": null,
+      "translation_en": "Hurry up.",
+      "definition_pt": null,
+      "definition_en": null,
+      "example": null,
+      "example_translation_pt": null,
+      "example_translation_en": null,
+      "pronunciation": null,
+      "ipa": null,
+      "grammatical_information": null,
+      "semantic_category": null,
+      "cultural_context": null,
+      "etymology": null,
+      "regional_information": "Brava",
+      "usage_notes": null,
+      "variants": [],
+      "synonyms": [],
+      "related_terms": [],
+      "source": "Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava, citing Meintel 1975. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31",
+      "source_type": "academic language survey",
+      "source_title": "APiCS Online: Cape Verdean Creole of Brava",
+      "source_page": null,
+      "source_url": "https://apics-online.info/surveys/31",
+      "source_file": null,
+      "verification_status": "verified",
+      "confidence": "high",
+      "notes": "Brava-labelled English loan cited in Baptista 2013 APiCS survey from Meintel 1975. English is the APiCS gloss. Portuguese is null because this survey sentence does not give Portuguese. Other Sotavento islands were not copied.",
       "cross_language_relation": null
     }
   ]

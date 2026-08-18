@@ -30,6 +30,8 @@ Published source: Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. Atlas of Pi
 
 APiCS does not include a spoken glossed-text recording for this island. The survey chapter is https://apics-online.info/surveys/31.
 
+Leftover Brava-labelled English loan *adiyáp* ‘hurry up’ is stored from the same APiCS survey chapter, citing Meintel 1975. Portuguese is null because that survey sentence does not print Portuguese.
+
 ## Not used as Brava evidence
 
 - Other folders under `data/caboverde_dataset/`
@@ -37,6 +39,7 @@ APiCS does not include a spoken glossed-text recording for this island. The surv
 - `data/saotome_dataset/forro/`, `data/saotome_dataset/angolar/`, `data/saotome_dataset/lungie/`
 - Portuguese of Cabo Verde
 - APiCS lects that are not this island (including the Santiago acrolect lect 1301, which is not a separate island folder)
+- [Kriolish translations](https://kriolish.com/#/dictionaries/translations) — crowd-sourced Barlavento vs Sotavento clusters, not a named single island
 
 ## Missing-term protocol
 

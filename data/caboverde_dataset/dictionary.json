@@ -78,7 +78,7 @@
       "path": "data/caboverde_dataset/boavista/"
     }
   ],
-  "extraction_notes": "Parent index of Cabo Verdean island creoles. Lexicon is stored only in the island folders. APiCS 30, 31, and 32 were extracted into santiago/, brava/, and saovicente/. Other islands stay empty until a source names them.",
+  "extraction_notes": "Parent index of Cabo Verdean island creoles. Lexicon is stored only in the island folders. APiCS 30, 31, and 32 were extracted into santiago/, brava/, and saovicente/. Later island-labelled academic extracts fill Fogo, Maio, Santo Antão, São Nicolau, and Boa Vista. Sal stays empty until a source names it. Kriolish is not used as island evidence.",
   "entry_count": 0,
   "entries": []
 }

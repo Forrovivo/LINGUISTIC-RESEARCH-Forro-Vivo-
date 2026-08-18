@@ -16,6 +16,8 @@ Entries were isolated from APiCS Online language 32 (Dominika Swolkien 2013), wh
 Survey italic+gloss pairs and example interlinear leftovers were used. Grammatical labels were not stored as dictionary senses. 
 Portuguese word glosses are null in this pass. Portuguese free translations of examples are stored when APiCS gives them. Other island folders were not used as evidence.
 
+Further São Vicente-labelled lemmas were isolated from Swolkien 2015 and from leftover APiCS 32 survey loans. Santiago comparison forms were not copied.
+
 If a requested São Vicente term is not in this dataset:
 
 ```json
@@ -7337,3 +7339,912 @@ Mergulhadores, es mergulhador ta mufiná zóna d'péska.
 **Verification:** VERIFIED
 
 **Confidence:** high
+
+---
+
+## pera
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Pear.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## po
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Dust.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gót
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Cat.
+
+**IPA:** ˈgɔt
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pobr
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Poor.
+
+**IPA:** ˈpobɾ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xatiód
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Irritated.
+
+**IPA:** ʃɐˈtjɔd
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bói
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Ball.
+
+**IPA:** bɔj
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## boi
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Ox.
+
+**IPA:** boj
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kodê
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+The youngest child.
+
+**IPA:** koˈde
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ftxód
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+Close.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mund
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+World.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ménza
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Table.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánja
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Broth.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ónra
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Honor.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fine
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Sophisticated, fine.
+
+**IPA:** fin
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fin
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+The end.
+
+**IPA:** fĩ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sone
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Sleepiness.
+
+**IPA:** son
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sen
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** preposition
+
+### English
+Without.
+
+**IPA:** sẽ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sene
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Senna, a laxative herb.
+
+**IPA:** sen
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mud
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Mute.
+
+**IPA:** ˈmud
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## brók
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Hole.
+
+**IPA:** ˈbrɔk
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## katá
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+To pick.
+
+**IPA:** kɐˈta
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## aónt
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adverb
+
+### English
+Yesterday.
+
+**IPA:** ɐ.ˈɔnt
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tónt
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** pronoun
+
+### English
+How much.
+
+**IPA:** tɔ̃t
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fjí
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+To run away.
+
+**IPA:** ˈfʒi
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## depos
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adverb
+
+### English
+After.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## terser
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** numeral
+
+### English
+Third.
+
+**IPA:** tɨɾˈseɾ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## óne
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Year.
+
+**IPA:** ˈɔn
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nasãu
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Nation.
+
+**IPA:** nɐˈsɐ̃w
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nais
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Nice.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## uek
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Weak.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## springá
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+To pop out / to spring up.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mersí
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** expression
+
+### English
+Thank you.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xouent
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Showy / flamboyant.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## jantá
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+To have supper.
+
+**IPA:** ʒɐ̃ˈta
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bedja
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Old (feminine).
+
+**IPA:** ˈbedʒɐ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fidj
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Son, child.
+
+**IPA:** ˈfidʒ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nov
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Young.
+
+**IPA:** ˈnov
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vzinh
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Neighbor.
+
+**IPA:** ˈvzĩɲ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bruga
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Wart.
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mása
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Pasta.
+
+**IPA:** ˈma.sɐ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xá
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Tea.
+
+**IPA:** ˈʃa
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## zóna
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Area.
+
+**IPA:** ˈzɔ.nɐ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## buz
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Sea snails.
+
+**IPA:** ˈbuz
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kais
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Pier.
+
+**IPA:** ˈka.is
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## negós
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Business.
+
+**IPA:** ne.ˈgɔs
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## páia
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Straw.
+
+**IPA:** ˈpajɐ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## Djeu
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Islet.
+
+**IPA:** ˈdʒew
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## katxór
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+A dog.
+
+**IPA:** kɐˈtʃɔʀ
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ronká
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+To snore.
+
+**IPA:** ʀõˈka
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## korê
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** verb
+
+### English
+To run.
+
+**IPA:** koˈʀe
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## orivel
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** adjective
+
+### English
+Horrible.
+
+**IPA:** oˈʀivel
+
+### Sources
+- Swolkien, Dominika. 2015. The Cape Verdean Creole of São Vicente: its genesis and structure. Doctoral thesis, Universidade de Coimbra. http://hdl.handle.net/10316/27018
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+---
+
+## krene
+
+**Language:** Kabuverdianu of São Vicente  
+**Part of speech:** noun
+
+### English
+Crane.
+
+### Sources
+- Dominika Swolkien. 2013. APiCS survey: Cape Verdean Creole of São Vicente. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/32
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+

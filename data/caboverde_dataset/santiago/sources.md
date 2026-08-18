@@ -30,6 +30,21 @@ Published source: Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. Atlas of Pi
 
 Spoken APiCS Santiago recordings are in `Audio/`. The survey file `Audio/30_gt.mp3` is a glossed-text recording, not a citation form for every word.
 
+### Jürgen Lang 2018 (Santiago grammar)
+
+- **Author:** Jürgen Lang
+- **Year:** 2018
+- **Title:** Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso)
+- **Open URL:** https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+- **License:** Author copyright (German UrhG); cite the author; do not relicense the extract
+- **Source type:** academic grammar of Santiago
+- **Language documented:** Santiago
+- **What was extracted:** dictionary-style lemmas printed with a part-of-speech label and a Portuguese gloss
+- **Portuguese:** from the gloss printed next to the lemma
+- **English:** null in this pass (the grammar glosses in Portuguese)
+- **Not used:** incomplete line-wrapped captures, other island folders, the closed Lang 2002 dictionary body
+- **Confidence for cited forms:** high
+
 ## Not used as Santiago evidence
 
 - Other folders under `data/caboverde_dataset/`
@@ -37,6 +52,8 @@ Spoken APiCS Santiago recordings are in `Audio/`. The survey file `Audio/30_gt.m
 - `data/saotome_dataset/forro/`, `data/saotome_dataset/angolar/`, `data/saotome_dataset/lungie/`
 - Portuguese of Cabo Verde
 - APiCS lects that are not this island (including the Santiago acrolect lect 1301, which is not a separate island folder)
+- [Kriolish translations](https://kriolish.com/#/dictionaries/translations) — crowd-sourced Barlavento vs Sotavento clusters, not a named single island
+- Lang, Martina Brüser, André dos Reis Santos et al. 2002. *Dicionário do Crioulo de Santiago* (Narr) — closed dictionary body, not ingested from an open licensed extract
 
 ## Missing-term protocol
 

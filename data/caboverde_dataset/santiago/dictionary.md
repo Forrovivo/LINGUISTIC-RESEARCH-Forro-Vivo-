@@ -16,6 +16,8 @@ Entries were isolated from APiCS Online language 30 (Jürgen Lang 2013), which i
 Survey italic+gloss pairs and example interlinear leftovers were used. Grammatical labels were not stored as dictionary senses. 
 Portuguese word glosses are null in this pass. Portuguese free translations of examples are stored when APiCS gives them. Other island folders were not used as evidence.
 
+Further Santiago-labelled lemmas were isolated from Jürgen Lang 2018 (Gramática do Crioulo da ilha de Santiago). Portuguese follows the printed gloss. English is null when that grammar does not print it. Other island folders were not used as evidence.
+
 If a requested Santiago term is not in this dataset:
 
 ```json
@@ -5498,3 +5500,11062 @@ Zóna di téra ki más ta txobe ê pértu di ekuador.
 **Verification:** VERIFIED
 
 **Confidence:** high
+
+---
+
+## midju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Milho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bárku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Barco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sukri
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Açúcar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cansar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nprista
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Emprestar, tomar emprestado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nfrakise
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Enfraquecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sénpri
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Sempre.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ingri
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Íngreme.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cair.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mãe.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mamai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mamã.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pai.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## papai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Papá.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sai
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Sair.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lugar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## máu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Mau.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## aliás
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Além disso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bagás
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bagaço.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## patrás
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Traseiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kintal
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Espaço por detrás das casas tradicionais.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## poial
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Muro que rodeia o espaço à frente da entrada das casas tradicionais.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sal
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sal.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pedregal
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pedregal.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ri
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Rir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rin
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rim.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## le
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ler.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## len
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tétu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tecto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## téntu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Importuno.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## la
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Lá.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lan
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lã.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apanhar do chão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cantar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Cru.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## po
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pôr.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pon
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sóbra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sobra, resto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sónbra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sombra.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## san
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+São.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## séku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Seco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sáku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Saco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bénda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Venda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bánda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lado, metade.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** conjunction
+
+### Portuguese
+Que.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mo
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Vaca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bóka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Boca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kónta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Conta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## luga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Alugar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mes
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mês.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mos
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rapaz.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ben
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Bem.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bon
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Bom.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## réstu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Resto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## róstu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rosto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rénda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Croché, renda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rónda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ronda, volta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## li
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Aqui.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## buli
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Preocupar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## seta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aceitar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## séta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Seta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sprimenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Experimentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## spriménta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tentativa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## parti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Quebrar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## párti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Parte.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mante
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Manter.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## amánti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Amante.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cavar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kóba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Buraco no chão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fronta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Sofrer uma desgraça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ferese
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Oferecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ferési
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Prestes.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## feria
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Interrompir (por ex. o trabalho).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## féria
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Férias.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## freska
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Refrescar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fréska
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pequena janela na casa de banho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kalseta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Calcetar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kalséta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pedra de calçada.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kareka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar careca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koléga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Colega, companheiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## molestia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Adoecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## moléstia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Moléstia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nebua
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Estar nevoeiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nébua
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Nevoeiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pena
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Depenar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## péna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pluma.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramesa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Arremessar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramésa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Remessa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rega
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Regar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## réga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rega.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## regra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pôr em ordem.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## régra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Regra.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rizerva
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Reservar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rizérva
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Reserva.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sela
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Selar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## séla
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sela.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## serka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cercar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sérka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cerca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## soberba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ser (demasiado) soberbo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tema
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Teimar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## téma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Teima.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trabesa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Atravessar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trabésa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Travessa, beco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## arenga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Quezilar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## arénga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Quezília.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dispensa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dispensar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dispénsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Dispensa, despen sa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nkrenka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Causar problemas.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nkrénka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Situação difí cil.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nkumenda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Encomendar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nkuménda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Presente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pruvidensia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Providenciar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pruvidénsia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Providência.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rakonpensa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Recompensar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rakonpénsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Recompensa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rabenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Rebentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rabénta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rebento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## renda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tomar/dar de arrendamento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rénda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Arrendamento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sensia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar à espera que lhe seja oferecida uma parte da comida dos outros.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sénsia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Desejo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## spriménta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tentativa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tenpra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Temperar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ténpra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tempero.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tromenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Preocupar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## troménta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Aflição.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## boia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Boiar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bóia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bóia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dirota
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Derrotar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## diróta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Derrota.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fatiota
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Gastar dinheiro em guloseimas.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fatióta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Guloseima.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## foga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Afogar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fóga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Afogamento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## folga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Descansar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fólga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Folga.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## forka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Enforcar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fórka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Forca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## forma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Formar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fórma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Modo, forma.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kola
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Colar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kóla
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cola.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kopia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Copiar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kópia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cópia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## korda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Acordar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kórda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Corda, magia negra.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## korta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cortar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kórta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Colheita.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## midjora
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Melhorar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## midjóra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Melhoras.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## morna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Amornar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mórna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Música tradicional lenta e geralmente melancólica, ao som da qual se dança aos pares.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mostra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Mostrar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## móstra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Amostra, prova.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## noda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar com nódoas.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nóda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Nódoa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nóta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Nota.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nsolda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Soldar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nsólda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Soldadura.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## parodia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Encontrar-se com amigos para conversar, comer, beber, etc.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## piora
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Piorar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pióra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Piora.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ravolta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Revoltar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ravólta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Revolta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rosa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Roçar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rósa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Roça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sobra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Sobrar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## soma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Somar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sóma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Soma.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tapona
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dar uma palmada na cabeça de alguém.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tapóna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Palmada na cabeça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tósi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tosse.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trosa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Troçar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trósa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Troça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txakota
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Gozar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txakóta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Escárnio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txoka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Chocar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txóka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Choco, incubação.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## volta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Regressar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vólta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Regresso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## frónta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Desgraça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Contar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lixonxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Lisonjear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lixónxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lisonja.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## monda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Mondar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mónda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Monda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## onra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Honrar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ónra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Honra.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ponta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apontar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pónta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ponta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramonda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Remondar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramónda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Remonda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ronda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Rondar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rónda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ronda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sonbra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar à sombra, ensombrar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## astia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Hastear (a bandeira).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ástia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bastão, vara.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## karapati
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Segurar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## karapáti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Carrapato.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## raiba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar com raiva.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ráiba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Raiva.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sábi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Agradável.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ganansia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ser ganancioso, cobiçar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ganánsia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ganância, cobiça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dispreza
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Desprezar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## disprézu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Desprezo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## era
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cometer um erro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## éru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Erro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## keta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Estar quieto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kétu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Quieto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konbersa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Conversar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konbérsu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Conversa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## médu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Medo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nobega
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Usar, manter uma relação de amizade.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nobégu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Trabalho doméstico, amizade.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## perde
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Perder.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pérda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Perda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## prega
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pregar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## prégu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Prego.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramedia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Remediar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramédi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Remédio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## regresa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Regressar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## regrésu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Regresso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rema
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Remar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rému
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Remo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## resta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Restar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## róda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Roda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sega
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cegar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ségu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Cego.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## seka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Secar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## serta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Acertar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sértu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Certo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sesta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+(no basquetebol) meter a bola no cesto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## séstu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cesto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## speta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Espetar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## spétu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Espeto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trofega
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tratar com alguém, tratar dos afazeres domésticos.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trofégu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Trato, afazeres de casa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bende
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Vender.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bense
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Benzer(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bénsu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bênção.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bentia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Abanar com um leque.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## béntu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Vento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dismenbra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Perder a força nos membros.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ménbru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Membro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## duense
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Adoecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## duénsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Doença.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fastenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Chatear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fasténtu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Maçador.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fende
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fender.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fénda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fenda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## renkia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pôr(-se) em fila.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rénki
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fila.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sustenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Sustentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## susténtu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sustento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## divorsia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Divorciar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## divórsiu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Divórcio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## golpia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Golpear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gólpi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Golpe.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## motxoka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Despedaçar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## motxóku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Quebrado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nagosia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Negociar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## raboka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Rebocar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rabóki
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Reboco, reboque.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rakodje
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Recolher.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rakódja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Recolha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skodje
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Escolher.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skódja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Escolha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sporia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Esporear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## spóra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Esporas.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tilifona
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Telefonar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tilifóni
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Telefone.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## toka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tocar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tóki
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Música executada por instrumen tos de corda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## transporta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Transportar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## transpórti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Transporte.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bazia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Basear-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bázi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Base.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kontajia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Contagiar, ficar contagiado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skasia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Escassear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skásu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Escasso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## água
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Borrifar, aguar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## árma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Arma.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## asáita
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Assaltar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## asáitu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Assalto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## atráza
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Atrasar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## atrázu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Atraso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bába
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Baba.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bádja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dançar, bailar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bádju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Dança, baile.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## brása
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Abraçar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## brásu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Braço.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dánsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dançar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dánsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Dança.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## disfársa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Disfarçar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## disfársu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Disfarce.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## djánta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Jantar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fiánsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Confiar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fiánsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+(con)fiança.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gála
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Galar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gálu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Galo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gánha
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ganhar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gánhu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ganho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gráxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Engraxar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gráxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Graxa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## guárda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Guardar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## guárda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Guarda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cangar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Canga.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káska
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Descascar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káska
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Casca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lánxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Lanchar, merendar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lánxu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lanche, merenda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lára
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ralar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lára
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ralador.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mágua
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Magoar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mágua
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mágoa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## máma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Mamar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## máma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mama.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mángra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ser infectado pelo míldio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mángra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Míldio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mántxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Manchar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mántxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mancha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## miása
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ameaçar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## miása
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ameaça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## náda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Nadar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Natação.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## plánta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Plantar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## plánta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Planta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ráspa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Raspar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ráspa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Resto, rasto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## siránda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Peneirar, crivar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## siránda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Peneira, cri vo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skáma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Escamar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skáma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Escama.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## stáfa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Estafar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## stáfa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Estafa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tába
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Entabuar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tánpa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cobrir com a tampa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tánpu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tampa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## taránta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Atarantar-se, atrapalhar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## taránta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Atarantação, atrapalhação.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tránka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Trancar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tránku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tanca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## transia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Entrançar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tránsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Trança.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txápa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Remendar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txápa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Remendo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## manxe
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Amanhecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## beja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Beijar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## beju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Beijo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## duedja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ajoelhar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## duedju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Joelho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## firmenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fermentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## firmentu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fermento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aquecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kenti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Quente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kontenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar contente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kontenti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Contente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nosenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tornar-se tolo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nosenti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Tolo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## omenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aumentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## omentu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Aumento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## prizenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apresentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## prizenti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Presente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## raseta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Receitar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## raseta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Receita.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bonba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Bombear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bonba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bomba.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## forsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Forçar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## forsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Força.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fora
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Revestir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## foru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cobertura, forro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koima
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Indemnização por danos causados por animais domésticos em terreno alheio, coima.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## posa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Formar poças.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## posa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Poço.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skoba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Escovar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skoba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Escova.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## géra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Guerra, briga.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## géra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Guerra.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fórsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Força.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kóima
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Indemnização por danos causados por animais domésticos em terreno alheio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## da
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pé
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pé.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xá
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Chá.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sin
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Sim.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## son
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Som.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bes
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Vez.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mal
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Mal.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## már
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mel
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Melaço (de cana-de-açúcar).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bapor
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Vapor.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## buska
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Buscar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fórti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Forte.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lansól
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lençol.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rei
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rei.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lápa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lapa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## papia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Falar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## máta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Matar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xatia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Irritar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kotxi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Desfarelar o milho no pilão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fortifika
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Recuperar as forças.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lobu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lobo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pédra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pedra.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## masáda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Maçada.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## maridu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Marido.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bádju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Baile.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fidju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Filho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báfa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Abafar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pasia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Passear.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fáxi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Rapidamente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xuxu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Sujo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## frakéza
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fraqueza.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Carro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kóre
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Correr.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sála
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sala.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vélhu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Velho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cama.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## stima
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Amar, gostar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ómi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Homem.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ánu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ano.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rapasinhu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Menino, rapaz(inho).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pánha
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pegar, apanhar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mundu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mundo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lénsu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lenço.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ránja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Arranjar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konxe
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Conhecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mé
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Mesmo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kodê
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Filho mais novo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kafé
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Café.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pó
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Árvore.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bráku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Buraco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bránku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Branco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fika
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ficar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## finka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fincar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Esquentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kába
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Acabar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Entrar, desaparecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apanhar no chão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+(noz de)coco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konko
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Abanar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mudu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Mudo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pesa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pesar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pensa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pensar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## linha
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fio, linha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lenha
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lenha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## péna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pena.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## suma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Como.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tema
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tema.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## toma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tomar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lóna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Tecido grosso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kema
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Queimar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rámu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ramo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tronu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Trono.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kóma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Crina.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## komesa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Começar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## komésu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Começo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fase
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fazer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báfa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tapar-se, petiscar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## óra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Hora.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lisénsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Licença.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cansar(-se), kunsa verbo auxi liar, lonji adv.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## persebi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Perceba.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## invadi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Invadir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cabeça.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## luga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tomar/dar de arrendamento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mopi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Amolgar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## móla
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mola.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tene
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ter.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nfanhi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fazer uma careta de desprezo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pánha
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apanhar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sumu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sumo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## komu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** conjunction
+
+### Portuguese
+Como.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fla
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dizer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Traseiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pó
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Árvore, madeira, pau.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fin
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fim.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gran
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Grão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nun
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Nenhum.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## refujiádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Refugiado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## raféga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Brisa, rajada.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## puxador
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Puxador.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## korenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Mudar para melhor.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## metádi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Metade.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kutélu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Colina.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kolabora
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Colaborar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kemádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Queimado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## banána
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Banana.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sumána
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Semana.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bea
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Veia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mea
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Meias.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nlea
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aplicar penso em (ferida).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rea
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Areia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## aldêa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Aldeia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bulêa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Boleia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## idêa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ideia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## morêa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Moreia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## dia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Dia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fiel
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Fiel.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## él
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fel.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## provérbi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Provérbio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## variánti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Variante.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vérbu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Verbo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vira
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Vira (dança popular portuguesa).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bá
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ben
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Vir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bitxu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bicho, animal.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bolsu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bolso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bota
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Atirar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bunitu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Bonito.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## riba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** preposition
+
+### Portuguese
+Sobre, acima.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vólta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Volta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## árvi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Árvore.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## averis
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Haveres.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## viáji
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Viagem.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## razolve
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Resolver.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## próva
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Prova.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## favor
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Favor.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## zóna
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Zona.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kása
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Casa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kasamentu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Casamento.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kusa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Coisa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sic
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Trazer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báza
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cair, vazar, bater.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gazádja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Receber, agasalhar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## izámi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Exame.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## zangádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Zangado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## jélu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Gelo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## jésu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Gesso.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## njinheru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Engenheiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lojikamenti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Logicamente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lonji
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Longe.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## finji
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fingir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## igreja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Igreja.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bédju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Velho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## láta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lata.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## roda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Rodar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sálta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Saltar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## róza
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rosa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kána
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cana-de-açúcar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txon
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Chão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báfa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Petiscos.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Baixar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kása
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Casar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mátxu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Macho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bádju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Dan ça, baile.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## misa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Missa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mixa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Urinar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## midju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Torrar (milho).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ilha
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ilha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## genti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Gente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## banána
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cacho (de banana).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pága
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pagar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lába
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Lavar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bódi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bode.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fitxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Fechar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fidja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Filha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## zánga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Zangar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## jéru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Genro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fátu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Fato.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## txutxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Namorada.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vira
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Virar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## báza
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cair, vazar, espancar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## jardin
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Jardim.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mála
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Arca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## láma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lama.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bánhu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Banho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## npára
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apanhar, pa rar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konpo
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Preparar comida), arranjar-se para sair, etc.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kópu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Copo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nton
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Então.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kenta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aquecer, esquentar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## káta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Apanhar do chão, debicar etc.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rátxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Rasgar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ramántxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Acometer com palavras agressivas.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nkánta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Encantar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+(noz de) coco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konko
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Bater, abanar, sacudir (-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nbála
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Embalar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kánba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Entrar, desaparecer, etc.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ngána
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Enganar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bága-bága
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Formiga branca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bangalé
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Enorme quantidade.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nfia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Enfiar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kufóngu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Espécie de broa de milho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kunfia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Confiar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nsodádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Distraído.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xuta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Dar um pontapé, chutar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nxuta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Secar, ficar enxuto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Anca.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kónxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Concha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nvira
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ter-se raiva de al guém.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konvinienti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Conveniente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## zini
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Ressoar, eco ar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## jura
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Jurar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lion
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Leão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kololu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Estrábico, zarolho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## konloiu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Conluio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nodádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Enodoado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ndogádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Farto, enjoado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lénda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lenda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## raskon
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Chique.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## lugár
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lugar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bapor
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Vapor, navio.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mel
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mel.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kuskus
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cuscuz.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## prende
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aprender.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tirar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kre
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Querer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gránde
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Grande.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ntrega
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Entregar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nkrusa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Cruzar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nbrabise
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Tornar-se agressivo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ndreta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Endireitar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ngrósa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Crescer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kláru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Claro, nítido.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## blóku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Bloco de betão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nflema
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+In flamar-se.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## spértu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Esperto.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## stángu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Estômago.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skese
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Esquecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sfaimádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Esfomeado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sbánja
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Esbanjar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sgota
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Esgotar(-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## smáia
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Desmaiar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## spremi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Espremer (-se).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## stréla
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Estrela.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## skrebe
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Escrever.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## splika
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Explicar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## splóra
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Abusar, explorar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## korpu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Corpo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## porku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Porco.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bárba
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Barba.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## berdi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Verde.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## purgunta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pergunta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## purfiâ
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Teimar, insistir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## parse
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Aparecer.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## márxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Marcha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fórma
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Modo, maneira.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## inférnu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Inferno.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kulpádu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Culpado.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## volta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Voltar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## koltxon
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Colchão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kálku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Plano, cálculo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## albês
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Às vezes, talvez.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bólsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Saco, bolsa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## almusu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Almoço.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fálta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Faltar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kálka
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pressionar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kálsa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Calças.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## vólta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Regresso, volta.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## insulta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Insultar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mésa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Mesa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Estar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## meste
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Precisar, ter de (fazer uma coisa).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kuázi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Quase.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rótxa
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Rocha.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kaleron
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Caldeirão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## buru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Burro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mára
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Amarrar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bariga
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Barriga.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pilon
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pilão.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## mérda
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Merda.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## grándi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Grande.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## primeru
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** numeral
+
+### Portuguese
+Primeiro.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## sántxu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Macaco (grande).
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ár
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Ar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trás
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** preposition
+
+### Portuguese
+Atrás.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kálsi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cálice.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fésta
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Festa.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## posibilidádi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Possibilidade.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## barapó
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Varapau.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## margós
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Amargo.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## poial
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Muro que rodeia o espaço à frente da entrada das casas tradi cionais.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## ruspetador
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Respeitador.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## xeren
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Sêmola de milho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## banbá
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Talvez.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rapó
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Varapau.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kafé
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Café, cafeteria.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## prátiku
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Prático.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fáxi-fáxi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adverb
+
+### Portuguese
+Rapidamente.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fian-fian
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Labutar.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kebra-ndjudjun
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Pequeno almoço.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## làbrador
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Lavrador.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## nòbidádi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Novidade, notícia.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pàpelinhu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Papelinho.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bisti
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Vestir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pidi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** verb
+
+### Portuguese
+Pedir.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## pididu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** adjective
+
+### Portuguese
+Pedido.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+---
+
+## Káuberdi
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Cabo Verde.
+
+### Sources
+- Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+

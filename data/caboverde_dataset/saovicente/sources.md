@@ -30,6 +30,21 @@ Published source: Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. Atlas of Pi
 
 Spoken APiCS São Vicente recordings are in `Audio/`. The survey file `Audio/32_gt.mp3` is a glossed-text recording, not a citation form for every word.
 
+### Dominika Swolkien 2015 (São Vicente thesis)
+
+- **Author:** Dominika Swolkien
+- **Year:** 2015
+- **Title:** The Cape Verdean Creole of São Vicente: its genesis and structure
+- **Type:** doctoral thesis, Universidade de Coimbra
+- **Open URL:** http://hdl.handle.net/10316/27018
+- **License:** Coimbra open thesis; cite the author; original terms retained
+- **Language documented:** São Vicente (CVSV)
+- **What was extracted:** São Vicente-labelled leftover lemmas with a printed English gloss, including phonology leftovers and English loans named for this island
+- **Portuguese:** null unless the dissertation also prints Portuguese
+- **English:** from the dissertation gloss
+- **Not used:** Santiago comparison forms, other island folders
+- **Confidence for cited forms:** high
+
 ## Not used as São Vicente evidence
 
 - Other folders under `data/caboverde_dataset/`
@@ -37,6 +52,7 @@ Spoken APiCS São Vicente recordings are in `Audio/`. The survey file `Audio/32_
 - `data/saotome_dataset/forro/`, `data/saotome_dataset/angolar/`, `data/saotome_dataset/lungie/`
 - Portuguese of Cabo Verde
 - APiCS lects that are not this island (including the Santiago acrolect lect 1301, which is not a separate island folder)
+- [Kriolish translations](https://kriolish.com/#/dictionaries/translations) — crowd-sourced Barlavento vs Sotavento clusters, not a named single island
 
 ## Missing-term protocol
 

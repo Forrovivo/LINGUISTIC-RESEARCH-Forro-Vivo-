@@ -30,7 +30,7 @@ This parent folder is an **index**, not a merged dictionary.
 | Sal | [sal/](sal/) |
 | Boa Vista | [boavista/](boavista/) |
 
-Each island folder has `dictionary.md`, `dictionary.json`, and `sources.md`. Santiago, Brava, and São Vicente hold APiCS-labelled lexicons for those islands only. The other inhabited-island folders stay empty until a source names that variety.
+Each island folder has `dictionary.md`, `dictionary.json`, and `sources.md`. Santiago, Brava, and São Vicente hold APiCS-labelled lexicons for those islands, with later labelled leftovers from Lang 2018 (Santiago) and Swolkien 2015 (São Vicente). Fogo, Maio, Santo Antão, São Nicolau, and Boa Vista hold island-labelled academic extracts. Sal stays empty until a source names that variety.
 
 If a term is not attested for that island, return `TERM_NOT_FOUND` for that island only.
 
@@ -38,6 +38,6 @@ If a term is not attested for that island, return `TERM_NOT_FOUND` for that isla
 
 - **23 March 2023** — Project starts (São Tomé and Príncipe).
 - **23 April 2025** — Cabo Verde collection starts, by island. **2 years 1 month** after the project start. Lexicons stay empty until a source names the island.
-- **2026** — Continue island extraction. APiCS Online supplies labelled lexicons for Santiago (language 30), Brava (31), and São Vicente (32) only. On **23 April 2026** this collection is **1 year** old; the project is **3 years 1 month** old.
+- **2026** — Continue island extraction from open sources that name a single island. APiCS Online supplies labelled lexicons for Santiago (language 30), Brava (31), and São Vicente (32). Later open sources named Fogo, Maio, Santo Antão, São Nicolau, and Boa Vista; those extracts stay in those folders. Sal remains empty. Kriolish is not used as island evidence.
 
 Do not copy Guinea-Bissau Kriol into these folders.

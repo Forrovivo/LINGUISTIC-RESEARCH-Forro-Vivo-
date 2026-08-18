@@ -25,6 +25,8 @@ Priority sources to search when collecting (do not invent forms from this list):
 - `data/guinebissau_dataset/`
 - `data/saotome_dataset/forro/`, `data/saotome_dataset/angolar/`, `data/saotome_dataset/lungie/`
 - Portuguese of Cabo Verde
+- [Kriolish translations](https://kriolish.com/#/dictionaries/translations) — crowd-sourced Barlavento vs Sotavento clusters, not a named single island
+- Lang (ed.) 2014 notes that Sal still mixes immigrant island varieties; no Sal-labelled open lexicon was ingested in this pass
 
 ## Missing-term protocol
 

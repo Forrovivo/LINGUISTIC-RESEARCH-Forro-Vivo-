@@ -9,15 +9,21 @@ Do not treat Guinea-Bissau Kriol as this variety.
 
 ## Sources used in this folder
 
-None yet. Add attested forms only from sources that name the Maio variety.
+### Ana Karina Tavares Moreira 2014 (Maio)
 
-APiCS Online has no language labelled as this island. Languages 30 (Santiago), 31 (Brava), and 32 (São Vicente) belong in those island folders only and must not be copied here.
-
-Priority sources to search when collecting (do not invent forms from this list):
-
-- APiCS Online, when the survey or example is labelled as Maio / this variety
-- Published dictionaries and grammars of this island variety
-- ALUPEC documents, only when they give a lemma labelled for Maio
+- **Author:** Ana Karina Tavares Moreira
+- **Year:** 2014
+- **Title:** Descrição da variedade da ilha do Maio
+- **In:** Jürgen Lang (ed.), *A variação geográfica do crioulo caboverdiano*. Erlangen: FAU University Press
+- **Open URL:** https://open.fau.de/server/api/core/bitstreams/4f768ade-9b04-45fb-9d8d-3465c886e17e/content
+- **License:** CC BY-NC-ND (authors retain rights; do not relicense the extract)
+- **Source type:** peer-reviewed chapter (Uni-CV master’s description)
+- **Language documented:** Maio
+- **What was extracted:** Maio-labelled exclusive vocabulary, homophones, African-origin lemmas printed for Maio, and Maio pronoun and compound forms
+- **Portuguese:** from the gloss printed for the Maio lemma
+- **English:** null in this pass (the chapter glosses in Portuguese)
+- **Not used:** Santiago comparison forms marked S, IPA-only items without a printed Maio lemma, other island folders
+- **Confidence for cited forms:** high
 
 ## Not used as Maio evidence
 
@@ -25,6 +31,9 @@ Priority sources to search when collecting (do not invent forms from this list):
 - `data/guinebissau_dataset/`
 - `data/saotome_dataset/forro/`, `data/saotome_dataset/angolar/`, `data/saotome_dataset/lungie/`
 - Portuguese of Cabo Verde
+- APiCS languages 30 (Santiago), 31 (Brava), and 32 (São Vicente)
+- [Kriolish translations](https://kriolish.com/#/dictionaries/translations) — crowd-sourced Barlavento vs Sotavento clusters, not a named single island
+- Pires, Hutchison & Gonçalves *Disonariu Kabuverdianu* (Sotavento draft without island labels)
 
 ## Missing-term protocol
 

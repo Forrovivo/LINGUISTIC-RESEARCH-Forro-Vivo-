@@ -12,6 +12,8 @@ This file is a **Boa Vista-only** Cabo Verdean Creole dataset. It is not a websi
 Do not copy headwords from other Cabo Verdean island folders (santiago, fogo, maio, brava, saovicente, santoantao, saonicolau, sal).
 Do not copy Guinea-Bissau Kriol, Forro, Angolar, or Lung’Ie.
 
+Entries were isolated from Boa Vista-labelled forms in Lang (ed.) 2014, quoting Costa & Duarte 1886. Other island folders were not used as evidence. Portuguese follows the etymon or gloss Lang prints. English is null when the source does not print it.
+
 No lexicon has been copied from other folders. Add a headword only when a cited source labels it as the creole of Boa Vista.
 
 If a requested Boa Vista term is not in this dataset:
@@ -22,3 +24,213 @@ If a requested Boa Vista term is not in this dataset:
 
 Machine-readable copy: `dictionary.json`. Source record: `sources.md`.
 Parent index: `../dictionary.md`.
+
+---
+
+## comô
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** particle
+
+### Portuguese
+Partícula comparativa.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## stâdo
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Estado.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## gasajo
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Agasalho.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bêjo
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** adjective
+
+### Portuguese
+Velho.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## brâdo
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Virado.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fije
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Filho.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## qande
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** conjunction
+
+### Portuguese
+Quando.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## zoêje
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Joelho.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## fête
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Feito.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## morte
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** adjective
+
+### Portuguese
+Morto.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## meis
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Meios.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## porc
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Portuguese
+Porco.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## q’an
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** conjunction
+
+### Portuguese
+Quando.
+
+### Sources
+- Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
