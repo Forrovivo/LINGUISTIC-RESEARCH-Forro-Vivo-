@@ -70,6 +70,27 @@ A later pass added remaining labelled Angolar lexical items from the same articl
 - **Use for Angolar:** Angolar-labelled cells and examples only (`ôngê`, `ubwa` ‘tipo de cerca’, `kuma` ‘como’, `foka`, `foga` ‘afogar’)
 - **Do not use:** Santome, Lung’Ie, or Fa d’Ambô cells; reconstructed protoforms
 
+### Bandeira, Araujo & Finbow 2021
+
+- **Authors:** Bandeira, Manuele; Araujo, Gabriel Antunes de; Finbow, Thomas
+- **Year:** 2021
+- **Title:** The Gulf of Guinea Proto-Creole and its daughter languages: from liquid consonants to complex onsets and vowel lengthening
+- **Publication:** Journal of Language Contact 14
+- **DOI:** https://doi.org/10.1163/19552629-14030002
+- **Use for Angolar:** Angolar-labelled reflexes only (`baaga` ‘to undo’; `paatha` ‘square, plaza’)
+- **Do not use:** protoforms; Santome, Lung’Ie, or Fa d’Ambô cells
+- **Spelling:** `paatha` is kept separate from existing `patha` ‘surpass / pass’
+
+### Bandeira & Alves 2024 (not extracted)
+
+- **Authors:** Bandeira, Manuele; Alves, Ubiratã Kickhöfel
+- **Year:** 2024
+- **Title:** The onset in modern Angolar / O onset no angolar moderno
+- **Publication:** Filologia e Linguística Portuguesa 26(2)
+- **DOI:** https://doi.org/10.11606/issn.2176-9419.v26i2p309-327
+- **Repository:** http://hdl.handle.net/10183/289129
+- **Status:** abstract is open; the journal lists the PDF as not yet available, so the 1524-item corpus was not extracted
+
 ### Bandeira 2017
 
 - **Author:** Bandeira, Manuele

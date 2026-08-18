@@ -84,6 +84,12 @@ Do not copy Angolar or Principense APiCS chapters into this folder.
 - **Use for Forro:** the labelled Santome example *Ubwê mu sa dizandadu* on the existing headword `ubwê`
 - **Do not use:** Angolar `ôngê` or Lung’Ie `igbê` / `ibê` from the same article
 
+### Later open-web pass (Santome cells already present)
+
+Bandeira, Araujo & Finbow 2021 (*Journal of Language Contact*) Santome-labelled reflexes (`plasa`, `klosu`, `petu` ‘perto’, `plôkô`) were already headwords in Araujo & Hagemeijer 2013 or Bandeira 2017. Araujo et al. 2013 (*Fa d’ambô: língua crioula de Ano Bom*) was read for Santome comparison cells only; those Santome forms were already in this folder. Fa d’Ambô examples were not filed here.
+
+Balduino, Agostinho, Araujo & Christofoletti 2015 (*A nasalidade vocálica em santome e lung’Ie*, PAPIA) is an open Santome + Lung’Ie source; the USP PDF did not download in this pass, so it was not newly extracted. Hagemeijer 2009 (*As línguas de S. Tomé e Príncipe*) remains open at the University of Lisbon repository, but the PDF timed out and was not extracted.
+
 ## Missing-term protocol
 
 If a requested Forro term is not in `dictionary.json` / `dictionary.md`:

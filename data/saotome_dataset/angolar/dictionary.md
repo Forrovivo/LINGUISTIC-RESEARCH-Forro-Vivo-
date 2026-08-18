@@ -10,7 +10,7 @@ This file is the **Angolar / Ngola** lexicon of São Tomé. It is **not Angola C
 This file is an **Angolar-only** linguistic dataset. It is not a website and not an application.
 Forro, Lung’Ie, Cabo Verdean, and Guinea-Bissau words do not belong in these entries.
 
-Entries are isolated Angolar forms from named sources (Rougé & Schang 2012, APiCS Angolar / Maurer 2013, Bandeira 2017, Bandeira, Agostinho & Freitas 2021, and Bandeira & Araujo 2022). Forro files in this repository are not evidence for Angolar.
+Entries are isolated Angolar forms from named sources (Rougé & Schang 2012, APiCS Angolar / Maurer 2013, Bandeira 2017, Bandeira, Agostinho & Freitas 2021, Bandeira & Araujo 2022, and Bandeira, Araujo & Finbow 2021 Angolar cells only). Forro files in this repository are not evidence for Angolar.
 
 If a requested Angolar term is not in this dataset:
 
@@ -16438,4 +16438,45 @@ Como.
 **Confidence:** high
 
 **Notes:** Labelled form in Bandeira & Araujo 2022 (DELTA / SciELO). Protoforms and Fa d’Ambô cells were not stored. Santome and Lung’Ie columns were not copied into this language folder. Quadro 1 Angolar cell [ˈkumɐ] ‘como’. Separate from the existing 2021 noun kuma ‘godmother of one’s child’.
+
+
+## baaga
+
+**Language:** Angolar  
+**Part of speech:** verb
+
+### English
+to undo
+
+### Pronunciation
+[baːˈga]
+
+### Sources
+- Bandeira, Manuele; Araujo, Gabriel Antunes de; Finbow, Thomas. 2021. The Gulf of Guinea Proto-Creole and its daughter languages: from liquid consonants to complex onsets and vowel lengthening. Journal of Language Contact 14: 524–556. https://doi.org/10.1163/19552629-14030002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Angolar (an) reflex in Bandeira, Araujo & Finbow 2021. Protoforms and Fa d’Ambô cells were not stored. Santome and Lung’Ie columns were not copied into this language folder. Portuguese is null because this source glosses in English. Angolar reflex of *bar.ga. Santome blaga and Fa d’Ambô cells were not copied.
+
+## paatha
+
+**Language:** Angolar  
+**Part of speech:** noun
+
+### English
+square, plaza
+
+### Pronunciation
+[paːθɐ]
+
+### Sources
+- Bandeira, Manuele; Araujo, Gabriel Antunes de; Finbow, Thomas. 2021. The Gulf of Guinea Proto-Creole and its daughter languages: from liquid consonants to complex onsets and vowel lengthening. Journal of Language Contact 14: 524–556. https://doi.org/10.1163/19552629-14030002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Angolar (an) reflex in Bandeira, Araujo & Finbow 2021. Protoforms and Fa d’Ambô cells were not stored. Santome and Lung’Ie columns were not copied into this language folder. Portuguese is null because this source glosses in English. Angolar reflex [ˈpaːθɐ] of *pla.sa ‘square’, ‘plaza’. Separate from existing patha ‘surpass / pass’.
 

@@ -8,7 +8,7 @@
 This file is a **Lung’Ie-only** linguistic dataset. It is not a website and not an application.
 Forro and Angolar words do not belong in these entries.
 
-Entries are isolated Lung’Ie forms from named sources (Rougé & Schang 2012, APiCS Principense / Maurer 2013, Araujo 2013, Agostinho & Araujo 2021, Bandeira 2017 Lung’Ie column only, and Bandeira & Araujo 2022 Lung’Ie cells only). Forro and Angolar files in this repository are not evidence for Lung’Ie.
+Entries are isolated Lung’Ie forms from named sources (Rougé & Schang 2012, APiCS Principense / Maurer 2013, Araujo 2013, Agostinho & Araujo 2021 glossary and LD&C language-game paper, Agostinho & Hyman 2021, Bandeira 2017 Lung’Ie column only, Bandeira & Araujo 2022 Lung’Ie cells only, and Bandeira, Araujo & Finbow 2021 Lung’Ie cells only). Forro and Angolar files in this repository are not evidence for Lung’Ie.
 
 If a requested Lung’Ie term is not in this dataset:
 
@@ -4605,6 +4605,9 @@ Idade.
 
 ### Portuguese
 Dente.
+
+### English
+teeth
 
 ### Pronunciation
 [iˈdẽtʃi]
@@ -20132,6 +20135,15 @@ Oeste.
 ### Portuguese
 Agora.
 
+### English
+now; moment
+
+### Example
+Sabiina, kwa txi sa fêzê wo sê a?
+
+### Example (English)
+Sabrina, what are you doing right now?
+
 ### Pronunciation
 [ˈwɔ]
 
@@ -21928,6 +21940,9 @@ arrancar; 2. v. sair.
 
 ### Portuguese
 capim.
+
+### English
+herb
 
 ### Sources
 - Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Lung'Ie, lunge no: método para aprender lung'Ie. São Paulo: FFLCH/USP. https://doi.org/10.11606/9786587621500
@@ -46413,9 +46428,13 @@ Defeito.
 ## goxtu
 
 **Language:** Lung’Ie  
+**Part of speech:** noun
 
 ### Portuguese
 Gosto.
+
+### English
+taste
 
 ### Pronunciation
 [ˈgoʃtʊ]
@@ -51072,4 +51091,305 @@ Corpo.
 **Confidence:** high
 
 **Notes:** Labelled form in Bandeira & Araujo 2022 (DELTA / SciELO). Protoforms and Fa d’Ambô cells were not stored. Santome and Lung’Ie columns were not copied into this language folder. Quadro 3 lists Lung’Ie ig͡bê, ibê for both REFLEX and ‘corpo’. Existing igbê is kept. This is the sourced spelling ibê from that table.
+
+
+## xtrínki
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+new
+
+### Pronunciation
+[ʃtɾíŋki]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Source writes ʃtɾíŋki. Existing novu ‘novo’ is kept. Fa d’Ambô and Portuguese game forms were not copied.
+
+## fólogo
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+breath
+
+### Pronunciation
+[fólogo]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Also labelled /fólogo/ ‘breath’ in Agostinho & Hyman 2021 (Probus). Existing expressions with fôlôgô were not replaced.
+
+## fôxfari
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+match
+
+### Pronunciation
+[fɔ́ʃfari]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Also /fɔ́Sfari/ ‘match’ in Agostinho & Hyman 2021 (Probus).
+
+## ôroku
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+mouse
+
+### Pronunciation
+[óroko]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Also /óroko/ ‘mouse’ in Agostinho & Hyman 2021 (Probus). Existing uratu ‘Rato’ is kept as a separate sourced form.
+
+## pésugu
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+peach
+
+### Pronunciation
+[pɛ́sugu]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Also /pɛ́sugu/ ‘peach’ in Agostinho & Hyman 2021 (Probus).
+
+## sei
+
+**Language:** Lung’Ie  
+**Part of speech:** numeral
+
+### English
+six
+
+### Pronunciation
+[séj]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Source writes séj. Separate from existing se ‘assar’.
+
+## goron
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+underdeveloped child
+
+### Pronunciation
+[gɔrɔŋ̩]
+
+### Sources
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. Playing with Language: Three Language Games in the Gulf of Guinea. Language Documentation & Conservation 15: 219–238. http://hdl.handle.net/10125/24974
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (LI) form only. Fa d’Ambô Fa do Vesu examples and São Tomé and Príncipe Portuguese P-language examples were not filed. Portuguese is null because this source glosses in English. Source writes gɔrɔ ŋ̩. Maurer tone-pattern variation is recorded in the article and is not resolved here.
+
+## kajma
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+manioc gum
+
+### Pronunciation
+[kajˈma]
+
+### Sources
+- Agostinho, Ana Lívia; Balduino, Amanda Macedo; Araujo, Gabriel Antunes de. 2020. Nasalization processes in Lung’Ie. Alfa 64, e11574. https://doi.org/10.1590/1981-5794-e11574
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho, Balduino & Araujo 2020 (Alfa / SciELO). Portuguese is null because the English version glosses in English. Forro forms from other papers were not copied. Phonological form /kajma/.
+
+## krava
+
+**Language:** Lung’Ie  
+**Part of speech:** verb
+
+### English
+to nail/stick/embed
+
+### Pronunciation
+[kɾaˈva]
+
+### Sources
+- Bandeira, Manuele; Araujo, Gabriel Antunes de; Finbow, Thomas. 2021. The Gulf of Guinea Proto-Creole and its daughter languages: from liquid consonants to complex onsets and vowel lengthening. Journal of Language Contact 14: 524–556. https://doi.org/10.1163/19552629-14030002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie (li) reflex in Bandeira, Araujo & Finbow 2021. Protoforms and Fa d’Ambô cells were not stored. Santome and Angolar columns were not copied into this language folder. Portuguese is null because this source glosses in English. Cited from Agostinho 2015: 40 as Lung’Ie [kɾaˈva].
+
+## fôôsa
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+strength
+
+### Pronunciation
+[fɔ́ɔsa]
+
+### Sources
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. Word Prosody in Lung’Ie: One System or Two? Probus 33(1): 57–93. https://doi.org/10.1515/probus-2021-0002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho & Hyman 2021 (Probus). Portuguese is null because this source glosses in English. Forro and Angolar comparison notes in the paper were not copied as Lung’Ie headwords. Long-vowel form /fɔ́ɔsa/. Existing fosa ‘Força’ (short vowel) is kept.
+
+## ônra
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+honor
+
+### Pronunciation
+[ɔ́Nra]
+
+### Sources
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. Word Prosody in Lung’Ie: One System or Two? Probus 33(1): 57–93. https://doi.org/10.1515/probus-2021-0002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho & Hyman 2021 (Probus). Portuguese is null because this source glosses in English. Forro and Angolar comparison notes in the paper were not copied as Lung’Ie headwords. Phonological form /ɔ́Nra/.
+
+## manpata
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+palm oil residue
+
+### Pronunciation
+[maNpata]
+
+### Sources
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. Word Prosody in Lung’Ie: One System or Two? Probus 33(1): 57–93. https://doi.org/10.1515/probus-2021-0002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho & Hyman 2021 (Probus). Portuguese is null because this source glosses in English. Forro and Angolar comparison notes in the paper were not copied as Lung’Ie headwords. Phonological form /maNpata/.
+
+## ugbododo
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+precipice
+
+### Pronunciation
+[ugbododo]
+
+### Sources
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. Word Prosody in Lung’Ie: One System or Two? Probus 33(1): 57–93. https://doi.org/10.1515/probus-2021-0002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho & Hyman 2021 (Probus). Portuguese is null because this source glosses in English. Forro and Angolar comparison notes in the paper were not copied as Lung’Ie headwords. Phonological form /ugbododo/. Existing barara is kept.
+
+## fêdi
+
+**Language:** Lung’Ie  
+**Part of speech:** verb
+
+### English
+to stink
+
+### Pronunciation
+[fɛ́di]
+
+### Sources
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. Word Prosody in Lung’Ie: One System or Two? Probus 33(1): 57–93. https://doi.org/10.1515/probus-2021-0002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho & Hyman 2021 (Probus). Portuguese is null because this source glosses in English. Forro and Angolar comparison notes in the paper were not copied as Lung’Ie headwords. Phonological form /fɛ́di/.
+
+## peru
+
+**Language:** Lung’Ie  
+**Part of speech:** noun
+
+### English
+turkey
+
+### Pronunciation
+[peru]
+
+### Sources
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. Word Prosody in Lung’Ie: One System or Two? Probus 33(1): 57–93. https://doi.org/10.1515/probus-2021-0002
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+**Notes:** Labelled Lung’Ie form in Agostinho & Hyman 2021 (Probus). Portuguese is null because this source glosses in English. Forro and Angolar comparison notes in the paper were not copied as Lung’Ie headwords. Phonological form /peru/ ‘turkey’. This is not the country name.
 

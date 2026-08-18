@@ -67,6 +67,12 @@ Spoken APiCS Principense recordings are in `Audio/` and linked from matching ent
 - Bandeira, Agostinho & Freitas 2021, *Phonetic-phonological aspects of modern Angolar* (Alfa / SciELO): Lung’Ie anatomy column only. DOI: https://doi.org/10.1590/1981-5794-e13177
 - Balduino, Agostinho & Araujo, *Processos de nasalização em lung’Ie* (Alfa / SciELO): Lung’Ie phonetic examples with English glosses as printed. https://www.scielo.br/j/alfa/a/zJ4wnTYQXtM4RMsVLS9qMPC/
 - Bandeira, Manuele; Araujo, Gabriel Antunes de. 2022. *A estratégia reflexiva no protocrioulo do Golfo da Guiné*. DELTA. https://www.scielo.br/j/delta/a/bDqJqcYWZZJg5YsYH8RcqJG/. Use: Lung’Ie-labelled cells only (`ugba` ‘tipo de cerca’; `ibê` beside existing `igbê`). Do not use Santome, Angolar, Fa d’Ambô, or protoforms.
+- Agostinho, Ana Lívia; Araujo, Gabriel Antunes de. 2021. *Playing with Language: Three Language Games in the Gulf of Guinea*. Language Documentation & Conservation 15. http://hdl.handle.net/10125/24974. Use: Lung’Ie Faa di Vesu base forms only (`xtrínki`, `fólogo`, `fôxfari`, `ôroku`, `pésugu`, `sei`, `goron`). Do not use Fa d’Ambô Fa do Vesu or São Tomé and Príncipe Portuguese P-language examples.
+- Agostinho, Ana Lívia; Hyman, Larry M. 2021. *Word Prosody in Lung’Ie: One System or Two?* Probus. https://doi.org/10.1515/probus-2021-0002. Use: labelled Lung’Ie forms that were not already headwords (`fôôsa`, `ônra`, `manpata`, `ugbododo`, `fêdi`, `peru`).
+- Bandeira, Manuele; Araujo, Gabriel Antunes de; Finbow, Thomas. 2021. *The Gulf of Guinea Proto-Creole and its daughter languages*. Journal of Language Contact. https://doi.org/10.1163/19552629-14030002. Use: Lung’Ie-labelled cells only (`krava`). Do not store protoforms or Fa d’Ambô, Santome, or Angolar cells.
+- Rech, Núbia Ferreira; Agostinho, Ana Lívia. 2023. *Irrealis mood in Lung’Ie: ka*. Revista Linguística. https://doi.org/10.31513/linguistica.2023.v19n2a61298. Use: the labelled example on existing `wo`; the paper’s analysis of `ka` as irrealis is recorded in notes. Do not replace the APiCS gloss.
+
+A later pass added remaining labelled items from Agostinho, Balduino & Araujo 2020 (`kajma`) that were not already headwords.
 
 ## Not used as Lung’Ie evidence
 
