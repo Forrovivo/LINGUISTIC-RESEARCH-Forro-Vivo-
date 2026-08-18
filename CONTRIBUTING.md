@@ -9,7 +9,9 @@
 | [api.forrovivo.com](https://api.forrovivo.com) | Machine-readable linguistic data |
 | [ForroVivo on the App Store](https://apps.apple.com/app/id6751409176) | Language-learning product |
 
-**Project started:** 23 March 2023
+**Project started:** 23 March 2023  
+**Founder and idealist:** Henriques Pontes  
+**Linguistic Research co-founder:** Luis Lima
 
 Contribute **attested** dictionary data here. Do not add the website UI or the App Store app to this folder.
 

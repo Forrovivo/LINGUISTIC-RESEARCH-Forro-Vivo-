@@ -1,6 +1,8 @@
 # Technical report
 
 **Project started:** 23 March 2023  
+**Founder and idealist:** Henriques Pontes  
+**Co-founder:** Luis Lima  
 **Platform:** ForroVivo  
 **Initiative:** Linguistic Research  
 **Public brand:** https://www.forrovivo.com  

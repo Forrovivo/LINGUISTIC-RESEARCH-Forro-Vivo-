@@ -15,7 +15,9 @@ This is a **DATA COLLECTION AND LINGUISTIC RESEARCH TASK**.
 
 **ForroVivo** is the platform and ecosystem. This repository is the Linguistic Research initiative within it: open datasets on GitHub, machine-readable data at api.forrovivo.com. The public brand is ForroVivo.com. The language-learning product is on the App Store. Those products are out of scope here.
 
-**Project started:** 23 March 2023.
+**Project started:** 23 March 2023.  
+**Founder and idealist:** Henriques Pontes.  
+**Linguistic Research co-founder:** Luis Lima.
 
 Do **NOT** inspect, modify, analyze, or reference the ForroVivo website or App Store application code.
 

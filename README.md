@@ -49,7 +49,9 @@ The website UI and the App Store app live somewhere else. Not here.
 |---|---|---|---|
 | [ForroVivo.com](https://www.forrovivo.com) | [This repo](https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-) | [api.forrovivo.com](https://api.forrovivo.com) | [App Store](https://apps.apple.com/app/id6751409176) |
 
-**Project started:** 23 March 2023
+**Project started:** 23 March 2023  
+**Founder and idealist:** Henriques Pontes  
+**Linguistic Research co-founder:** Luis Lima
 
 ---
 

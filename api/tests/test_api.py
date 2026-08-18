@@ -22,6 +22,9 @@ def test_public_api_is_api_forrovivo_com():
     payload = client.get("/v1").json()
     assert payload["platform"] == "ForroVivo"
     assert payload["initiative"] == "Linguistic Research"
+    assert payload["founder"] == "Henriques Pontes"
+    assert payload["idealist"] == "Henriques Pontes"
+    assert payload["cofounders"] == ["Luis Lima"]
     assert payload["host"] == "api.forrovivo.com"
     assert payload["url"] == "https://api.forrovivo.com"
     assert payload["homepage"] == "https://www.forrovivo.com"

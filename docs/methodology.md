@@ -1,6 +1,8 @@
 # Methodology
 
-**Project started:** 23 March 2023
+**Project started:** 23 March 2023  
+**Founder and idealist:** Henriques Pontes  
+**Linguistic Research co-founder:** Luis Lima
 
 This repository is the **Linguistic Research** initiative inside the ForroVivo platform. It collects verified dictionary data for Portuguese-lexifier creoles. Accuracy comes before coverage. A missing translation is better than a guessed one.
 
