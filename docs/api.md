@@ -29,7 +29,7 @@ Point DNS `api.forrovivo.com` at the process that serves this app. The public br
 
 ## Paths
 
-São Tomé languages live under `data/saotome/`, matching `/v1/saotome/forro`, `/v1/saotome/angolar`, and `/v1/saotome/lungie`.
+São Tomé languages live under `data/saotome_dataset/`, matching `/v1/saotome/forro`, `/v1/saotome/angolar`, and `/v1/saotome/lungie`.
 
 | Method | Path |
 |---|---|
@@ -46,7 +46,7 @@ São Tomé languages live under `data/saotome/`, matching `/v1/saotome/forro`, `
 | GET | `/v1/guinebissau/bissau/lookup?headword=` |
 | GET | `/v1/angola/lookup?headword=` |
 
-`/v1/saotome`, `/v1/caboverde`, and `/v1/guinebissau` are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola` serves `data/saotome/angolar` without a second lexicon.
+`/v1/saotome`, `/v1/caboverde`, and `/v1/guinebissau` are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola` is Angola Contruy. It does not serve Angolar.
 
 A missing headword in a lexicon returns that dataset’s `TERM_NOT_FOUND` object. An unknown path returns `DATASET_NOT_FOUND`. Search never crosses folders.
 

@@ -12,9 +12,9 @@ from api import REPO_ROOT
 DATA_ROOT = REPO_ROOT / "data"
 
 FAMILY_INDEXES = (
-    ("saotome", DATA_ROOT / "saotome" / "dictionary.json"),
-    ("caboverde", DATA_ROOT / "caboverde" / "dictionary.json"),
-    ("guinebissau", DATA_ROOT / "guinebissau" / "dictionary.json"),
+    ("saotome", DATA_ROOT / "saotome_dataset" / "dictionary.json"),
+    ("caboverde", DATA_ROOT / "caboverde_dataset" / "dictionary.json"),
+    ("guinebissau", DATA_ROOT / "guinebissau_dataset" / "dictionary.json"),
 )
 
 
@@ -61,20 +61,13 @@ def load_catalog() -> Dict[str, DatasetRef]:
                 json_path=_json_path(child["path"]),
             )
 
-    angola_path = DATA_ROOT / "angola" / "dictionary.json"
-    with angola_path.open(encoding="utf-8") as handle:
-        angola = json.load(handle)
     catalog["angola"] = DatasetRef(
         key="angola",
         family="angola",
         variety=None,
-        kind="alias",
-        json_path=angola_path,
-        canonical_key="saotome/angolar",
+        kind="lexicon",
+        json_path=DATA_ROOT / "angola_dataset" / "dictionary.json",
     )
-    canonical = _json_path(angola["canonical_path"])
-    if not canonical.exists():
-        raise FileNotFoundError(canonical)
 
     missing = [ref.key for ref in catalog.values() if not ref.json_path.exists()]
     if missing:

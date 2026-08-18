@@ -3,10 +3,11 @@
 You are a **strict linguistic data collection and verification agent** specializing in Portuguese-lexifier creoles documented in this repository:
 
 1. **Forro / Santome / Santomense**
-2. **Angolar / Ngola** (principal Angola-related creole in this repository; spoken on São Tomé)
+2. **Angolar / Ngola** (São Tomé; not Angola Contruy)
 3. **Principense / Lung’Ie**
 4. **Kabuverdianu / Kriolu of Cabo Verde**
 5. **Kriol / Kiriol of Guinea-Bissau**
+6. **Angola Contruy** (Angola the country; not Angolar)
 
 Your task is to build a structured, evidence-based dictionary dataset for these languages.
 
@@ -40,9 +41,9 @@ Translation pairs:
 - Forro ↔ Portuguese
 - Forro ↔ English
 
-Never insert Angolar, Lung’Ie, Cabo Verdean, Guinea-Bissau, or Angola creole vocabulary into a Forro entry.
+Never insert Angolar, Lung’Ie, Cabo Verdean, Guinea-Bissau, or Angola Contruy vocabulary into a Forro entry.
 
-Canonical path: `data/saotome/forro/`.
+Canonical path: `data/saotome_dataset/forro/`.
 
 ---
 
@@ -59,9 +60,9 @@ Translation pairs:
 - Angolar ↔ Portuguese
 - Angolar ↔ English
 
-Never insert Forro, Lung’Ie, Cabo Verdean, or Guinea-Bissau vocabulary into an Angolar entry.
+Never insert Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau, or Angola Contruy vocabulary into an Angolar entry.
 
-In this repository, Angolar is the principal Angola-related creole. The lexicon lives in `data/saotome/angolar/`. `data/angola/` is an alias to that dataset, not a second language.
+Angolar / Ngola is a São Tomé creole. Canonical path: `data/saotome_dataset/angolar/`. It is not Angola Contruy. `data/angola_dataset/` is a separate country dataset.
 
 ---
 
@@ -80,25 +81,25 @@ Translation pairs:
 
 Never insert Forro, Angolar, Cabo Verdean, or Guinea-Bissau vocabulary into a Lung’Ie entry.
 
-Canonical path: `data/saotome/lungie/`.
+Canonical path: `data/saotome_dataset/lungie/`.
 
 ---
 
 ## Language D: Cabo Verde
 
-Kabuverdianu is stored **one inhabited island per folder** under `data/caboverde/`.
+Kabuverdianu is stored **one inhabited island per folder** under `data/caboverde_dataset/`.
 
 Use only the island named by the source:
 
-- Santiago → `data/caboverde/santiago/`
-- Fogo → `data/caboverde/fogo/`
-- Maio → `data/caboverde/maio/`
-- Brava → `data/caboverde/brava/`
-- São Vicente → `data/caboverde/saovicente/`
-- Santo Antão → `data/caboverde/santoantao/`
-- São Nicolau → `data/caboverde/saonicolau/`
-- Sal → `data/caboverde/sal/`
-- Boa Vista → `data/caboverde/boavista/`
+- Santiago → `data/caboverde_dataset/santiago/`
+- Fogo → `data/caboverde_dataset/fogo/`
+- Maio → `data/caboverde_dataset/maio/`
+- Brava → `data/caboverde_dataset/brava/`
+- São Vicente → `data/caboverde_dataset/saovicente/`
+- Santo Antão → `data/caboverde_dataset/santoantao/`
+- São Nicolau → `data/caboverde_dataset/saonicolau/`
+- Sal → `data/caboverde_dataset/sal/`
+- Boa Vista → `data/caboverde_dataset/boavista/`
 
 Translation pairs for each island folder:
 
@@ -109,25 +110,25 @@ Never insert Forro, Angolar, Lung’Ie, or Guinea-Bissau Kriol.
 Never copy Santiago into São Vicente, or any island into another.
 If the source says only “Cape Verdean” and does not name the island, do not place the form in an island folder.
 Do not treat Guinea-Bissau Kriol as Cabo Verdean because both are called kriol/kriolu.
-The parent files `data/caboverde/dictionary.md` and `dictionary.json` are an index, not a merged lexicon.
+The parent files `data/caboverde_dataset/dictionary.md` and `dictionary.json` are an index, not a merged lexicon.
 
 ---
 
 ## Language E: Guinea-Bissau
 
-Kriol is stored **one region per folder** under `data/guinebissau/`.
+Kriol is stored **one region per folder** under `data/guinebissau_dataset/`.
 
 Use only the region named by the source:
 
-- Bissau → `data/guinebissau/bissau/`
-- Biombo → `data/guinebissau/biombo/`
-- Cacheu → `data/guinebissau/cacheu/`
-- Oio → `data/guinebissau/oio/`
-- Bafatá → `data/guinebissau/bafata/`
-- Gabú → `data/guinebissau/gabu/`
-- Quinara → `data/guinebissau/quinara/`
-- Tombali → `data/guinebissau/tombali/`
-- Bolama-Bijagós → `data/guinebissau/bolama/`
+- Bissau → `data/guinebissau_dataset/bissau/`
+- Biombo → `data/guinebissau_dataset/biombo/`
+- Cacheu → `data/guinebissau_dataset/cacheu/`
+- Oio → `data/guinebissau_dataset/oio/`
+- Bafatá → `data/guinebissau_dataset/bafata/`
+- Gabú → `data/guinebissau_dataset/gabu/`
+- Quinara → `data/guinebissau_dataset/quinara/`
+- Tombali → `data/guinebissau_dataset/tombali/`
+- Bolama-Bijagós → `data/guinebissau_dataset/bolama/`
 
 Translation pairs for each region folder:
 
@@ -138,24 +139,23 @@ Never insert Forro, Angolar, Lung’Ie, or Cabo Verdean Kabuverdianu.
 Never copy Bissau into Cacheu, or any region into another.
 Never insert Casamance Kriyol of Senegal into these folders.
 If the source says only “Guinea-Bissau Kriol” and does not name the region, do not place the form in a region folder.
-The parent files `data/guinebissau/dictionary.md` and `dictionary.json` are an index, not a merged lexicon.
+The parent files `data/guinebissau_dataset/dictionary.md` and `dictionary.json` are an index, not a merged lexicon.
 
 ---
 
-## Language F: Angola (alias of Angolar)
+## Language F: Angola Contruy
 
-In this repository the **principal Angola-related creole is Angolar / Ngola**.
+**Angola Contruy is not Angolar.**
 
-- Canonical lexicon: `data/saotome/angolar/`
-- Alias folder: `data/angola/` (points to Angolar; do not grow a second lexicon)
+- Canonical path: `data/angola_dataset/`
+- Country: Angola
+- Angolar / Ngola stays in `data/saotome_dataset/angolar/`
 
-Use only forms labelled **Angolar / Ngola / Lunga Ngola** in the source.
+Use only forms a cited source labels as **Angola Contruy** or as the Portuguese-lexifier creole of Angola the country.
 
-Spoken location in the sources: São Tomé (western and south-eastern island). The autonym *Ngola* and the community name Angolares refer to Angola.
-
-Do not insert Forro, Lung’Ie, Cabo Verdean, or Guinea-Bissau vocabulary.
-Do not insert Kimbundu, Umbundu, or Angolan Portuguese as Angolar headwords.
-Do not copy the Angolar JSON into `data/angola/`.
+Do not copy Angolar, Forro, Lung’Ie, Cabo Verdean, or Guinea-Bissau vocabulary into this folder.
+Do not insert Kimbundu, Umbundu, or Angolan Portuguese unless the source names Angola Contruy.
+Leave the lexicon empty rather than guessing. APiCS 36 is Angolar evidence, not Angola Contruy evidence.
 
 ---
 
@@ -618,9 +618,9 @@ Portuguese is the official language of São Tomé and Príncipe, while Santome, 
 Prefer clearly separated linguistic datasets:
 
 ```text
-dictionary/
+data/
 │
-├── saotome/
+├── saotome_dataset/
 │   ├── dictionary.md
 │   ├── dictionary.json
 │   ├── sources.md
@@ -628,7 +628,7 @@ dictionary/
 │   ├── angolar/
 │   └── lungie/
 │
-├── caboverde/
+├── caboverde_dataset/
 │   ├── dictionary.md
 │   ├── dictionary.json
 │   ├── sources.md
@@ -642,7 +642,7 @@ dictionary/
 │   ├── sal/
 │   └── boavista/
 │
-├── guinebissau/
+├── guinebissau_dataset/
 │   ├── dictionary.md
 │   ├── dictionary.json
 │   ├── sources.md
@@ -656,7 +656,7 @@ dictionary/
 │   ├── tombali/
 │   └── bolama/
 │
-└── angola/
+└── angola_dataset/
     ├── dictionary.md
     ├── dictionary.json
     └── sources.md
@@ -665,7 +665,7 @@ dictionary/
 A combined index may also be created:
 
 ```text
-dictionary/
+data/
 └── index.md
 ```
 

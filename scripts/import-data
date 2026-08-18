@@ -17,9 +17,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
 DATASETS = {
-    "forro": DATA / "saotome" / "forro" / "dictionary.json",
-    "angolar": DATA / "saotome" / "angolar" / "dictionary.json",
-    "lungie": DATA / "saotome" / "lungie" / "dictionary.json",
+    "forro": DATA / "saotome_dataset" / "forro" / "dictionary.json",
+    "angolar": DATA / "saotome_dataset" / "angolar" / "dictionary.json",
+    "lungie": DATA / "saotome_dataset" / "lungie" / "dictionary.json",
+    "angola": DATA / "angola_dataset" / "dictionary.json",
 }
 
 

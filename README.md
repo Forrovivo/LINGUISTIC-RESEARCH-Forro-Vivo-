@@ -10,11 +10,12 @@ No invented words. No mixed languages. Missing beats guessing.
 [![App Store](https://img.shields.io/badge/📱_App_Store-ForroVivo-111111?style=for-the-badge)](https://apps.apple.com/app/id6751409176)
 [![License](https://img.shields.io/badge/📜_License-CC_BY_4.0_+_source_terms-f59e0b?style=for-the-badge)](LICENSE)
 
-[![Forro](https://img.shields.io/badge/🇸🇹_Forro-cri-22c55e)](data/saotome/forro/)
-[![Angolar](https://img.shields.io/badge/🇸🇹_Angolar-aoa-f97316)](data/saotome/angolar/)
-[![Lung’Ie](https://img.shields.io/badge/🇸🇹_Lung’Ie-pre-a855f7)](data/saotome/lungie/)
-[![Kabuverdianu](https://img.shields.io/badge/🇨🇻_Kabuverdianu-kea-0ea5e9)](data/caboverde/)
-[![Kriol](https://img.shields.io/badge/🇬🇼_Kriol-pov-14b8a6)](data/guinebissau/)
+[![Forro](https://img.shields.io/badge/🇸🇹_Forro-cri-22c55e)](data/saotome_dataset/forro/)
+[![Angolar](https://img.shields.io/badge/🇸🇹_Angolar-aoa-f97316)](data/saotome_dataset/angolar/)
+[![Lung’Ie](https://img.shields.io/badge/🇸🇹_Lung’Ie-pre-a855f7)](data/saotome_dataset/lungie/)
+[![Kabuverdianu](https://img.shields.io/badge/🇨🇻_Kabuverdianu-kea-0ea5e9)](data/caboverde_dataset/)
+[![Kriol](https://img.shields.io/badge/🇬🇼_Kriol-pov-14b8a6)](data/guinebissau_dataset/)
+[![Angola Contruy](https://img.shields.io/badge/🇦🇴_Angola_Contruy-country-dc2626)](data/angola_dataset/)
 
 </div>
 
@@ -59,18 +60,19 @@ Each language is its **own** box. Looking similar ≠ same word. Do not copy bet
 
 |  | Language | Autonym | ISO | Open it | Pairs |
 |---|---|---|---|---|---|
-| 🇸🇹 | **Forro** / Santome | *lungwa santome* | `cri` | [`data/saotome/forro/`](data/saotome/forro/) | Forro ↔ PT, Forro ↔ EN |
-| 🇸🇹 | **Angolar** / Ngola | *n'golá* | `aoa` | [`data/saotome/angolar/`](data/saotome/angolar/) | Angolar ↔ PT, Angolar ↔ EN |
-| 🇸🇹 | **Lung’Ie** / Principense | *lung’Ie* | `pre` | [`data/saotome/lungie/`](data/saotome/lungie/) | Lung’Ie ↔ PT, Lung’Ie ↔ EN |
-| 🇨🇻 | **Kabuverdianu** | island varieties | `kea` | [`data/caboverde/`](data/caboverde/) | that island ↔ PT / EN |
-| 🇬🇼 | **Kriol** / Kiriol | regional varieties | `pov` | [`data/guinebissau/`](data/guinebissau/) | that region ↔ PT / EN |
+| 🇸🇹 | **Forro** / Santome | *lungwa santome* | `cri` | [`data/saotome_dataset/forro/`](data/saotome_dataset/forro/) | Forro ↔ PT, Forro ↔ EN |
+| 🇸🇹 | **Angolar** / Ngola | *n'golá* | `aoa` | [`data/saotome_dataset/angolar/`](data/saotome_dataset/angolar/) | Angolar ↔ PT, Angolar ↔ EN |
+| 🇸🇹 | **Lung’Ie** / Principense | *lung’Ie* | `pre` | [`data/saotome_dataset/lungie/`](data/saotome_dataset/lungie/) | Lung’Ie ↔ PT, Lung’Ie ↔ EN |
+| 🇨🇻 | **Kabuverdianu** | island varieties | `kea` | [`data/caboverde_dataset/`](data/caboverde_dataset/) | that island ↔ PT / EN |
+| 🇬🇼 | **Kriol** / Kiriol | regional varieties | `pov` | [`data/guinebissau_dataset/`](data/guinebissau_dataset/) | that region ↔ PT / EN |
+| 🇦🇴 | **Angola Contruy** | Angola (country) | — | [`data/angola_dataset/`](data/angola_dataset/) | Angola Contruy ↔ PT / EN |
 
 **Brain sticky notes**
 
 - São Tomé trio = Gulf of Guinea creoles. **Not** mutually intelligible.
 - Cabo Verde + Guinea-Bissau = Upper Guinea creoles. **Not** the same language.
 - Cabo Verde = **one island, one folder**. Guinea-Bissau = **one region, one folder**.
-- [`data/angola/`](data/angola/) = alias of Angolar. Not a second list.
+- [`data/angola_dataset/`](data/angola_dataset/) = **Angola Contruy** (country). **Not** Angolar.
 - Portuguese is **not** a creole. São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
 
 ---
@@ -128,10 +130,10 @@ ForroVivo.com and the App Store app = other codebases.
 .
 ├── api/                 ⚡ read-only API
 ├── data/
-│   ├── saotome/         🇸🇹 Forro, Angolar, Lung’Ie
-│   ├── caboverde/       🇨🇻 one folder per island
-│   ├── guinebissau/     🇬🇼 one folder per region
-│   └── angola/          ➡️ alias of angolar
+│   ├── saotome_dataset/         🇸🇹 Forro, Angolar, Lung’Ie
+│   ├── caboverde_dataset/       🇨🇻 one folder per island
+│   ├── guinebissau_dataset/     🇬🇼 one folder per region
+│   └── angola_dataset/          🇦🇴 Angola Contruy (not Angolar)
 ├── docs/                📖 how the work is done
 ├── research/            📚 sources, PDFs, notes
 ├── schema/              🧪 JSON Schema
@@ -145,12 +147,12 @@ Parent folders are **indexes**, not a blender. Map: [data/index.md](data/index.m
 
 | Folder | Isolation |
 |---|---|
-| `data/saotome/` | Three languages. Do not mix them. |
-| `data/caboverde/` | Unnamed “Cape Verdean” stays **out** of island folders. |
-| `data/guinebissau/` | Unnamed “Guinea-Bissau Kriol” stays **out**. No Casamance. |
-| `data/angola/` | Do not grow a second list. Use `data/saotome/angolar/`. |
+| `data/saotome_dataset/` | Three languages. Do not mix them. |
+| `data/caboverde_dataset/` | Unnamed “Cape Verdean” stays **out** of island folders. |
+| `data/guinebissau_dataset/` | Unnamed “Guinea-Bissau Kriol” stays **out**. No Casamance. |
+| `data/angola_dataset/` | Angola Contruy. Not Angolar. Empty until a source names it. |
 
-Forro comes from *Dicionário livre santome/português*. Angolar and Lung’Ie come from sources that name those languages. Cabo Verde and Guinea-Bissau grow only when a source names the island or region.
+Forro comes from *Dicionário livre santome/português*. Angolar and Lung’Ie come from sources that name those languages. Cabo Verde, Guinea-Bissau, and Angola Contruy grow only when a source names that variety.
 
 ---
 
@@ -174,10 +176,10 @@ curl "https://api.forrovivo.com/v1/saotome/forro/lookup?headword=kume"
 | 🟣 Lung’Ie | `/v1/saotome/lungie/lookup?headword=` |
 | 🇨🇻 island | `/v1/caboverde/{island}/lookup?headword=` |
 | 🇬🇼 region | `/v1/guinebissau/{region}/lookup?headword=` |
-| ➡️ Angola alias | `/v1/angola/lookup?headword=` |
+| ➡️ Angola Contruy | `/v1/angola/lookup?headword=` |
 
 `/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau` = indexes → `TERM_NOT_FOUND`.  
-Search never hops folders.
+`/v1/angola` = Angola Contruy, **not** Angolar. Search never hops folders.
 
 Run it locally:
 
@@ -228,11 +230,11 @@ timeline
 | Date | What started | Time since 23 March 2023 | Status |
 |---|---|---|---|
 | 23 March 2023 | Project. São Tomé and Príncipe (Forro, Angolar, Lung’Ie). | Start | Under way |
-| 23 April 2025 | Cabo Verde (by island), Angola (Angolar alias), Guinea-Bissau (by region). | 2 years 1 month later | Folders ready; lexicons grow from labelled sources |
+| 23 April 2025 | Cabo Verde (by island), Angola Contruy (country), Guinea-Bissau (by region). | 2 years 1 month later | Folders ready; lexicons grow from labelled sources |
 | 2026 / 23 April 2026 | Continue Cabo Verde, Angola, and Guinea-Bissau from labelled sources only. | 3 years 1 month later (on 23 April 2026) | Collection year |
 
 Cabo Verdean Kabuverdianu is **not** Guinea-Bissau Kriol.  
-Angola here is **Angolar**, not Kimbundu, Umbundu, or Angolan Portuguese.
+Angola Contruy is **not Angolar**. Angolar stays in `data/saotome_dataset/angolar/`.
 
 ---
 

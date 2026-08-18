@@ -29,15 +29,16 @@ Each language is an independent linguistic system. Relatedness is not a licence 
 
 | Language | Autonym | ISO 639-3 | Storage |
 |---|---|---|---|
-| Forro / Santome / Santomense | *lungwa santome* | cri | `data/saotome/forro/` |
-| Angolar / Ngola | *n'golá* | aoa | `data/saotome/angolar/` |
-| Principense / Lung’Ie | *lung’Ie* | pre | `data/saotome/lungie/` |
-| Kabuverdianu / Kriolu | island varieties | kea | `data/caboverde/<island>/` |
-| Kriol / Kiriol of Guinea-Bissau | regional varieties | pov | `data/guinebissau/<region>/` |
+| Forro / Santome / Santomense | *lungwa santome* | cri | `data/saotome_dataset/forro/` |
+| Angolar / Ngola | *n'golá* | aoa | `data/saotome_dataset/angolar/` |
+| Principense / Lung’Ie | *lung’Ie* | pre | `data/saotome_dataset/lungie/` |
+| Kabuverdianu / Kriolu | island varieties | kea | `data/caboverde_dataset/<island>/` |
+| Kriol / Kiriol of Guinea-Bissau | regional varieties | pov | `data/guinebissau_dataset/<region>/` |
+| Angola Contruy | Angola (country) | — | `data/angola_dataset/` |
 
 The São Tomé and Príncipe languages are Gulf of Guinea creoles. They are not mutually intelligible. Cabo Verdean island creoles and Guinea-Bissau regional Kriol are Upper Guinea creoles; they are not the same language.
 
-`data/angola/` is an alias of `data/saotome/angolar/`. It does not hold a second lexicon. Kimbundu, Umbundu, and Angolan Portuguese are not Angolar headwords. São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
+`data/angola_dataset/` is **Angola Contruy**, the Angola country dataset. It is not Angolar / Ngola. Kimbundu, Umbundu, and Angolan Portuguese are not Angola Contruy headwords unless a source names them that way. São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
 
 If a source says only “Cape Verdean” and does not name the island, the form stays out of island folders. If it says only “Guinea-Bissau Kriol” and does not name the region, the form stays out of region folders. Casamance Kriyol of Senegal is not stored here.
 
@@ -46,13 +47,13 @@ If a source says only “Cape Verdean” and does not name the island, the form 
 ```text
 data/
 ├── index.md
-├── saotome/
+├── saotome_dataset/
 │   ├── forro/
 │   ├── angolar/
 │   └── lungie/
-├── caboverde/        island index; one folder per inhabited island
-├── guinebissau/      region index; one folder per region
-└── angola/           alias of saotome/angolar/
+├── caboverde_dataset/        island index; one folder per inhabited island
+├── guinebissau_dataset/      region index; one folder per region
+└── angola_dataset/           Angola Contruy (country; not Angolar)
 ```
 
 Each lexicon folder holds:
@@ -62,7 +63,7 @@ Each lexicon folder holds:
 - `sources.md` — what was extracted from which work
 - `Audio/` — recordings linked from matching entries, when present
 
-Parent `dictionary.json` files under `data/saotome/`, `data/caboverde/`, and `data/guinebissau/` are **indexes**. They do not store a merged word list. `research/notes/comparative-seed.md` is a small comparative seed, not a merged lexicon.
+Parent `dictionary.json` files under `data/saotome_dataset/`, `data/caboverde_dataset/`, and `data/guinebissau_dataset/` are **indexes**. They do not store a merged word list. `research/notes/comparative-seed.md` is a small comparative seed, not a merged lexicon.
 
 The API catalog is derived from those index files. Adding a labelled island or region folder to the parent index is how the service learns a new isolated dataset. No vocabulary is copied between folders because two spellings look similar.
 
@@ -92,7 +93,7 @@ The collector is a retrieval and verification process, not a translator.
 1. Search files in this repository.
 2. Search academic and institutional sources listed for that language.
 3. Use the web only to locate a citable work.
-4. Confirm that the evidence names Forro, Angolar, Lung’Ie, a Cabo Verdean island, or a Guinea-Bissau region — not Portuguese and not another creole.
+4. Confirm that the evidence names Forro, Angolar, Lung’Ie, a Cabo Verdean island, a Guinea-Bissau region, or Angola Contruy — not Portuguese and not another creole.
 5. Reject the wrong language, island, or region.
 6. Write the attested fields into that folder’s `dictionary.json` and `dictionary.md`.
 7. Record the citation in that folder’s `sources.md`.
@@ -103,7 +104,7 @@ Never:
 - creolize Portuguese to fill a gap
 - copy Forro into Angolar or Lung’Ie
 - copy Santiago into São Vicente, or Bissau into Cacheu
-- copy Angolar JSON into `data/angola/`
+- copy Angolar into `data/angola_dataset/` (Angola Contruy is not Angolar)
 - fabricate examples, IPA, etymology, or cultural notes
 
 If the term is not attested for the queried language, the dataset returns:
@@ -152,7 +153,7 @@ Behaviour:
 | Lexicon lookup, missing headword | `TERM_NOT_FOUND` for that dataset |
 | Parent index (`/v1/caboverde/lookup`, `/v1/saotome/lookup`, …) | `TERM_NOT_FOUND` from the index (not a merged lexicon) |
 | Unknown path | `DATASET_NOT_FOUND` |
-| `/v1/angola/…` | Alias: serves `saotome/angolar` without duplicating the word list |
+| `/v1/angola/…` | Angola Contruy only. Does not serve Angolar |
 | Search `q=` | Restricted to the dataset in the path |
 
 The API is GET, HEAD, and OPTIONS only. CORS allows ForroVivo brand origins. TLS-terminating proxies are supported through forwarded headers. Audio URLs are absolute and stay inside the queried dataset’s `Audio/` folder. Path traversal outside that folder is rejected.
@@ -185,7 +186,7 @@ The public brand host is not this API. Do not serve a merged lexicon from `forro
 
 ## Quality controls
 
-Isolation is enforced in storage and in routing. A Forro headword cannot appear as an Angolar result. Tests in `api/tests/` check that property against the real JSON files (Forro `kume` is not returned for Angolar; the Angola path serves Angolar; parent Cabo Verde lookup is not a merged list).
+Isolation is enforced in storage and in routing. A Forro headword cannot appear as an Angolar result. Tests in `api/tests/` check that property against the real JSON files (Forro `kume` is not returned for Angolar; `/v1/angola` is Angola Contruy and does not serve Angolar; parent Cabo Verde lookup is not a merged list).
 
 Licenses stay on the entry. Original project materials are CC BY 4.0. *Dicionário livre santome/português* extracts remain CC BY-NC. APiCS audio remains CC BY 4.0. Other publications keep publisher or author terms. See [LICENSE](../../LICENSE) and [research/sources](../sources/README.md).
 

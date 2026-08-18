@@ -89,12 +89,6 @@ class Store:
                 _index_entries(dataset, document.get("entries") or [])
             loaded[key] = dataset
 
-        angola = loaded["angola"]
-        canonical = loaded[angola.ref.canonical_key]
-        angola.entries = canonical.entries
-        angola.by_id = canonical.by_id
-        angola.by_fold = canonical.by_fold
-        angola.by_loose = canonical.by_loose
         return cls(loaded)
 
     def get(self, key: str) -> Optional[Dataset]:

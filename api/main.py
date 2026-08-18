@@ -121,7 +121,7 @@ def root() -> Dict[str, Any]:
         "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
         "isolation": (
             "Each path serves one dataset. Parent indexes are not merged lexicons. "
-            "data/angola/ is an alias of data/saotome/angolar."
+            "data/angola_dataset/ is Angola Contruy (country). It is not Angolar / Ngola."
         ),
         "license": {
             "project_original": "CC BY 4.0",

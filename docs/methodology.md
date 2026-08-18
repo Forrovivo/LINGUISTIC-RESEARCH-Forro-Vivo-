@@ -14,13 +14,14 @@ Treat each language as an independent linguistic system. Never copy a word from 
 
 | Language | Autonym | ISO 639-3 | Canonical path | Translation pairs |
 |---|---|---|---|---|
-| Forro / Santome / Santomense | *lungwa santome* | cri | `data/saotome/forro/` | Forro ↔ Portuguese, Forro ↔ English |
-| Angolar / Ngola | *n'golá* | aoa | `data/saotome/angolar/` | Angolar ↔ Portuguese, Angolar ↔ English |
-| Principense / Lung’Ie | *lung’Ie* | pre | `data/saotome/lungie/` | Lung’Ie ↔ Portuguese, Lung’Ie ↔ English |
-| Kabuverdianu / Kriolu | island varieties | kea | `data/caboverde/<island>/` | that island ↔ Portuguese, that island ↔ English |
-| Kriol / Kiriol of Guinea-Bissau | regional varieties | pov | `data/guinebissau/<region>/` | that region ↔ Portuguese, that region ↔ English |
+| Forro / Santome / Santomense | *lungwa santome* | cri | `data/saotome_dataset/forro/` | Forro ↔ Portuguese, Forro ↔ English |
+| Angolar / Ngola | *n'golá* | aoa | `data/saotome_dataset/angolar/` | Angolar ↔ Portuguese, Angolar ↔ English |
+| Principense / Lung’Ie | *lung’Ie* | pre | `data/saotome_dataset/lungie/` | Lung’Ie ↔ Portuguese, Lung’Ie ↔ English |
+| Kabuverdianu / Kriolu | island varieties | kea | `data/caboverde_dataset/<island>/` | that island ↔ Portuguese, that island ↔ English |
+| Kriol / Kiriol of Guinea-Bissau | regional varieties | pov | `data/guinebissau_dataset/<region>/` | that region ↔ Portuguese, that region ↔ English |
+| Angola Contruy | Angola (country) | — | `data/angola_dataset/` | Angola Contruy ↔ Portuguese, Angola Contruy ↔ English |
 
-`data/angola/` is an alias of `data/saotome/angolar/`. Do not grow a second lexicon there.
+Angolar / Ngola is a São Tomé creole in `data/saotome_dataset/angolar/`. Angola Contruy is the Angola country dataset in `data/angola_dataset/`. They are not the same language. Do not copy between them.
 
 The São Tomé and Príncipe languages are related Gulf of Guinea creoles. They are not mutually intelligible. Cabo Verdean island creoles and Guinea-Bissau regional Kriol are Upper Guinea creoles; they are not the same language.
 
@@ -220,7 +221,7 @@ Forro word → assume Lung’Ie equivalent
 English meaning → generate a plausible creole translation
 Santiago form → copy into São Vicente
 Bissau form → copy into Cacheu
-Angolar JSON → copy into data/angola/
+Angolar JSON → copy into data/angola_dataset/
 ```
 
 ## Objective

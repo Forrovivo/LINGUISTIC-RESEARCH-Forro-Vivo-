@@ -15,7 +15,7 @@ Each isolated lexicon folder contains:
 | `sources.md` | Extraction record for that language or variety |
 | `Audio/` | Recordings linked from matching entries, when present |
 
-Parent folders `data/saotome/`, `data/caboverde/`, and `data/guinebissau/` are indexes. They must not store a merged word list. `data/angola/` is an alias of `data/saotome/angolar/`.
+Parent folders `data/saotome_dataset/`, `data/caboverde_dataset/`, and `data/guinebissau_dataset/` are indexes. They must not store a merged word list. `data/angola_dataset/` is Angola Contruy, not an alias of Angolar.
 
 Schemas:
 
@@ -48,12 +48,12 @@ Cross-language comparison is metadata only. It must not rewrite an isolated entr
 
 | Dataset | Path |
 |---|---|
-| Forro | `data/saotome/forro/` |
-| Angolar | `data/saotome/angolar/` |
-| Lung’Ie | `data/saotome/lungie/` |
-| Kabuverdianu (one island) | `data/caboverde/<island>/` |
-| Guinea-Bissau Kriol (one region) | `data/guinebissau/<region>/` |
-| Angola | alias of `data/saotome/angolar/` |
+| Forro | `data/saotome_dataset/forro/` |
+| Angolar | `data/saotome_dataset/angolar/` |
+| Lung’Ie | `data/saotome_dataset/lungie/` |
+| Kabuverdianu (one island) | `data/caboverde_dataset/<island>/` |
+| Guinea-Bissau Kriol (one region) | `data/guinebissau_dataset/<region>/` |
+| Angola Contruy | `data/angola_dataset/` |
 
 Never copy a form from one of these folders into another because the spelling looks similar.
 

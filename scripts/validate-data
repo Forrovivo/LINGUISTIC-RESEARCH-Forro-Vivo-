@@ -12,9 +12,10 @@ DATA = ROOT / "data"
 
 REQUIRED_ENTRY = ("id", "language", "headword", "source")
 FOLDER_LANGUAGE = {
-    "saotome/forro": "forro",
-    "saotome/angolar": "angolar",
-    "saotome/lungie": "lungie",
+    "saotome_dataset/forro": "forro",
+    "saotome_dataset/angolar": "angolar",
+    "saotome_dataset/lungie": "lungie",
+    "angola_dataset": "angola",
 }
 
 
@@ -27,9 +28,9 @@ def folder_language(path: Path):
     relative = path.parent.relative_to(DATA).as_posix()
     if relative in FOLDER_LANGUAGE:
         return FOLDER_LANGUAGE[relative]
-    if relative.startswith("caboverde/") and relative.count("/") == 1:
+    if relative.startswith("caboverde_dataset/") and relative.count("/") == 1:
         return f"caboverde-{relative.split('/', 1)[1]}"
-    if relative.startswith("guinebissau/") and relative.count("/") == 1:
+    if relative.startswith("guinebissau_dataset/") and relative.count("/") == 1:
         return f"guinebissau"  # region files use kriol of region; check isolation text instead
     return None
 

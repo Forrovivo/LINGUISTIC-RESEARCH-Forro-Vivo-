@@ -12,31 +12,31 @@ Wikipedia, social media, unsourced word lists, and generated text are not accept
 
 | Dataset | Source file |
 |---|---|
-| São Tomé and Príncipe (index) | [../../data/saotome/sources.md](../../data/saotome/sources.md) |
-| Forro / Santome | [../../data/saotome/forro/sources.md](../../data/saotome/forro/sources.md) |
-| Angolar / Ngola | [../../data/saotome/angolar/sources.md](../../data/saotome/angolar/sources.md) |
-| Lung’Ie / Principense | [../../data/saotome/lungie/sources.md](../../data/saotome/lungie/sources.md) |
-| Cabo Verde (index) | [../../data/caboverde/sources.md](../../data/caboverde/sources.md) |
-| Santiago | [../../data/caboverde/santiago/sources.md](../../data/caboverde/santiago/sources.md) |
-| Fogo | [../../data/caboverde/fogo/sources.md](../../data/caboverde/fogo/sources.md) |
-| Maio | [../../data/caboverde/maio/sources.md](../../data/caboverde/maio/sources.md) |
-| Brava | [../../data/caboverde/brava/sources.md](../../data/caboverde/brava/sources.md) |
-| São Vicente | [../../data/caboverde/saovicente/sources.md](../../data/caboverde/saovicente/sources.md) |
-| Santo Antão | [../../data/caboverde/santoantao/sources.md](../../data/caboverde/santoantao/sources.md) |
-| São Nicolau | [../../data/caboverde/saonicolau/sources.md](../../data/caboverde/saonicolau/sources.md) |
-| Sal | [../../data/caboverde/sal/sources.md](../../data/caboverde/sal/sources.md) |
-| Boa Vista | [../../data/caboverde/boavista/sources.md](../../data/caboverde/boavista/sources.md) |
-| Guinea-Bissau (index) | [../../data/guinebissau/sources.md](../../data/guinebissau/sources.md) |
-| Bissau | [../../data/guinebissau/bissau/sources.md](../../data/guinebissau/bissau/sources.md) |
-| Biombo | [../../data/guinebissau/biombo/sources.md](../../data/guinebissau/biombo/sources.md) |
-| Cacheu | [../../data/guinebissau/cacheu/sources.md](../../data/guinebissau/cacheu/sources.md) |
-| Oio | [../../data/guinebissau/oio/sources.md](../../data/guinebissau/oio/sources.md) |
-| Bafatá | [../../data/guinebissau/bafata/sources.md](../../data/guinebissau/bafata/sources.md) |
-| Gabú | [../../data/guinebissau/gabu/sources.md](../../data/guinebissau/gabu/sources.md) |
-| Quinara | [../../data/guinebissau/quinara/sources.md](../../data/guinebissau/quinara/sources.md) |
-| Tombali | [../../data/guinebissau/tombali/sources.md](../../data/guinebissau/tombali/sources.md) |
-| Bolama-Bijagós | [../../data/guinebissau/bolama/sources.md](../../data/guinebissau/bolama/sources.md) |
-| Angola (alias of Angolar) | [../../data/angola/sources.md](../../data/angola/sources.md) |
+| São Tomé and Príncipe (index) | [../../data/saotome_dataset/sources.md](../../data/saotome_dataset/sources.md) |
+| Forro / Santome | [../../data/saotome_dataset/forro/sources.md](../../data/saotome_dataset/forro/sources.md) |
+| Angolar / Ngola | [../../data/saotome_dataset/angolar/sources.md](../../data/saotome_dataset/angolar/sources.md) |
+| Lung’Ie / Principense | [../../data/saotome_dataset/lungie/sources.md](../../data/saotome_dataset/lungie/sources.md) |
+| Cabo Verde (index) | [../../data/caboverde_dataset/sources.md](../../data/caboverde_dataset/sources.md) |
+| Santiago | [../../data/caboverde_dataset/santiago/sources.md](../../data/caboverde_dataset/santiago/sources.md) |
+| Fogo | [../../data/caboverde_dataset/fogo/sources.md](../../data/caboverde_dataset/fogo/sources.md) |
+| Maio | [../../data/caboverde_dataset/maio/sources.md](../../data/caboverde_dataset/maio/sources.md) |
+| Brava | [../../data/caboverde_dataset/brava/sources.md](../../data/caboverde_dataset/brava/sources.md) |
+| São Vicente | [../../data/caboverde_dataset/saovicente/sources.md](../../data/caboverde_dataset/saovicente/sources.md) |
+| Santo Antão | [../../data/caboverde_dataset/santoantao/sources.md](../../data/caboverde_dataset/santoantao/sources.md) |
+| São Nicolau | [../../data/caboverde_dataset/saonicolau/sources.md](../../data/caboverde_dataset/saonicolau/sources.md) |
+| Sal | [../../data/caboverde_dataset/sal/sources.md](../../data/caboverde_dataset/sal/sources.md) |
+| Boa Vista | [../../data/caboverde_dataset/boavista/sources.md](../../data/caboverde_dataset/boavista/sources.md) |
+| Guinea-Bissau (index) | [../../data/guinebissau_dataset/sources.md](../../data/guinebissau_dataset/sources.md) |
+| Bissau | [../../data/guinebissau_dataset/bissau/sources.md](../../data/guinebissau_dataset/bissau/sources.md) |
+| Biombo | [../../data/guinebissau_dataset/biombo/sources.md](../../data/guinebissau_dataset/biombo/sources.md) |
+| Cacheu | [../../data/guinebissau_dataset/cacheu/sources.md](../../data/guinebissau_dataset/cacheu/sources.md) |
+| Oio | [../../data/guinebissau_dataset/oio/sources.md](../../data/guinebissau_dataset/oio/sources.md) |
+| Bafatá | [../../data/guinebissau_dataset/bafata/sources.md](../../data/guinebissau_dataset/bafata/sources.md) |
+| Gabú | [../../data/guinebissau_dataset/gabu/sources.md](../../data/guinebissau_dataset/gabu/sources.md) |
+| Quinara | [../../data/guinebissau_dataset/quinara/sources.md](../../data/guinebissau_dataset/quinara/sources.md) |
+| Tombali | [../../data/guinebissau_dataset/tombali/sources.md](../../data/guinebissau_dataset/tombali/sources.md) |
+| Bolama-Bijagós | [../../data/guinebissau_dataset/bolama/sources.md](../../data/guinebissau_dataset/bolama/sources.md) |
+| Angola Contruy | [../../data/angola_dataset/sources.md](../../data/angola_dataset/sources.md) |
 
 The file `research/notes/comparative-seed.md` is a small comparative seed. It is not a merged lexicon.
 
@@ -82,7 +82,7 @@ APiCS Casamancese Creole (Ziguinchor, Senegal) is not Guinea-Bissau evidence.
 
 - Michaelis, Susanne Maria; Maurer, Philippe; Haspelmath, Martin; Huber, Magnus (eds.). 2013. *Atlas of Pidgin and Creole Language Structures Online*. Leipzig: Max Planck Institute for Evolutionary Anthropology. <https://apics-online.info/>. **CC BY 4.0**.
 
-Copied audio stays in the matching language folder (`data/saotome/forro/Audio/`, `data/saotome/angolar/Audio/`, `data/saotome/lungie/Audio/`, and the Cabo Verde island `Audio/` folders that hold recordings). A glossed-text recording is not a citation form for every word.
+Copied audio stays in the matching language folder (`data/saotome_dataset/forro/Audio/`, `data/saotome_dataset/angolar/Audio/`, `data/saotome_dataset/lungie/Audio/`, and the Cabo Verde island `Audio/` folders that hold recordings). A glossed-text recording is not a citation form for every word.
 
 ## Local extracts
 
@@ -97,7 +97,7 @@ PDFs under `_source_pdfs/` are source documents for extraction. They are not a s
 
 - Another creole folder in this repository
 - Portuguese of São Tomé, Cabo Verde, Guinea-Bissau, or Angola
-- Kimbundu, Umbundu, or Angolan Portuguese stored as Angolar
+- Kimbundu, Umbundu, or Angolan Portuguese stored as Angolar or as Angola Contruy without a source that names that dataset
 - An unnamed “Cape Verdean” or “Guinea-Bissau Kriol” form
 - Casamance Kriyol of Senegal
 - Application code

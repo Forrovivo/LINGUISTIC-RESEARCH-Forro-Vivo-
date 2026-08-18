@@ -39,12 +39,12 @@ Each language and variety has its own folder. Parent `dictionary.md` / `dictiona
 
 | Variety | Canonical path |
 |---|---|
-| Forro / Santome | `data/saotome/forro/` |
-| Angolar / Ngola | `data/saotome/angolar/` |
-| Lung’Ie / Principense | `data/saotome/lungie/` |
-| Kabuverdianu (one inhabited island) | `data/caboverde/<island>/` |
-| Guinea-Bissau Kriol (one region) | `data/guinebissau/<region>/` |
-| Angola | Do not add entries here. Use `data/saotome/angolar/`. `data/angola/` is an alias. |
+| Forro / Santome | `data/saotome_dataset/forro/` |
+| Angolar / Ngola | `data/saotome_dataset/angolar/` |
+| Lung’Ie / Principense | `data/saotome_dataset/lungie/` |
+| Kabuverdianu (one inhabited island) | `data/caboverde_dataset/<island>/` |
+| Guinea-Bissau Kriol (one region) | `data/guinebissau_dataset/<region>/` |
+| Angola Contruy | `data/angola_dataset/` |
 
 Cabo Verde islands: `santiago`, `fogo`, `maio`, `brava`, `saovicente`, `santoantao`, `saonicolau`, `sal`, `boavista`.
 
@@ -82,8 +82,8 @@ Do not fill the gap by analogy.
 - Never mix Cabo Verdean islands with each other.
 - Never mix Guinea-Bissau regions with each other.
 - Cabo Verdean Kabuverdianu is not Guinea-Bissau Kriol.
-- Do not duplicate Angolar into `data/angola/`.
-- Do not insert Kimbundu, Umbundu, or Angolan Portuguese as Angolar headwords.
+- Do not copy Angolar into `data/angola_dataset/`. Angola Contruy is not Angolar.
+- Do not insert Kimbundu, Umbundu, or Angolan Portuguese as Angolar headwords, and do not insert them as Angola Contruy unless a source labels them that way.
 - São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
 - Keep the spelling used in the source. Do not normalize one language into another.
 
