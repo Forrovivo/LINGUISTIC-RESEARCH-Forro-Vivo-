@@ -112,8 +112,10 @@ The file `research/notes/comparative-seed.md` is a small comparative seed. It is
 Named dates only. The intervals below are calendar differences between those dates.
 
 - **23 March 2023** — Project starts. São Tomé and Príncipe: Forro, Angolar, Lung’Ie.
+- **22 March 2025** — First version of the ForroVivo app launched. **2 years** after the project start (one day before 23 March 2025).
 - **23 April 2025** — Cabo Verde, Angola, and Guinea-Bissau collection starts. **2 years 1 month** after the project start.
   - Cabo Verde: one folder per inhabited island; lexicons empty until a source names the island
   - Angola Contruy: Angola country dataset; not Angolar; empty until a source names it
   - Guinea-Bissau: one folder per region; lexicons empty until a source names the region
 - **2026** — Continue Cabo Verde, Angola, and Guinea-Bissau from labelled sources. APiCS 30–32 are in the matching Cabo Verde island folders. APiCS 33 (Guinea-Bissau Kriyol) is country-level and is not in a region folder. APiCS 36 (Angolar) stays in `data/saotome_dataset/angolar/`. On **23 April 2026** that collection is **1 year** old, and the project is **3 years 1 month** old.
+- **18 August 2026** — ForroVivo app version 5 released to beta, with new countries. **3 years 4 months 26 days** after the project start.

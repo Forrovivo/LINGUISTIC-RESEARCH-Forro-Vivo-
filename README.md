@@ -247,40 +247,52 @@ kume
 
 Named dates only. These gaps are calendar math between those dates. Not a live clock.
 
-| Project started | Cabo Verde, Angola, Guinea-Bissau started | Gap after project start | 23 April 2025 → 23 April 2026 |
+| Project started | First ForroVivo app version | Cabo Verde, Angola, Guinea-Bissau started | Continue those three |
 |---|---|---|---|
-| 23 March 2023 | 23 April 2025 | **2 years 1 month** | **1 year** |
+| 23 March 2023 | 22 March 2025 | 23 April 2025 | 23 April 2026 |
+| Start | **2 years** later | **2 years 1 month** later | **3 years 1 month** later |
 
+From 23 March 2023 to 22 March 2025 is **2 years** (one day before 23 March 2025).  
+From 22 March 2025 to 23 April 2025 is **1 month 1 day**.  
 From 23 March 2023 to 23 April 2025 is **2 years 1 month**.  
 From 23 April 2025 to 23 April 2026 is **1 year**.  
-From 23 March 2023 to 23 April 2026 is **3 years 1 month**.
+From 23 March 2023 to 23 April 2026 is **3 years 1 month**.  
+From 23 March 2023 to 18 August 2026 is **3 years 4 months 26 days**.  
+From 23 April 2026 to 18 August 2026 is **3 months 26 days**.
 
 ```mermaid
 gantt
-    title Time span to 23 April 2026
+    title Time span to 18 August 2026
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
     section Sao Tome first
     Forro, Angolar, Lung Ie           :done, stp, 2023-03-23, 2025-04-23
+    section App
+    First ForroVivo app version       :milestone, app1, 2025-03-22, 0d
+    Version 5 beta, new countries     :milestone, app5, 2026-08-18, 0d
     section Cabo Verde, Angola, Guinea-Bissau
     Island, alias, and region folders :active, cvg, 2025-04-23, 2026-04-23
 ```
 
-São Tomé collection for Forro, Angolar, and Lung’Ie began with the project on **23 March 2023**. That work is not delayed to 2025. Twenty-five months of São Tomé work first, then twelve months of Cabo Verde, Angola, and Guinea-Bissau collection, through **23 April 2026**.
+São Tomé collection for Forro, Angolar, and Lung’Ie began with the project on **23 March 2023**. That work is not delayed to 2025. The first version of the ForroVivo app launched on **22 March 2025**. Twenty-five months of São Tomé work first, then twelve months of Cabo Verde, Angola, and Guinea-Bissau collection, through **23 April 2026**. Version 5 of the ForroVivo app was released to beta on **18 August 2026**, with new countries.
 
 ```mermaid
 timeline
     title Roadmap log
     23 March 2023 : Project starts : Sao Tome and Principe (Forro, Angolar, Lung Ie)
+    22 March 2025 : First ForroVivo app version launched : 2 years later
     23 April 2025 : Cabo Verde, Angola, Guinea-Bissau start : 2 years 1 month later
     23 April 2026 : Continue those three : 1 year into that collection : 3 years 1 month since project start
+    18 August 2026 : ForroVivo app version 5 released to beta : new countries : 3 years 4 months 26 days later
 ```
 
 | Date | What started | Time since 23 March 2023 | Status |
 |---|---|---|---|
 | 23 March 2023 | Project. São Tomé and Príncipe (Forro, Angolar, Lung’Ie). | Start | Under way |
+| 22 March 2025 | First version of the ForroVivo app launched. | 2 years later | Shipped |
 | 23 April 2025 | Cabo Verde (by island), Angola Contruy (country), Guinea-Bissau (by region). | 2 years 1 month later | Folders ready; lexicons grow from labelled sources |
 | 2026 / 23 April 2026 | Continue Cabo Verde, Angola, and Guinea-Bissau from labelled sources only. | 3 years 1 month later (on 23 April 2026) | Collection year |
+| 18 August 2026 | ForroVivo app version 5 released to beta, with new countries. | 3 years 4 months 26 days later | Beta |
 
 Cabo Verdean Kabuverdianu is **not** Guinea-Bissau Kriol.  
 Angola Contruy is **not Angolar**. Angolar stays in `data/saotome_dataset/angolar/`.
