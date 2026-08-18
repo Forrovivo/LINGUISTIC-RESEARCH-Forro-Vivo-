@@ -1,0 +1,31 @@
+{
+  "language": "caboverde-sal",
+  "language_name": "Kabuverdianu of Sal",
+  "language_aliases": [
+    "Sal Creole"
+  ],
+  "island": "Sal",
+  "variety_group": "Barlavento",
+  "iso_639_3": "kea",
+  "parent": "caboverde",
+  "translation_pairs": [
+    "Kabuverdianu of Sal → Portuguese",
+    "Kabuverdianu of Sal → English"
+  ],
+  "isolation": "Kabuverdianu of Sal only (Barlavento, island of Sal). Do not insert other Cabo Verdean island varieties, Guinea-Bissau Kriol, Forro, Angolar, or Lung’Ie. Do not insert Portuguese of Cabo Verde.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Kabuverdianu of Sal database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "sources": [],
+  "extraction_notes": "Folder created for Kabuverdianu of Sal isolation. No lexicon has been copied from other Cabo Verdean islands or from other creoles. Add a headword only when a cited source labels it as this island variety.",
+  "entry_count": 0,
+  "entries": []
+}

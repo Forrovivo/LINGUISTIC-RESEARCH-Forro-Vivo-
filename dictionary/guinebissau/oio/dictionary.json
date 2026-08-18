@@ -1,0 +1,31 @@
+{
+  "language": "guinebissau-oio",
+  "language_name": "Kriol of Oio",
+  "language_aliases": [
+    "Oio Kriol"
+  ],
+  "region": "Oio",
+  "administrative_unit": "Região de Oio",
+  "iso_639_3": "pov",
+  "parent": "guinebissau",
+  "translation_pairs": [
+    "Kriol of Oio → Portuguese",
+    "Kriol of Oio → English"
+  ],
+  "isolation": "Kriol of Oio only (Região de Oio). Do not insert other Guinea-Bissau regional varieties, Cabo Verdean island creoles, Casamance Kriyol, Forro, Angolar, or Lung’Ie. Do not insert Portuguese of Guinea-Bissau.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Kriol of Oio database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "sources": [],
+  "extraction_notes": "Folder created for Kriol of Oio isolation. No lexicon has been copied from other Guinea-Bissau regions or from other creoles. Add a headword only when a cited source labels it as Kriol of this region.",
+  "entry_count": 0,
+  "entries": []
+}

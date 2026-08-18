@@ -1,0 +1,84 @@
+{
+  "language": "guinebissau",
+  "kind": "variety_index",
+  "language_name": "Kriol",
+  "language_aliases": [
+    "Kiriol",
+    "Guineense",
+    "Guinea-Bissau Creole"
+  ],
+  "iso_639_3": "pov",
+  "isolation": "Index only. Do not store a merged Guinea-Bissau Kriol lexicon here. Each region is a separate dataset under this folder. Do not copy between regions. Do not insert Cabo Verdean island creoles, Casamance Kriyol, Forro, Angolar, or Lung’Ie.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Query a named region folder under dictionary/guinebissau/. A merged Kriol lexicon is not stored at this path."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See each region sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2025-04-23",
+  "time_since_project_start": "2 years 1 month",
+  "varieties": [
+    {
+      "id": "bissau",
+      "region": "Bissau",
+      "administrative_unit": "Setor Autónomo de Bissau",
+      "path": "dictionary/guinebissau/bissau/"
+    },
+    {
+      "id": "biombo",
+      "region": "Biombo",
+      "administrative_unit": "Região de Biombo",
+      "path": "dictionary/guinebissau/biombo/"
+    },
+    {
+      "id": "cacheu",
+      "region": "Cacheu",
+      "administrative_unit": "Região de Cacheu",
+      "path": "dictionary/guinebissau/cacheu/"
+    },
+    {
+      "id": "oio",
+      "region": "Oio",
+      "administrative_unit": "Região de Oio",
+      "path": "dictionary/guinebissau/oio/"
+    },
+    {
+      "id": "bafata",
+      "region": "Bafatá",
+      "administrative_unit": "Região de Bafatá",
+      "path": "dictionary/guinebissau/bafata/"
+    },
+    {
+      "id": "gabu",
+      "region": "Gabú",
+      "administrative_unit": "Região de Gabú",
+      "path": "dictionary/guinebissau/gabu/"
+    },
+    {
+      "id": "quinara",
+      "region": "Quinara",
+      "administrative_unit": "Região de Quinara",
+      "path": "dictionary/guinebissau/quinara/"
+    },
+    {
+      "id": "tombali",
+      "region": "Tombali",
+      "administrative_unit": "Região de Tombali",
+      "path": "dictionary/guinebissau/tombali/"
+    },
+    {
+      "id": "bolama",
+      "region": "Bolama",
+      "administrative_unit": "Região de Bolama-Bijagós",
+      "path": "dictionary/guinebissau/bolama/"
+    }
+  ],
+  "extraction_notes": "Parent index of Guinea-Bissau Kriol by region. Lexicon is stored only in the region folders, and only from sources that name that region. APiCS 33 is country-level Guinea-Bissau Kriyol and was not copied into a region folder or into this index as a merged word list.",
+  "entry_count": 0,
+  "entries": []
+}
