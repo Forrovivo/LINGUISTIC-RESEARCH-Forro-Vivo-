@@ -20,7 +20,7 @@ npm run dev
 npx wrangler deploy
 ```
 
-Workers Builds deploys from the repository root. Keep the root `wrangler.jsonc` `name` as `forrovivo-api`.
+Workers Builds deploys from the repository root. Keep the root `wrangler.jsonc` `name` as `linguistic-research-forro-vivo`.
 
 Python remains for pytest against local `data/` files:
 

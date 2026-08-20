@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "forrovivo-api",
+  "name": "linguistic-research-forro-vivo",
   "main": "src/index.ts",
   "compatibility_date": "2026-08-20",
   "account_id": "b60a676c850b0df5874e4121d911a3c1",
