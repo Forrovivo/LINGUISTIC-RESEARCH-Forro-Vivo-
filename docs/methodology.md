@@ -4,7 +4,7 @@
 **Founder and idealist:** Henriques Pontes  
 **Linguistic Research co-founder:** Luis Lima
 
-This repository is the **Linguistic Research** initiative inside the ForroVivo platform. It collects verified dictionary data for Portuguese-lexifier creoles. Accuracy comes before coverage. A missing translation is better than a guessed one.
+This repository is the **Linguistic Research** initiative inside the ForroVivo platform. It collects verified dictionary data for Portuguese-lexifier creoles and, under `data/angola_dataset/`, local Bantu languages of Angola. Accuracy comes before coverage. A missing translation is better than a guessed one.
 
 The operational specification is [collection-prompt.md](../research/notes/collection-prompt.md). How to contribute: [CONTRIBUTING.md](../CONTRIBUTING.md). Bibliography: [research/sources](../research/sources/README.md).
 
@@ -21,9 +21,14 @@ Treat each language as an independent linguistic system. Never copy a word from 
 | Principense / Lung’Ie | *lung’Ie* | pre | `data/saotome_dataset/lungie/` | Lung’Ie ↔ Portuguese, Lung’Ie ↔ English |
 | Kabuverdianu / Kriolu | island varieties | kea | `data/caboverde_dataset/<island>/` | that island ↔ Portuguese, that island ↔ English |
 | Kriol / Kiriol of Guinea-Bissau | regional varieties | pov | `data/guinebissau_dataset/<region>/` | that region ↔ Portuguese, that region ↔ English |
-| Angola Contruy | Angola (country) | — | `data/angola_dataset/` | Angola Contruy ↔ Portuguese, Angola Contruy ↔ English |
+| Angola Contruy | Angola (country) | — | `data/angola_dataset/contruy/` | Angola Contruy ↔ Portuguese, Angola Contruy ↔ English |
+| Umbundu | *umbundu* | umb | `data/angola_dataset/umbundu/` | Umbundu ↔ Portuguese, Umbundu ↔ English |
+| Kimbundu | *kimbundu* | kmb | `data/angola_dataset/kimbundu/` | Kimbundu ↔ Portuguese, Kimbundu ↔ English |
+| Kikongo | *kikongo* | kng | `data/angola_dataset/kikongo/` | Kikongo ↔ Portuguese, Kikongo ↔ English |
 
-Angolar / Ngola is a São Tomé creole in `data/saotome_dataset/angolar/`. Angola Contruy is the Angola country dataset in `data/angola_dataset/`. They are not the same language. Do not copy between them.
+Angolar / Ngola is a São Tomé creole in `data/saotome_dataset/angolar/`. Angola Contruy is in `data/angola_dataset/contruy/`. They are not the same language. Do not copy between them.
+
+Umbundu, Kimbundu, and Kikongo are local Bantu languages of Angola. They are not Angola Contruy and they are not each other. Kikongo of Angola is not Kituba.
 
 The São Tomé and Príncipe languages are related Gulf of Guinea creoles. They are not mutually intelligible. Cabo Verdean island creoles and Guinea-Bissau regional Kriol are Upper Guinea creoles; they are not the same language.
 
@@ -31,7 +36,7 @@ Portuguese is the official language of these countries. São Toméan Portuguese 
 
 If a source says only “Cape Verdean” and does not name the island, do not place the form in an island folder. If it says only “Guinea-Bissau Kriol” and does not name the region, do not place the form in a region folder. Do not insert Casamance Kriyol of Senegal.
 
-Parent `dictionary.md` and `dictionary.json` files under `saotome/`, `caboverde/`, and `guinebissau/` are indexes, not merged lexicons.
+Parent `dictionary.md` and `dictionary.json` files under `saotome/`, `caboverde/`, `guinebissau/`, and `angola/` are indexes, not merged lexicons.
 
 ## Zero hallucination
 
@@ -225,7 +230,9 @@ Forro word → assume Lung’Ie equivalent
 English meaning → generate a plausible creole translation
 Santiago form → copy into São Vicente
 Bissau form → copy into Cacheu
-Angolar JSON → copy into data/angola_dataset/
+Angolar JSON → copy into data/angola_dataset/contruy/
+Umbundu word → copy into Kimbundu
+Kikongo of Angola → copy into Kituba
 ```
 
 ## Objective

@@ -12,7 +12,7 @@ This file is a **Boa Vista-only** Cabo Verdean Creole dataset. It is not a websi
 Do not copy headwords from other Cabo Verdean island folders (santiago, fogo, maio, brava, saovicente, santoantao, saonicolau, sal).
 Do not copy Guinea-Bissau Kriol, Forro, Angolar, or Lung’Ie.
 
-Entries were isolated from Boa Vista-labelled forms in Lang (ed.) 2014, quoting Costa & Duarte 1886. Other island folders were not used as evidence. Portuguese follows the etymon or gloss Lang prints. English is null when the source does not print it.
+Entries were isolated from Boa Vista-labelled forms in Lang (ed.) 2014, quoting Costa & Duarte 1886. Other island folders were not used as evidence. Portuguese follows the etymon or gloss Lang prints when available; otherwise it is null. English is null when the source does not print it.
 
 No lexicon has been copied from other folders. Add a headword only when a cited source labels it as the creole of Boa Vista.
 
@@ -229,6 +229,150 @@ Quando.
 
 ### Sources
 - Lang, Jürgen (ed.). 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Boa Vista forms quoted from Costa & Duarte 1886, labelled as the crioulo de Boavista.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+---
+
+## nôbo
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** adjective
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## rico
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** adjective
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## criado
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## farto
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** adjective
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tudo
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** pronoun
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tanto
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** pronoun
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## logo que
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** locution
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## largado
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** noun
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## perdido
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** adjective
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## tude
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** pronoun
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## qante
+
+**Language:** Kabuverdianu of Boa Vista  
+**Part of speech:** pronoun
+
+### Sources
+- Lang, Jürgen (ed.). 2014, quoting Costa & Duarte 1886 Boavista prodigal-son text.
 
 **Verification:** VERIFIED
 

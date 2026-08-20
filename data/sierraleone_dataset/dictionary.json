@@ -1,0 +1,35 @@
+{
+  "language": "sierraleone",
+  "kind": "country_index",
+  "language_name": "Sierra Leone",
+  "language_aliases": [
+    "Sierra Leone"
+  ],
+  "iso_639_3": null,
+  "country": "Sierra Leone",
+  "isolation": "Index only. Do not store a merged Sierra Leone lexicon here. Krio is a separate dataset under this folder. Do not copy Pichi or Naija.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Query a named language folder under data/sierraleone_dataset/. A merged Sierra Leone lexicon is not stored at this path."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See each language sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "languages": [
+    {
+      "id": "krio",
+      "name": "Krio",
+      "iso_639_3": "kri",
+      "path": "data/sierraleone_dataset/krio/"
+    }
+  ],
+  "extraction_notes": "Parent index of Sierra Leone languages. Lexicon is stored only in the language folders, and only from sources that name that language.",
+  "entry_count": 0,
+  "entries": []
+}

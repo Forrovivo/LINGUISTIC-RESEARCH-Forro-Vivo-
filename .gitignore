@@ -1,5 +1,7 @@
 .venv/
 api/.venv/
+api/node_modules/
+node_modules/
 __pycache__/
 .pytest_cache/
 *.pyc
@@ -21,3 +23,17 @@ secrets.json
 .vercel
 .fly/
 *.token
+
+# Cloudflare (credentials and local state — never commit tokens or keys)
+.wrangler/
+api/.wrangler/
+api/worker-configuration.d.ts
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+api/.dev.vars
+api/.dev.vars.*
+!api/.dev.vars.example
+.cloudflare/
+.r2/
+*.toml.local

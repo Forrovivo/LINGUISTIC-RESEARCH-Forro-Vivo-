@@ -19,7 +19,7 @@ Do not treat Guinea-Bissau Kriol as this variety.
 - **License:** CC BY-NC-ND (authors retain rights; do not relicense the extract)
 - **Source type:** peer-reviewed chapter (Uni-CV master’s description)
 - **Language documented:** Maio
-- **What was extracted:** Maio-labelled exclusive vocabulary, homophones, African-origin lemmas printed for Maio, and Maio pronoun and compound forms
+- **What was extracted:** Maio-labelled exclusive vocabulary, homophones, African-origin lemmas printed for Maio, Maio pronoun and compound forms, and later Maio-labelled derivation and morphology lemmas with a printed Portuguese gloss
 - **Portuguese:** from the gloss printed for the Maio lemma
 - **English:** null in this pass (the chapter glosses in Portuguese)
 - **Not used:** Santiago comparison forms marked S, IPA-only items without a printed Maio lemma, other island folders

@@ -1,0 +1,35 @@
+{
+  "language": "southafrica",
+  "kind": "country_index",
+  "language_name": "South Africa",
+  "language_aliases": [
+    "South Africa"
+  ],
+  "iso_639_3": null,
+  "country": "South Africa",
+  "isolation": "Index only. Do not store a merged South Africa lexicon here. Fanakalo is a separate dataset under this folder. Do not copy Kituba, Naija, or Krio.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Query a named language folder under data/southafrica_dataset/. A merged South Africa lexicon is not stored at this path."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See each language sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "languages": [
+    {
+      "id": "fanakalo",
+      "name": "Fanakalo",
+      "iso_639_3": "fng",
+      "path": "data/southafrica_dataset/fanakalo/"
+    }
+  ],
+  "extraction_notes": "Parent index of South Africa languages. Lexicon is stored only in the language folders, and only from sources that name that language.",
+  "entry_count": 0,
+  "entries": []
+}

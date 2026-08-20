@@ -1,0 +1,35 @@
+{
+  "language": "nigeria",
+  "kind": "country_index",
+  "language_name": "Nigeria",
+  "language_aliases": [
+    "Nigeria"
+  ],
+  "iso_639_3": null,
+  "country": "Nigeria",
+  "isolation": "Index only. Do not store a merged Nigeria lexicon here. Naija is a separate dataset under this folder. Do not copy Ghanaian Pidgin or Krio.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Query a named language folder under data/nigeria_dataset/. A merged Nigeria lexicon is not stored at this path."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See each language sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "languages": [
+    {
+      "id": "naija",
+      "name": "Naija",
+      "iso_639_3": "pcm",
+      "path": "data/nigeria_dataset/naija/"
+    }
+  ],
+  "extraction_notes": "Parent index of Nigeria languages. Lexicon is stored only in the language folders, and only from sources that name that language.",
+  "entry_count": 0,
+  "entries": []
+}

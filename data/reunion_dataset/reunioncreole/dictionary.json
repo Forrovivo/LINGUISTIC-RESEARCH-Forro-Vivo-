@@ -1,0 +1,33 @@
+{
+  "language": "reunioncreole",
+  "language_name": "Réunion Creole",
+  "language_aliases": [
+    "Réunionnais",
+    "Kréol rénioné"
+  ],
+  "iso_639_3": "rcf",
+  "country": "Réunion",
+  "parent": "reunion",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Réunion Creole → Portuguese",
+    "Réunion Creole → English"
+  ],
+  "isolation": "Réunion Creole only. Do not copy Mauritian, Seychellois, or French of Réunion. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Réunion Creole database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/reunion_dataset/reunioncreole/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Réunion Creole lexicon. Empty until a source names Réunion Creole.",
+  "entry_count": 0,
+  "entries": []
+}

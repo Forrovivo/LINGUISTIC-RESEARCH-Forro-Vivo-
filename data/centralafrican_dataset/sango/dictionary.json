@@ -1,0 +1,32 @@
+{
+  "language": "sango",
+  "language_name": "Sango",
+  "language_aliases": [
+    "Sangho"
+  ],
+  "iso_639_3": "sag",
+  "country": "Central African Republic",
+  "parent": "centralafrican",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Sango → Portuguese",
+    "Sango → English"
+  ],
+  "isolation": "Sango only. Do not copy Kituba, Fanakalo, or French of the Central African Republic. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Sango database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/centralafrican_dataset/sango/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Sango lexicon. Empty until a source names Sango.",
+  "entry_count": 0,
+  "entries": []
+}

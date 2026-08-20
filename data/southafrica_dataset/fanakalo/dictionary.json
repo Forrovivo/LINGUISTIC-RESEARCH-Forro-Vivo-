@@ -1,0 +1,33 @@
+{
+  "language": "fanakalo",
+  "language_name": "Fanakalo",
+  "language_aliases": [
+    "Fanagalo",
+    "Fanakalo Pidgin"
+  ],
+  "iso_639_3": "fng",
+  "country": "South Africa",
+  "parent": "southafrica",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Fanakalo → Portuguese",
+    "Fanakalo → English"
+  ],
+  "isolation": "Fanakalo only. Do not copy Kituba, Kikongo of Angola, Naija, Krio, or South African English. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Fanakalo database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/southafrica_dataset/fanakalo/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Fanakalo lexicon. Empty until a source names Fanakalo.",
+  "entry_count": 0,
+  "entries": []
+}

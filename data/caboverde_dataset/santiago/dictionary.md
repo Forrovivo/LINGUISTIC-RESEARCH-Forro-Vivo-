@@ -18,6 +18,8 @@ Portuguese word glosses are null in this pass. Portuguese free translations of e
 
 Further Santiago-labelled lemmas were isolated from Jürgen Lang 2018 (Gramática do Crioulo da ilha de Santiago). Portuguese follows the printed gloss. English is null when that grammar does not print it. Other island folders were not used as evidence.
 
+A small set of Santiago-labelled comparative lemmas was isolated from Lang (ed.) 2014. Other island columns were not copied.
+
 If a requested Santiago term is not in this dataset:
 
 ```json
@@ -16554,6 +16556,39 @@ Cabo Verde.
 
 ### Sources
 - Lang, Jürgen. 2018. Gramática do Crioulo da ilha de Santiago (Cabo Verde) (obra em curso). Erlangen: FAU. © Jürgen Lang. https://open.fau.de/server/api/core/bitstreams/5127b811-6c7e-42f3-91a3-634cf638bc5c/content
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+---
+
+## gátu
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Gato.
+
+### Sources
+- Lang, Jürgen. 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Santiago-labelled comparative forms.
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## trabádju
+
+**Language:** Kabuverdianu of Santiago  
+**Part of speech:** noun
+
+### Portuguese
+Trabalho.
+
+### Sources
+- Lang, Jürgen. 2014. A variação geográfica do crioulo caboverdiano. Erlangen: FAU University Press. CC BY-NC-ND. Santiago-labelled comparative forms.
 
 **Verification:** VERIFIED
 

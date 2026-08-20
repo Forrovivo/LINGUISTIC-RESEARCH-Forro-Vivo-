@@ -20,7 +20,7 @@ Do not treat Guinea-Bissau Kriol as this variety.
 - **License:** CC BY 4.0 (APiCS / Max Planck Institute for Evolutionary Anthropology)
 - **Source type:** academic language survey
 - **Language documented:** Cape Verdean Creole of Brava
-- **What was extracted:** survey italic+quoted gloss pairs, and content-word leftovers from example interlinear glosses
+- **What was extracted:** survey italic+quoted gloss pairs, content-word leftovers from example interlinear glosses, and later leftover survey lemmas with a printed English gloss (including reduplicated *bóka-bóka*)
 - **Portuguese:** word-level Portuguese is null in this pass. Portuguese free translations of examples are stored as example translations when APiCS gives them
 - **English:** from the APiCS gloss
 - **Not used:** grammatical labels, personal names, Portuguese etymons in the survey, other Cabo Verdean island datasets, Guinea-Bissau Kriyol (APiCS 33), Casamance (APiCS 34), Santome (35), Angolar (36), Principense (37)

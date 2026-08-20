@@ -16,7 +16,7 @@ Each isolated lexicon folder contains:
 | `knowledge.json` | Optional Knowledge Base records (grammar, proverbs, culture, …) |
 | `Audio/` | Recordings linked from matching entries, when present |
 
-Parent folders `data/saotome_dataset/`, `data/caboverde_dataset/`, and `data/guinebissau_dataset/` are indexes. They must not store a merged word list. `data/angola_dataset/` is Angola Contruy, not an alias of Angolar.
+Parent folders `data/saotome_dataset/`, `data/caboverde_dataset/`, `data/guinebissau_dataset/`, and `data/angola_dataset/` are indexes. They must not store a merged word list. Angola Contruy is `data/angola_dataset/contruy/`, not an alias of Angolar.
 
 Schemas:
 
@@ -102,7 +102,10 @@ If `knowledge.json` is absent, the API still serves the collections as empty lis
 | Lung’Ie | `data/saotome_dataset/lungie/` |
 | Kabuverdianu (one island) | `data/caboverde_dataset/<island>/` |
 | Guinea-Bissau Kriol (one region) | `data/guinebissau_dataset/<region>/` |
-| Angola Contruy | `data/angola_dataset/` |
+| Angola Contruy | `data/angola_dataset/contruy/` |
+| Umbundu | `data/angola_dataset/umbundu/` |
+| Kimbundu | `data/angola_dataset/kimbundu/` |
+| Kikongo | `data/angola_dataset/kikongo/` |
 
 Never copy a form from one of these folders into another because the spelling looks similar.
 

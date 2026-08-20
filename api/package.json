@@ -1,0 +1,17 @@
+{
+  "name": "forrovivo-linguistic-research-api",
+  "version": "2.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "types": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.9.8"
+  },
+  "devDependencies": {
+    "wrangler": "^4.28.0"
+  }
+}

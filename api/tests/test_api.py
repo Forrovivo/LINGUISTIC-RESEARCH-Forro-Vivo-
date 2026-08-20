@@ -43,11 +43,28 @@ def test_catalog_lists_isolated_datasets():
     assert "saotome/lungie" in keys
     assert "caboverde/santiago" in keys
     assert "guinebissau/bissau" in keys
-    assert "angola" in keys
+    assert "angola/contruy" in keys
+    assert "angola/umbundu" in keys
+    assert "angola/kimbundu" in keys
+    assert "angola/kikongo" in keys
+    assert "seychelles/seychellois" in keys
+    assert "equatorialguinea/annobonese" in keys
+    assert "equatorialguinea/pichi" in keys
+    assert "southafrica/fanakalo" in keys
+    assert "ghana/ghanaianpidgin" in keys
+    assert "sierraleone/krio" in keys
+    assert "rdcongo/kituba" in keys
+    assert "mauritius/mauritian" in keys
+    assert "nigeria/naija" in keys
+    assert "reunion/reunioncreole" in keys
+    assert "centralafrican/sango" in keys
+    assert "cameroon/cameroonianpidgin" in keys
     angola = next(item for item in payload["datasets"] if item["dataset"] == "angola")
-    assert angola["kind"] == "lexicon"
-    assert angola["language"] == "angola"
-    assert angola.get("canonical_dataset") in (None, "")
+    assert angola["kind"] == "index"
+    contruy = next(item for item in payload["datasets"] if item["dataset"] == "angola/contruy")
+    assert contruy["kind"] == "lexicon"
+    assert contruy["language"] == "angola-contruy"
+    assert contruy.get("canonical_dataset") in (None, "")
 
 
 def test_forro_lookup_kume_from_real_data():
@@ -99,18 +116,46 @@ def test_angolar_eat_is_mme():
 
 
 def test_angola_contruy_is_not_angolar():
-    meta = client.get("/v1/angola").json()
+    meta = client.get("/v1/angola/contruy").json()
     assert meta["kind"] == "lexicon"
-    assert meta["language"] == "angola"
+    assert meta["language"] == "angola-contruy"
     assert meta["language_name"] == "Angola Contruy"
     assert "canonical_dataset" not in meta
-    response = client.get("/v1/angola/lookup", params={"headword": "n'golá"})
+    response = client.get("/v1/angola/contruy/lookup", params={"headword": "n'golá"})
     assert response.status_code == 404
     assert response.json()["code"] == "TERM_NOT_FOUND"
     assert "Angola Contruy" in response.json()["message"]
     angolar = client.get("/v1/saotome/angolar/lookup", params={"headword": "n'golá"})
     assert angolar.status_code == 200
     assert angolar.json()["entries"][0]["language"] == "angolar"
+
+
+def test_angola_index_is_not_a_merged_lexicon():
+    response = client.get("/v1/angola/lookup", params={"headword": "n'golá"})
+    assert response.status_code == 404
+    assert response.json()["code"] == "TERM_NOT_FOUND"
+    assert "language folder" in response.json()["message"]
+
+
+def test_angola_bantu_languages_stay_isolated():
+    umbundu = client.get("/v1/angola/umbundu").json()
+    kimbundu = client.get("/v1/angola/kimbundu").json()
+    kikongo = client.get("/v1/angola/kikongo").json()
+    assert umbundu["language"] == "umbundu"
+    assert umbundu["iso_639_3"] == "umb"
+    assert kimbundu["language"] == "kimbundu"
+    assert kimbundu["iso_639_3"] == "kmb"
+    assert kikongo["language"] == "kikongo"
+    assert kikongo["iso_639_3"] == "kng"
+    missing = client.get("/v1/angola/umbundu/lookup", params={"headword": "n'golá"})
+    assert missing.status_code == 404
+    assert "Umbundu" in missing.json()["message"]
+    kimbundu_miss = client.get("/v1/angola/kimbundu/lookup", params={"headword": "n'golá"})
+    assert kimbundu_miss.status_code == 404
+    assert "Kimbundu" in kimbundu_miss.json()["message"]
+    kikongo_miss = client.get("/v1/angola/kikongo/lookup", params={"headword": "n'golá"})
+    assert kikongo_miss.status_code == 404
+    assert "Kikongo" in kikongo_miss.json()["message"]
 
 
 def test_parent_index_is_not_a_merged_lexicon():
@@ -164,7 +209,7 @@ def test_entry_id_lookup():
 
 def test_knowledge_base_map():
     payload = client.get("/v1").json()
-    assert payload["version"] == "2.2.0"
+    assert payload["version"] == "2.3.0"
     assert payload["knowledge_base"].endswith("/v1/kb")
     mapped = client.get("/v1/kb").json()
     ids = [item["id"] for item in mapped["collections"]]
@@ -176,9 +221,20 @@ def test_languages_catalog_is_not_a_merged_lexicon():
     keys = {item["dataset"] for item in payload["languages"]}
     assert "saotome/forro" in keys
     assert "saotome/angolar" in keys
-    assert "angola" in keys
+    assert "angola/contruy" in keys
+    assert "angola/umbundu" in keys
+    assert "angola/kimbundu" in keys
+    assert "angola/kikongo" in keys
+    assert "seychelles/seychellois" in keys
+    assert "equatorialguinea/annobonese" in keys
+    assert "equatorialguinea/pichi" in keys
+    assert "nigeria/naija" in keys
+    assert "rdcongo/kituba" in keys
+    assert "angola" not in keys
     assert "saotome" not in keys
     assert "caboverde" not in keys
+    assert "nigeria" not in keys
+    assert "rdcongo" not in keys
     forro = next(item for item in payload["languages"] if item["dataset"] == "saotome/forro")
     assert forro["collections"]["proverbs"].endswith("/v1/saotome/forro/proverbs")
     assert set(forro["knowledge"]) == set(DOCUMENT_COLLECTIONS)
@@ -202,13 +258,44 @@ def test_parent_index_has_no_merged_knowledge():
 
 
 def test_angola_knowledge_is_not_angolar():
-    payload = client.get("/v1/angola/proverbs").json()
-    assert payload["dataset"] == "angola"
-    assert payload["language"] == "angola"
+    payload = client.get("/v1/angola/contruy/proverbs").json()
+    assert payload["dataset"] == "angola/contruy"
+    assert payload["language"] == "angola-contruy"
     assert payload["total"] == 0
-    missing = client.get("/v1/angola/proverbs/n-gola")
+    missing = client.get("/v1/angola/contruy/proverbs/n-gola")
     assert missing.status_code == 404
     assert "Angola Contruy" in missing.json()["message"]
+    parent = client.get("/v1/angola/proverbs")
+    assert parent.status_code == 404
+    assert parent.json()["code"] == "TERM_NOT_FOUND"
+
+
+def test_new_country_folders_stay_empty_and_isolated():
+    seychelles = client.get("/v1/seychelles").json()
+    assert seychelles["kind"] == "index"
+    assert seychelles["language"] == "seychelles"
+    missing = client.get("/v1/seychelles/seychellois/lookup", params={"headword": "kume"})
+    assert missing.status_code == 404
+    assert missing.json()["code"] == "TERM_NOT_FOUND"
+    assert "Seychellois" in missing.json()["message"]
+    parent = client.get("/v1/seychelles/lookup", params={"headword": "kume"})
+    assert parent.status_code == 404
+    assert parent.json()["code"] == "TERM_NOT_FOUND"
+    kituba = client.get("/v1/rdcongo/kituba").json()
+    assert kituba["language"] == "kituba"
+    assert kituba["kind"] == "lexicon"
+    kikongo = client.get("/v1/angola/kikongo").json()
+    assert kikongo["language"] == "kikongo"
+    naija = client.get("/v1/nigeria/naija/lookup", params={"headword": "kume"})
+    krio = client.get("/v1/sierraleone/krio/lookup", params={"headword": "kume"})
+    assert naija.status_code == 404
+    assert krio.status_code == 404
+    assert naija.json()["message"] != krio.json()["message"]
+    pichi = client.get("/v1/equatorialguinea/pichi").json()
+    annobonese = client.get("/v1/equatorialguinea/annobonese").json()
+    assert pichi["language"] == "pichi"
+    assert annobonese["language"] == "annobonese"
+    assert pichi["dataset"] != annobonese["dataset"]
 
 
 def test_isolated_search_requires_a_dataset():

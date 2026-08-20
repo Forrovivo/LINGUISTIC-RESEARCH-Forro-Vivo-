@@ -1,0 +1,34 @@
+{
+  "language": "mauritian",
+  "language_name": "Mauritian",
+  "language_aliases": [
+    "Morisien",
+    "Mauritian Creole",
+    "Kreol Morisien"
+  ],
+  "iso_639_3": "mfe",
+  "country": "Mauritius",
+  "parent": "mauritius",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Mauritian → Portuguese",
+    "Mauritian → English"
+  ],
+  "isolation": "Mauritian only. Do not copy Réunion Creole, Seychellois, or French of Mauritius. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Mauritian database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/mauritius_dataset/mauritian/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Mauritian lexicon. Empty until a source names Mauritian.",
+  "entry_count": 0,
+  "entries": []
+}

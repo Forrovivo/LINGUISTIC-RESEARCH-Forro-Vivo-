@@ -17,8 +17,8 @@ Do not treat Guinea-Bissau Kriol as this variety.
 - **Open URL:** https://open.fau.de/server/api/core/bitstreams/4f768ade-9b04-45fb-9d8d-3465c886e17e/content
 - **License of the Lang extract:** CC BY-NC-ND (authors retain rights; do not relicense the extract)
 - **Language documented:** Boavista / Boa Vista, as labelled by Lang for the prodigal-son text
-- **What was extracted:** Boa Vista-labelled lemmas for which Lang prints a Portuguese etymon or gloss
-- **Portuguese:** from the etymon or gloss Lang prints
+- **What was extracted:** Boa Vista-labelled lemmas from the specified paragraph; when Lang provides a Portuguese etymon/gloss (via a `(< P ... >)` equivalent), it is recorded
+- **Portuguese:** from the etymon or gloss Lang prints when available (otherwise `null`)
 - **English:** null in this pass
 - **Not used:** other island prodigal-son versions in the same chapter, Wikipedia Boa Vista Creole, unsourced cluster lists
 - **Confidence for cited forms:** high

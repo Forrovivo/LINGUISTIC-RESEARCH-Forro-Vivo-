@@ -28,7 +28,22 @@ FOLDER_LANGUAGE = {
     "saotome_dataset/forro": "forro",
     "saotome_dataset/angolar": "angolar",
     "saotome_dataset/lungie": "lungie",
-    "angola_dataset": "angola",
+    "angola_dataset/contruy": "angola-contruy",
+    "angola_dataset/umbundu": "umbundu",
+    "angola_dataset/kimbundu": "kimbundu",
+    "angola_dataset/kikongo": "kikongo",
+    "seychelles_dataset/seychellois": "seychellois",
+    "equatorialguinea_dataset/annobonese": "annobonese",
+    "equatorialguinea_dataset/pichi": "pichi",
+    "southafrica_dataset/fanakalo": "fanakalo",
+    "ghana_dataset/ghanaianpidgin": "ghanaianpidgin",
+    "sierraleone_dataset/krio": "krio",
+    "rdcongo_dataset/kituba": "kituba",
+    "mauritius_dataset/mauritian": "mauritian",
+    "nigeria_dataset/naija": "naija",
+    "reunion_dataset/reunioncreole": "reunioncreole",
+    "centralafrican_dataset/sango": "sango",
+    "cameroon_dataset/cameroonianpidgin": "cameroonianpidgin",
 }
 
 
@@ -67,7 +82,7 @@ def validate_file(path: Path) -> list:
 
     expected = document.get("language")
     kind = document.get("kind")
-    if kind in {"country_index", "variety_index"} or document.get("alias_of"):
+    if kind in {"country_index", "variety_index", "language_index"} or document.get("alias_of"):
         if document.get("entries"):
             errors.append(f"{path}: index or alias must not store a lexicon")
         return errors

@@ -5,7 +5,7 @@
 **Translation pairs:** Angolar → Portuguese; Angolar → English
 **Project started:** 23 March 2023  
 
-This file is the **Angolar / Ngola** lexicon of São Tomé. It is **not Angola Contruy**. Angola Contruy lives in `data/angola_dataset/`. Do not copy between those folders.
+This file is the **Angolar / Ngola** lexicon of São Tomé. It is **not Angola Contruy**. Angola Contruy lives in `data/angola_dataset/contruy/`. Do not copy between those folders.
 
 This file is an **Angolar-only** linguistic dataset. It is not a website and not an application.
 Forro, Lung’Ie, Cabo Verdean, and Guinea-Bissau words do not belong in these entries.

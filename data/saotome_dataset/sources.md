@@ -10,7 +10,7 @@ Each language is isolated:
 
 Do not copy between these folders. Do not treat Cabo Verdean, Guinea-Bissau, or Angola Contruy as São Tomé evidence.
 
-Angolar / Ngola is a São Tomé language. Angola Contruy is the Angola country dataset in `data/angola_dataset/`. They are not the same language.
+Angolar / Ngola is a São Tomé language. Angola Contruy is in `data/angola_dataset/contruy/`. They are not the same language.
 
 ## Missing-term protocol
 

@@ -8,8 +8,9 @@
     "id": {
       "type": "string",
       "minLength": 1,
-      "description": "Folder id: forro, angolar, lungie, an island id, or a region id."
+      "description": "Folder id: forro, angolar, lungie, an island id, a region id, or an Angola language id."
     },
+    "name": { "type": "string" },
     "language_name": { "type": "string" },
     "iso_639_3": { "type": ["string", "null"] },
     "island": { "type": "string" },

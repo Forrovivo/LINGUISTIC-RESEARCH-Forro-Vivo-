@@ -10,13 +10,44 @@
 | [ForroVivo on the App Store](https://apps.apple.com/app/id6751409176) | Language-learning product |
 
 **Public host:** https://api.forrovivo.com  
-**Local host:** http://127.0.0.1:8000  
+**Worker local host:** http://127.0.0.1:8787  
+**Python local host:** http://127.0.0.1:8000  
 **Contract:** [openapi.yaml](../api/openapi.yaml)  
 **Examples:** [api/examples](../api/examples)
 
-The API is GET-only. It loads the JSON files under `data/`. It does not invent translations, merge languages, or write lexicon data. The website and the App Store product are not this service.
+The API is GET-only. Production reads `data/` from this GitHub repository. It does not invent translations, merge languages, or write lexicon data. The website and the App Store product are not this service.
+
+## Production (GitHub + Cloudflare Workers)
+
+| Layer | Role |
+|---|---|
+| This GitHub repository | Source of truth for `data/**/dictionary.json`, `knowledge.json`, and audio |
+| Cloudflare Worker | GET router at `api.forrovivo.com` |
+| GitHub Actions | Deploys Worker code on changes under `api/` |
+
+The Worker fetches attested files from GitHub (`raw.githubusercontent.com`) and caches them at the edge. A push that only changes `data/` is live after cache TTL. A push that changes `api/` deploys the Worker.
+
+```text
+cd api
+npm install
+npx wrangler deploy
+```
+
+Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com website. GitHub Actions needs repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+
+`/` redirects to `/v1`. Health check: `/health`.
 
 ## Run locally
+
+Worker (same GitHub data path as production):
+
+```text
+cd api
+npm install
+npm run dev
+```
+
+Python (local `data/` files, used by pytest):
 
 ```text
 python3 -m venv .venv
@@ -24,32 +55,6 @@ source .venv/bin/activate
 pip install -r api/requirements.txt
 PYTHONPATH=. uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
-
-Point DNS `api.forrovivo.com` at **this FastAPI process**, not at the ForroVivo.com website.
-
-`www.forrovivo.com` is a separate Vite site on Vercel. That project has no `/v1` and no `/health`. Do not attach the API hostname to the website project.
-
-## Production (Vercel)
-
-This repository is a FastAPI app. Vercel only detects it when `fastapi` is declared at the **repository root** and the entrypoint is `api.main:app`.
-
-| File | Role |
-|---|---|
-| [requirements.txt](../requirements.txt) | Root runtime deps so Vercel selects FastAPI |
-| [pyproject.toml](../pyproject.toml) | `tool.vercel.entrypoint = "api.main:app"` |
-| [vercel.json](../vercel.json) | FastAPI function, 60s, includes `data/` |
-| [Dockerfile](../Dockerfile) | Optional container image |
-
-In the Vercel project for **this** GitHub repo:
-
-- Root Directory: repository root (empty). Not `api/`.
-- Framework: FastAPI (or leave automatic)
-- Do not set an Output Directory
-- Domain: `api.forrovivo.com` on **this** project, not on the WebPage project
-
-A Vercel `NOT_FOUND` page means the FastAPI function was not built (static deploy). After these files are on `main`, Redeploy.
-
-`/` redirects to `/v1`. Health check: `/health`.
 
 ## Paths
 
@@ -83,9 +88,12 @@ São Tomé languages live under `data/saotome_dataset/`, matching `/v1/saotome/f
 | GET | `/v1/saotome/lungie/lookup?headword=` |
 | GET | `/v1/caboverde/santiago/lookup?headword=` |
 | GET | `/v1/guinebissau/bissau/lookup?headword=` |
-| GET | `/v1/angola/lookup?headword=` |
+| GET | `/v1/angola/contruy/lookup?headword=` |
+| GET | `/v1/angola/umbundu/lookup?headword=` |
+| GET | `/v1/angola/kimbundu/lookup?headword=` |
+| GET | `/v1/angola/kikongo/lookup?headword=` |
 
-`/v1/saotome`, `/v1/caboverde`, and `/v1/guinebissau` are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola` is Angola Contruy. It does not serve Angolar.
+`/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau`, and `/v1/angola` are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola/contruy` is Angola Contruy. It does not serve Angolar.
 
 The Knowledge Base uses the same isolation. `/v1/languages` lists lexicons, not a merged word list. `/v1/grammar` (and the sibling collection indexes) list **counts per folder**. Records are read from `/v1/{dataset}/grammar`, `/v1/{dataset}/proverbs`, and the other collections. Empty means unsourced, not “fill from another creole”. `/v1/search` requires `dataset=`.
 

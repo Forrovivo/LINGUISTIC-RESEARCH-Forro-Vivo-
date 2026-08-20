@@ -15,7 +15,10 @@ No invented words. No mixed languages. Missing beats guessing.
 [![Lung’Ie](https://img.shields.io/badge/🇸🇹_Lung’Ie-pre-a855f7)](data/saotome_dataset/lungie/)
 [![Kabuverdianu](https://img.shields.io/badge/🇨🇻_Kabuverdianu-kea-0ea5e9)](data/caboverde_dataset/)
 [![Kriol](https://img.shields.io/badge/🇬🇼_Kriol-pov-14b8a6)](data/guinebissau_dataset/)
-[![Angola Contruy](https://img.shields.io/badge/🇦🇴_Angola_Contruy-country-dc2626)](data/angola_dataset/)
+[![Angola Contruy](https://img.shields.io/badge/🇦🇴_Angola_Contruy-contruy-dc2626)](data/angola_dataset/contruy/)
+[![Umbundu](https://img.shields.io/badge/🇦🇴_Umbundu-umb-ca8a04)](data/angola_dataset/umbundu/)
+[![Kimbundu](https://img.shields.io/badge/🇦🇴_Kimbundu-kmb-b45309)](data/angola_dataset/kimbundu/)
+[![Kikongo](https://img.shields.io/badge/🇦🇴_Kikongo-kng-92400e)](data/angola_dataset/kikongo/)
 
 </div>
 
@@ -26,14 +29,15 @@ No invented words. No mixed languages. Missing beats guessing.
 Jump:
 
 [![Start](https://img.shields.io/badge/1-Start-16a34a)](#start-here)
-[![Languages](https://img.shields.io/badge/2-Languages-22c55e)](#languages)
-[![Rules](https://img.shields.io/badge/3-House_rules-ef4444)](#house-rules)
-[![Stack](https://img.shields.io/badge/4-Tech-2563eb)](#technology-stack)
-[![Map](https://img.shields.io/badge/5-Folders-a855f7)](#repository-layout)
-[![API](https://img.shields.io/badge/6-API-0ea5e9)](#dictionary-api)
-[![KB](https://img.shields.io/badge/7-Knowledge_Base-db2777)](#knowledge-base)
-[![Roadmap](https://img.shields.io/badge/8-Roadmap-f59e0b)](#collection-roadmap)
-[![Help](https://img.shields.io/badge/9-Contribute-111111)](#contributing)
+[![Goal](https://img.shields.io/badge/2-Africa_goal-0ea5e9)](#creole-languages-of-africa)
+[![Languages](https://img.shields.io/badge/3-Languages-22c55e)](#languages)
+[![Rules](https://img.shields.io/badge/4-House_rules-ef4444)](#house-rules)
+[![Stack](https://img.shields.io/badge/5-Tech-2563eb)](#technology-stack)
+[![Map](https://img.shields.io/badge/6-Folders-a855f7)](#repository-layout)
+[![API](https://img.shields.io/badge/7-API-0ea5e9)](#dictionary-api)
+[![KB](https://img.shields.io/badge/8-Knowledge_Base-db2777)](#knowledge-base)
+[![Roadmap](https://img.shields.io/badge/9-Roadmap-f59e0b)](#collection-roadmap)
+[![Help](https://img.shields.io/badge/10-Contribute-111111)](#contributing)
 
 ---
 
@@ -55,6 +59,36 @@ The website UI and the App Store app live somewhere else. Not here.
 
 ---
 
+<a id="creole-languages-of-africa"></a>
+
+## 🌍 Goal — Creole languages of Africa
+
+Include **attested** data for each language below. One language, one box. No copying. Missing stays `TERM_NOT_FOUND`.
+
+|  | Language | ISO | In this repo |
+|---|---|---|---|
+| 🇦🇴 | **Angola** | `ao` | [`data/angola_dataset/`](data/angola_dataset/) — Contruy, Umbundu, Kimbundu, Kikongo. **Not** Angolar `aoa` |
+| 🇸🇹 | **Saotomense** / Forro | `cri` | [`data/saotome_dataset/forro/`](data/saotome_dataset/forro/) |
+| 🇸🇨 | **Seychellois** | `crs` | Goal. Empty until a source names Seychellois |
+| 🇬🇶 | **Annobonese** / Fa d’Ambô | `fab` | Goal. Empty until a source names Annobonese. **Not** Forro |
+| 🌍 | **Fanakalo** | `fng` | Goal. Empty until a source names Fanakalo |
+| 🇬🇶 | **Pichi** | `fpe` | Goal. Empty until a source names Pichi. **Not** Krio |
+| 🇬🇭 | **Ghanaian Pidgin** | `gpe` | Goal. Empty until a source names Ghanaian Pidgin. **Not** Naija |
+| 🇨🇻 | **Kabuverdianu** | `kea` | [`data/caboverde_dataset/`](data/caboverde_dataset/) — one island, one folder |
+| 🇸🇱 | **Krio** | `kri` | Goal. Empty until a source names Krio. **Not** Pichi, not Naija |
+| 🇨🇩 | **Kituba** | `ktu` | Goal. Empty until a source names Kituba |
+| 🇲🇺 | **Mauritian** | `mfe` | Goal. Empty until a source names Mauritian. **Not** Réunion Creole, not Seychellois |
+| 🇳🇬 | **Naija** | `pcm` | Goal. Empty until a source names Naija. **Not** Ghanaian Pidgin, not Krio |
+| 🇬🇼 | **Guinea-Bissau Creole** / Kriol | `pov` | [`data/guinebissau_dataset/`](data/guinebissau_dataset/) — one region, one folder |
+| 🇸🇹 | **Principense** / Lung’Ie | `pre` | [`data/saotome_dataset/lungie/`](data/saotome_dataset/lungie/) |
+| 🇷🇪 | **Réunion Creole** | `rcf` | Goal. Empty until a source names Réunion Creole. **Not** Mauritian, not Seychellois |
+| 🇨🇫 | **Sango** | `sag` | Goal. Empty until a source names Sango |
+| 🇨🇲 | **Cameroonian Pidgin** | `wes` | Goal. Empty until a source names Cameroonian Pidgin. **Not** Naija, not Krio |
+
+Angolar / Ngola (`aoa`) stays in [`data/saotome_dataset/angolar/`](data/saotome_dataset/angolar/). It is **not** Angola (`ao`).
+
+---
+
 <a id="languages"></a>
 
 ## 🗺️ Languages
@@ -68,14 +102,19 @@ Each language is its **own** box. Looking similar ≠ same word. Do not copy bet
 | 🇸🇹 | **Lung’Ie** / Principense | *lung’Ie* | `pre` | [`data/saotome_dataset/lungie/`](data/saotome_dataset/lungie/) | Lung’Ie ↔ PT, Lung’Ie ↔ EN |
 | 🇨🇻 | **Kabuverdianu** | island varieties | `kea` | [`data/caboverde_dataset/`](data/caboverde_dataset/) | that island ↔ PT / EN |
 | 🇬🇼 | **Kriol** / Kiriol | regional varieties | `pov` | [`data/guinebissau_dataset/`](data/guinebissau_dataset/) | that region ↔ PT / EN |
-| 🇦🇴 | **Angola Contruy** | Angola (country) | — | [`data/angola_dataset/`](data/angola_dataset/) | Angola Contruy ↔ PT / EN |
+| 🇦🇴 | **Angola Contruy** | Angola (country) | — | [`data/angola_dataset/contruy/`](data/angola_dataset/contruy/) | Angola Contruy ↔ PT / EN |
+| 🇦🇴 | **Umbundu** | *umbundu* | `umb` | [`data/angola_dataset/umbundu/`](data/angola_dataset/umbundu/) | Umbundu ↔ PT / EN |
+| 🇦🇴 | **Kimbundu** | *kimbundu* | `kmb` | [`data/angola_dataset/kimbundu/`](data/angola_dataset/kimbundu/) | Kimbundu ↔ PT / EN |
+| 🇦🇴 | **Kikongo** | *kikongo* | `kng` | [`data/angola_dataset/kikongo/`](data/angola_dataset/kikongo/) | Kikongo ↔ PT / EN |
 
 **Brain sticky notes**
 
+- Table above = **in this repo now.** Full Africa list = [Goal](#creole-languages-of-africa).
 - São Tomé trio = Gulf of Guinea creoles. **Not** mutually intelligible.
 - Cabo Verde + Guinea-Bissau = Upper Guinea creoles. **Not** the same language.
 - Cabo Verde = **one island, one folder**. Guinea-Bissau = **one region, one folder**.
-- [`data/angola_dataset/`](data/angola_dataset/) = **Angola Contruy** (country). **Not** Angolar.
+- [`data/angola_dataset/`](data/angola_dataset/) = Angola **index**. Contruy, Umbundu, Kimbundu, Kikongo = **one language, one folder**. **Not** Angolar.
+- Umbundu is not Kimbundu. Kikongo of Angola is not Kituba.
 - Portuguese is **not** a creole. São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
 
 ---
@@ -95,7 +134,7 @@ One line each. Stick them on the fridge.
 | Return `TERM_NOT_FOUND` | Creolize Portuguese to fake a hit |
 
 1. **No invented words.** Form, gloss, example, sound, culture — cited or out.
-2. **Isolation.** Islands are not interchangeable. Regions are not interchangeable. Kabuverdianu is not Guinea-Bissau Kriol.
+2. **Isolation.** Islands are not interchangeable. Regions are not interchangeable. Kabuverdianu is not Guinea-Bissau Kriol. Krio is not Pichi. Naija is not Ghanaian Pidgin. Mauritian is not Seychellois. Annobonese is not Forro. Angola (`ao`) is not Angolar (`aoa`). Umbundu is not Kimbundu. Kikongo is not Kituba.
 3. **Missing is honest.** Empty is better than a guess.
 
 Full rules: [methodology](docs/methodology.md) · [collection prompt](research/notes/collection-prompt.md)
@@ -111,15 +150,16 @@ ForroVivo.com and the App Store app = other codebases.
 
 | Layer | What we use |
 |---|---|
-| 📚 Lexicons | JSON + Markdown in `data/` |
+| 📚 Lexicons | JSON + Markdown in `data/` on GitHub |
 | 🧠 Knowledge Base | Optional `knowledge.json` per isolated folder |
 | 🧪 Validation | JSON Schema in `schema/` |
 | 🔊 Audio | MPEG, linked from matching entries |
-| ⚡ API | Python · FastAPI · Uvicorn |
-| 📦 Host | Vercel FastAPI function; DNS `api.forrovivo.com` |
+| ⚡ API | Cloudflare Worker (`api/src`) · same `/v1` contract |
+| 📦 Host | Cloudflare Workers; DNS `api.forrovivo.com` |
+| 🔗 Data origin | This GitHub repository (`raw.githubusercontent.com`) |
 | 📜 Contract | OpenAPI → [`api/openapi.yaml`](api/openapi.yaml) |
-| 🧠 Runtime | In-memory indexes over the **real** `dictionary.json` files |
-| ✅ Tests | pytest, using attested headwords |
+| 🧠 Runtime | Edge indexes over the **real** GitHub `dictionary.json` files |
+| ✅ Tests | pytest against local files (Python FastAPI) |
 | 🧰 Scripts | `validate-data` · `import-data` · `build-index` |
 
 [requirements.txt](api/requirements.txt) · [tech report](research/notes/tech-report.md)
@@ -132,12 +172,12 @@ ForroVivo.com and the App Store app = other codebases.
 
 ```text
 .
-├── api/                 ⚡ read-only API
+├── api/                 ⚡ read-only API (Cloudflare Worker + Python tests)
 ├── data/
 │   ├── saotome_dataset/         🇸🇹 Forro, Angolar, Lung’Ie
 │   ├── caboverde_dataset/       🇨🇻 one folder per island
 │   ├── guinebissau_dataset/     🇬🇼 one folder per region
-│   └── angola_dataset/          🇦🇴 Angola Contruy (not Angolar)
+│   └── angola_dataset/          🇦🇴 Contruy, Umbundu, Kimbundu, Kikongo
 ├── docs/                📖 how the work is done
 ├── research/            📚 sources, PDFs, notes
 ├── schema/              🧪 JSON Schema
@@ -154,9 +194,9 @@ Parent folders are **indexes**, not a blender. Map: [data/index.md](data/index.m
 | `data/saotome_dataset/` | Three languages. Do not mix them. |
 | `data/caboverde_dataset/` | Unnamed “Cape Verdean” stays **out** of island folders. |
 | `data/guinebissau_dataset/` | Unnamed “Guinea-Bissau Kriol” stays **out**. No Casamance. |
-| `data/angola_dataset/` | Angola Contruy. Not Angolar. Empty until a source names it. |
+| `data/angola_dataset/` | One language, one folder. Contruy is not Umbundu. Kikongo is not Kituba. Not Angolar. |
 
-Forro comes from *Dicionário livre santome/português*. Angolar and Lung’Ie come from sources that name those languages. Cabo Verde, Guinea-Bissau, and Angola Contruy grow only when a source names that variety.
+Forro comes from *Dicionário livre santome/português*. Angolar and Lung’Ie come from sources that name those languages. Cabo Verde, Guinea-Bissau, Angola Contruy, Umbundu, Kimbundu, and Kikongo grow only when a source names that language.
 
 ---
 
@@ -182,11 +222,14 @@ curl "https://api.forrovivo.com/v1/saotome/forro/lookup?headword=kume"
 | 🟣 Lung’Ie | `/v1/saotome/lungie/lookup?headword=` |
 | 🇨🇻 island | `/v1/caboverde/{island}/lookup?headword=` |
 | 🇬🇼 region | `/v1/guinebissau/{region}/lookup?headword=` |
-| ➡️ Angola Contruy | `/v1/angola/lookup?headword=` |
+| ➡️ Angola Contruy | `/v1/angola/contruy/lookup?headword=` |
+| 🟡 Umbundu | `/v1/angola/umbundu/lookup?headword=` |
+| 🟤 Kimbundu | `/v1/angola/kimbundu/lookup?headword=` |
+| 🟥 Kikongo | `/v1/angola/kikongo/lookup?headword=` |
 | 🔎 Search | `/v1/search?dataset=saotome/forro&q=` |
 
-`/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau` = indexes → `TERM_NOT_FOUND`.  
-`/v1/angola` = Angola Contruy, **not** Angolar. Search never hops folders.
+`/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau`, `/v1/angola` = indexes → `TERM_NOT_FOUND`.  
+`/v1/angola/contruy` = Angola Contruy, **not** Angolar. Search never hops folders.
 
 Run it locally:
 
@@ -209,7 +252,7 @@ Same isolation as the dictionary. Not a website. Not a merged encyclopedia.
 
 | Collection | Path | What it is |
 |---|---|---|
-| Languages | `/v1/languages` | Isolated lexicons (Forro, Angolar, islands, regions, Angola Contruy) |
+| Languages | `/v1/languages` | Isolated lexicons (Forro, Angolar, islands, regions, Angola languages) |
 | Entries | `/v1/{dataset}/entries` | Headwords from that folder only |
 | Grammar | `/v1/{dataset}/grammar` | Grammar notes with a citation |
 | Expressions | `/v1/{dataset}/expressions` | Attested expressions |
@@ -290,12 +333,12 @@ timeline
 |---|---|---|---|
 | 23 March 2023 | Project. São Tomé and Príncipe (Forro, Angolar, Lung’Ie). | Start | Under way |
 | 22 March 2025 | First version of the ForroVivo app launched. | 2 years later | Shipped |
-| 23 April 2025 | Cabo Verde (by island), Angola Contruy (country), Guinea-Bissau (by region). | 2 years 1 month later | Folders ready; lexicons grow from labelled sources |
+| 23 April 2025 | Cabo Verde (by island), Angola (Contruy, Umbundu, Kimbundu, Kikongo), Guinea-Bissau (by region). | 2 years 1 month later | Folders ready; lexicons grow from labelled sources |
 | 2026 / 23 April 2026 | Continue Cabo Verde, Angola, and Guinea-Bissau from labelled sources only. | 3 years 1 month later (on 23 April 2026) | Collection year |
 | 18 August 2026 | ForroVivo app version 5 released to beta, with new countries. | 3 years 4 months 26 days later | Beta |
 
 Cabo Verdean Kabuverdianu is **not** Guinea-Bissau Kriol.  
-Angola Contruy is **not Angolar**. Angolar stays in `data/saotome_dataset/angolar/`.
+Angola Contruy is **not Angolar**. Umbundu is not Kimbundu. Kikongo of Angola is not Kituba. Angolar stays in `data/saotome_dataset/angolar/`.
 
 ---
 

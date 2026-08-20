@@ -1,0 +1,33 @@
+{
+  "language": "kikongo",
+  "language_name": "Kikongo",
+  "language_aliases": [
+    "Kikongo",
+    "Koongo"
+  ],
+  "iso_639_3": "kng",
+  "country": "Angola",
+  "parent": "angola",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Kikongo → Portuguese",
+    "Kikongo → English"
+  ],
+  "isolation": "Kikongo of Angola only. Do not insert Umbundu, Kimbundu, Angola Contruy, Angolar, Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau Kriol, Kituba, or Angolan Portuguese. Kikongo is not Kituba. Do not copy another Bantu language because the spelling looks close.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Kikongo database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/angola_dataset/kikongo/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2025-04-23",
+  "time_since_project_start": "2 years 1 month",
+  "extraction_notes": "Isolated Kikongo lexicon of Angola. Empty until a cited source names Kikongo of Angola. Not Kituba. Not Angola Contruy. Not Umbundu. Not Kimbundu.",
+  "entry_count": 0,
+  "entries": []
+}

@@ -1,6 +1,6 @@
 # Angolar sources
 
-This dataset documents **Angolar / Ngola** only, spoken on São Tomé. It is not Angola Contruy. Angola Contruy sources stay in `data/angola_dataset/sources.md`.
+This dataset documents **Angolar / Ngola** only, spoken on São Tomé. It is not Angola Contruy. Angola Contruy sources stay in `data/angola_dataset/contruy/sources.md`.
 
 Translation pairs: Angolar → Portuguese, Angolar → English.
 

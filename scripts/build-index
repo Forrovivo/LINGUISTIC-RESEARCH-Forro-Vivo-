@@ -17,6 +17,14 @@ def write_json(path: Path, document: dict) -> None:
     path.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def rewrite_child_paths(document: dict, folder_name: str) -> None:
+    for key in ("languages", "varieties"):
+        for child in document.get(key) or []:
+            child["path"] = f"data/{folder_name}/{child['id']}/"
+    document["entries"] = []
+    document["entry_count"] = 0
+
+
 def main() -> None:
     saotome = json.loads((DATA / "saotome_dataset" / "dictionary.json").read_text(encoding="utf-8"))
     saotome["languages"] = [
@@ -28,31 +36,24 @@ def main() -> None:
     saotome["entry_count"] = 0
     write_json(DATA / "saotome_dataset" / "dictionary.json", saotome)
 
-    caboverde = json.loads((DATA / "caboverde_dataset" / "dictionary.json").read_text(encoding="utf-8"))
-    for variety in caboverde.get("varieties") or []:
-        variety["path"] = f"data/caboverde_dataset/{variety['id']}/"
-    caboverde["entries"] = []
-    caboverde["entry_count"] = 0
-    write_json(DATA / "caboverde_dataset" / "dictionary.json", caboverde)
+    special = {"saotome_dataset"}
+    rebuilt = ["saotome_dataset"]
+    for index_path in sorted(DATA.glob("*_dataset/dictionary.json")):
+        folder_name = index_path.parent.name
+        if folder_name in special:
+            continue
+        document = json.loads(index_path.read_text(encoding="utf-8"))
+        if folder_name == "angola_dataset":
+            document.pop("alias_of", None)
+            document.pop("canonical_path", None)
+            document["language"] = "angola"
+            document["language_name"] = "Angola"
+            document["kind"] = "language_index"
+        rewrite_child_paths(document, folder_name)
+        write_json(index_path, document)
+        rebuilt.append(folder_name)
 
-    guinebissau = json.loads((DATA / "guinebissau_dataset" / "dictionary.json").read_text(encoding="utf-8"))
-    for variety in guinebissau.get("varieties") or []:
-        variety["path"] = f"data/guinebissau_dataset/{variety['id']}/"
-    guinebissau["entries"] = []
-    guinebissau["entry_count"] = 0
-    write_json(DATA / "guinebissau_dataset" / "dictionary.json", guinebissau)
-
-    angola = json.loads((DATA / "angola_dataset" / "dictionary.json").read_text(encoding="utf-8"))
-    angola.pop("alias_of", None)
-    angola.pop("canonical_path", None)
-    angola["language"] = "angola"
-    angola["language_name"] = "Angola Contruy"
-    angola["kind"] = "lexicon"
-    angola["entries"] = []
-    angola["entry_count"] = 0
-    write_json(DATA / "angola_dataset" / "dictionary.json", angola)
-
-    print("Rebuilt saotome_dataset, caboverde_dataset, guinebissau_dataset, and angola_dataset indexes")
+    print("Rebuilt indexes: " + ", ".join(rebuilt))
 
 
 if __name__ == "__main__":

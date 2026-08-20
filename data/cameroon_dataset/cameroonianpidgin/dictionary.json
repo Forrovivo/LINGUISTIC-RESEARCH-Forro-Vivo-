@@ -1,0 +1,33 @@
+{
+  "language": "cameroonianpidgin",
+  "language_name": "Cameroonian Pidgin",
+  "language_aliases": [
+    "Kamtok",
+    "Cameroon Pidgin English"
+  ],
+  "iso_639_3": "wes",
+  "country": "Cameroon",
+  "parent": "cameroon",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Cameroonian Pidgin → Portuguese",
+    "Cameroonian Pidgin → English"
+  ],
+  "isolation": "Cameroonian Pidgin only. Do not copy Naija, Krio, Ghanaian Pidgin, or Pichi. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Cameroonian Pidgin database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/cameroon_dataset/cameroonianpidgin/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Cameroonian Pidgin lexicon. Empty until a source names Cameroonian Pidgin.",
+  "entry_count": 0,
+  "entries": []
+}

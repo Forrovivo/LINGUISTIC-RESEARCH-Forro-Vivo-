@@ -1,0 +1,41 @@
+{
+  "language": "equatorialguinea",
+  "kind": "country_index",
+  "language_name": "Equatorial Guinea",
+  "language_aliases": [
+    "Equatorial Guinea"
+  ],
+  "iso_639_3": null,
+  "country": "Equatorial Guinea",
+  "isolation": "Index only. Do not store a merged Equatorial Guinea lexicon here. Annobonese and Pichi are separate datasets under this folder. Do not copy between them. Annobonese is not Forro. Pichi is not Krio.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Query a named language folder under data/equatorialguinea_dataset/. A merged Equatorial Guinea lexicon is not stored at this path."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See each language sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "languages": [
+    {
+      "id": "annobonese",
+      "name": "Annobonese",
+      "iso_639_3": "fab",
+      "path": "data/equatorialguinea_dataset/annobonese/"
+    },
+    {
+      "id": "pichi",
+      "name": "Pichi",
+      "iso_639_3": "fpe",
+      "path": "data/equatorialguinea_dataset/pichi/"
+    }
+  ],
+  "extraction_notes": "Parent index of Equatorial Guinea languages. Lexicon is stored only in the language folders, and only from sources that name that language.",
+  "entry_count": 0,
+  "entries": []
+}

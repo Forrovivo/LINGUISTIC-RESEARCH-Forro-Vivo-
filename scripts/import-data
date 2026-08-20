@@ -20,7 +20,22 @@ DATASETS = {
     "forro": DATA / "saotome_dataset" / "forro" / "dictionary.json",
     "angolar": DATA / "saotome_dataset" / "angolar" / "dictionary.json",
     "lungie": DATA / "saotome_dataset" / "lungie" / "dictionary.json",
-    "angola": DATA / "angola_dataset" / "dictionary.json",
+    "angola-contruy": DATA / "angola_dataset" / "contruy" / "dictionary.json",
+    "umbundu": DATA / "angola_dataset" / "umbundu" / "dictionary.json",
+    "kimbundu": DATA / "angola_dataset" / "kimbundu" / "dictionary.json",
+    "kikongo": DATA / "angola_dataset" / "kikongo" / "dictionary.json",
+    "seychellois": DATA / "seychelles_dataset" / "seychellois" / "dictionary.json",
+    "annobonese": DATA / "equatorialguinea_dataset" / "annobonese" / "dictionary.json",
+    "pichi": DATA / "equatorialguinea_dataset" / "pichi" / "dictionary.json",
+    "fanakalo": DATA / "southafrica_dataset" / "fanakalo" / "dictionary.json",
+    "ghanaianpidgin": DATA / "ghana_dataset" / "ghanaianpidgin" / "dictionary.json",
+    "krio": DATA / "sierraleone_dataset" / "krio" / "dictionary.json",
+    "kituba": DATA / "rdcongo_dataset" / "kituba" / "dictionary.json",
+    "mauritian": DATA / "mauritius_dataset" / "mauritian" / "dictionary.json",
+    "naija": DATA / "nigeria_dataset" / "naija" / "dictionary.json",
+    "reunioncreole": DATA / "reunion_dataset" / "reunioncreole" / "dictionary.json",
+    "sango": DATA / "centralafrican_dataset" / "sango" / "dictionary.json",
+    "cameroonianpidgin": DATA / "cameroon_dataset" / "cameroonianpidgin" / "dictionary.json",
 }
 
 

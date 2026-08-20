@@ -1,0 +1,32 @@
+{
+  "language": "kimbundu",
+  "language_name": "Kimbundu",
+  "language_aliases": [
+    "Kimbundu"
+  ],
+  "iso_639_3": "kmb",
+  "country": "Angola",
+  "parent": "angola",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Kimbundu → Portuguese",
+    "Kimbundu → English"
+  ],
+  "isolation": "Kimbundu only. Do not insert Umbundu, Kikongo, Angola Contruy, Angolar, Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau Kriol, or Angolan Portuguese. Do not copy another Bantu language because the spelling looks close.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Kimbundu database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/angola_dataset/kimbundu/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2025-04-23",
+  "time_since_project_start": "2 years 1 month",
+  "extraction_notes": "Isolated Kimbundu lexicon of Angola. Empty until a cited source names Kimbundu. Not Angola Contruy. Not Umbundu. Not Kikongo.",
+  "entry_count": 0,
+  "entries": []
+}

@@ -1,0 +1,33 @@
+{
+  "language": "angola-contruy",
+  "language_name": "Angola Contruy",
+  "language_aliases": [
+    "Angola Contruy",
+    "Angola (country) creole"
+  ],
+  "iso_639_3": null,
+  "country": "Angola",
+  "parent": "angola",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Angola Contruy → Portuguese",
+    "Angola Contruy → English"
+  ],
+  "isolation": "Angola Contruy only. It is not Angolar / Ngola of São Tomé. Do not copy data/saotome_dataset/angolar/ into this folder. Do not insert Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau Kriol, Umbundu, Kimbundu, Kikongo, or Angolan Portuguese unless a cited source labels that form as Angola Contruy.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Angola Contruy database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/angola_dataset/contruy/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2025-04-23",
+  "time_since_project_start": "2 years 1 month",
+  "extraction_notes": "Isolated Angola Contruy lexicon. Empty until a source names Angola Contruy. APiCS 36 (Angolar) stays in data/saotome_dataset/angolar/.",
+  "entry_count": 0,
+  "entries": []
+}

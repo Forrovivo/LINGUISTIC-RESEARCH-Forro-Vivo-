@@ -14,7 +14,7 @@
     "iso_639_3": { "type": ["string", "null"] },
     "kind": {
       "type": "string",
-      "enum": ["lexicon", "country_index", "variety_index", "alias"]
+      "enum": ["lexicon", "country_index", "variety_index", "language_index", "alias"]
     },
     "orthography": { "type": ["string", "null"] },
     "translation_pairs": {

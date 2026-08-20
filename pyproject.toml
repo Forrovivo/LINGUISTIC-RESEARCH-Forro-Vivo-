@@ -1,6 +1,6 @@
 [project]
 name = "forrovivo-linguistic-research-api"
-version = "2.2.0"
+version = "2.3.0"
 description = "Read-only API for isolated ForroVivo linguistic datasets"
 requires-python = ">=3.12"
 dependencies = [

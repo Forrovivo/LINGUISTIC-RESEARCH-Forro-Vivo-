@@ -21,6 +21,6 @@ This parent folder is an **index**, not a merged dictionary.
 |---|---|
 | Lung’Ie / Principense | [lungie/](lungie/) |
 
-Angolar / Ngola is a São Tomé language. Angola Contruy is documented in `data/angola_dataset/`. They are not the same language. Do not copy between them.
+Angolar / Ngola is a São Tomé language. Angola Contruy is documented in `data/angola_dataset/contruy/`. They are not the same language. Do not copy between them.
 
 If a term is not attested for that language, return `TERM_NOT_FOUND` for that language only.

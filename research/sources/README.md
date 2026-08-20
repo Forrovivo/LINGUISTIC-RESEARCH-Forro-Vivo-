@@ -36,7 +36,11 @@ Wikipedia, social media, unsourced word lists, and generated text are not accept
 | Quinara | [../../data/guinebissau_dataset/quinara/sources.md](../../data/guinebissau_dataset/quinara/sources.md) |
 | Tombali | [../../data/guinebissau_dataset/tombali/sources.md](../../data/guinebissau_dataset/tombali/sources.md) |
 | Bolama-Bijagós | [../../data/guinebissau_dataset/bolama/sources.md](../../data/guinebissau_dataset/bolama/sources.md) |
-| Angola Contruy | [../../data/angola_dataset/sources.md](../../data/angola_dataset/sources.md) |
+| Angola (index) | [../../data/angola_dataset/sources.md](../../data/angola_dataset/sources.md) |
+| Angola Contruy | [../../data/angola_dataset/contruy/sources.md](../../data/angola_dataset/contruy/sources.md) |
+| Umbundu | [../../data/angola_dataset/umbundu/sources.md](../../data/angola_dataset/umbundu/sources.md) |
+| Kimbundu | [../../data/angola_dataset/kimbundu/sources.md](../../data/angola_dataset/kimbundu/sources.md) |
+| Kikongo | [../../data/angola_dataset/kikongo/sources.md](../../data/angola_dataset/kikongo/sources.md) |
 
 The file `research/notes/comparative-seed.md` is a small comparative seed. It is not a merged lexicon.
 
@@ -97,7 +101,8 @@ PDFs under `_source_pdfs/` are source documents for extraction. They are not a s
 
 - Another creole folder in this repository
 - Portuguese of São Tomé, Cabo Verde, Guinea-Bissau, or Angola
-- Kimbundu, Umbundu, or Angolan Portuguese stored as Angolar or as Angola Contruy without a source that names that dataset
+- Kimbundu, Umbundu, Kikongo, or Angolan Portuguese stored as Angolar or as Angola Contruy without a source that names that dataset
+- Umbundu stored as Kimbundu, or Kikongo of Angola stored as Kituba
 - An unnamed “Cape Verdean” or “Guinea-Bissau Kriol” form
 - Casamance Kriyol of Senegal
 - Application code

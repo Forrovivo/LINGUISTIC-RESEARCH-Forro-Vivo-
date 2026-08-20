@@ -1,0 +1,33 @@
+{
+  "language": "kituba",
+  "language_name": "Kituba",
+  "language_aliases": [
+    "Kikongo-Kituba",
+    "Munukutuba"
+  ],
+  "iso_639_3": "ktu",
+  "country": "Democratic Republic of the Congo",
+  "parent": "rdcongo",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Kituba → Portuguese",
+    "Kituba → English"
+  ],
+  "isolation": "Kituba only. Do not copy Kikongo of Angola, Umbundu, Kimbundu, Fanakalo, or Lingala unless a cited source labels the form as Kituba. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Kituba database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/rdcongo_dataset/kituba/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Kituba lexicon. Empty until a source names Kituba.",
+  "entry_count": 0,
+  "entries": []
+}

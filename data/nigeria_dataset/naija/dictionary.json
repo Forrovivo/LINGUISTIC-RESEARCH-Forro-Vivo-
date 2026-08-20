@@ -1,0 +1,33 @@
+{
+  "language": "naija",
+  "language_name": "Naija",
+  "language_aliases": [
+    "Nigerian Pidgin",
+    "Nigerian Pidgin English"
+  ],
+  "iso_639_3": "pcm",
+  "country": "Nigeria",
+  "parent": "nigeria",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Naija → Portuguese",
+    "Naija → English"
+  ],
+  "isolation": "Naija only. Do not copy Ghanaian Pidgin, Krio, Pichi, or Cameroonian Pidgin. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Naija database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/nigeria_dataset/naija/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Naija lexicon. Empty until a source names Naija.",
+  "entry_count": 0,
+  "entries": []
+}

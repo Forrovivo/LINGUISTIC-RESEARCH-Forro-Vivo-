@@ -16,6 +16,8 @@ Entries were isolated from APiCS Online language 31 (Marlyse Baptista 2013), whi
 Survey italic+gloss pairs and example interlinear leftovers were used. Grammatical labels were not stored as dictionary senses. 
 Portuguese word glosses are null in this pass. Portuguese free translations of examples are stored when APiCS gives them. Other island folders were not used as evidence.
 
+Further Brava-labelled lemmas were isolated from leftover APiCS 31 survey glosses. Other island folders were not used as evidence.
+
 If a requested Brava term is not in this dataset:
 
 ```json
@@ -7143,6 +7145,215 @@ Hurry up.
 
 ### Sources
 - Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava, citing Meintel 1975. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+---
+
+## galinha
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Hen.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kabesa
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Head.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## kenhi
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** pronoun
+
+### English
+Who.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## komedor
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Big eater (masculine).
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## komedora
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Big eater (feminine).
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## brajeru
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Jokester (masculine).
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## brajera
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Jokester (feminine).
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## irmon matxu
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Brother.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## npregada di kaza
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+House cleaner (feminine).
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## peli
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** noun
+
+### English
+Skin.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## bóka-bóka
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** adjective
+
+### English
+Secret.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## menus
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** adverb
+
+### English
+Less.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
+
+**Verification:** VERIFIED
+
+**Confidence:** high
+
+
+## más
+
+**Language:** Kabuverdianu of Brava  
+**Part of speech:** adverb
+
+### English
+More.
+
+### Sources
+- Marlyse Baptista. 2013. APiCS survey: Cape Verdean Creole of Brava. In Michaelis, Maurer, Haspelmath & Huber (eds.) 2013. CC BY 4.0. https://apics-online.info/surveys/31
 
 **Verification:** VERIFIED
 

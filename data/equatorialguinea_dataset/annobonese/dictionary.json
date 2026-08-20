@@ -1,0 +1,34 @@
+{
+  "language": "annobonese",
+  "language_name": "Annobonese",
+  "language_aliases": [
+    "Fa d’Ambô",
+    "Fa d'Ambu",
+    "Annobonense"
+  ],
+  "iso_639_3": "fab",
+  "country": "Equatorial Guinea",
+  "parent": "equatorialguinea",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Annobonese → Portuguese",
+    "Annobonese → English"
+  ],
+  "isolation": "Annobonese only. Do not copy Forro, Angolar, Lung’Ie, Pichi, or Portuguese of Equatorial Guinea. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Annobonese database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/equatorialguinea_dataset/annobonese/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Annobonese lexicon. Empty until a source names Annobonese.",
+  "entry_count": 0,
+  "entries": []
+}

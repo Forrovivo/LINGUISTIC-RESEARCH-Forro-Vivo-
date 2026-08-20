@@ -15,6 +15,18 @@ FAMILY_INDEXES = (
     ("saotome", DATA_ROOT / "saotome_dataset" / "dictionary.json"),
     ("caboverde", DATA_ROOT / "caboverde_dataset" / "dictionary.json"),
     ("guinebissau", DATA_ROOT / "guinebissau_dataset" / "dictionary.json"),
+    ("angola", DATA_ROOT / "angola_dataset" / "dictionary.json"),
+    ("seychelles", DATA_ROOT / "seychelles_dataset" / "dictionary.json"),
+    ("equatorialguinea", DATA_ROOT / "equatorialguinea_dataset" / "dictionary.json"),
+    ("southafrica", DATA_ROOT / "southafrica_dataset" / "dictionary.json"),
+    ("ghana", DATA_ROOT / "ghana_dataset" / "dictionary.json"),
+    ("sierraleone", DATA_ROOT / "sierraleone_dataset" / "dictionary.json"),
+    ("rdcongo", DATA_ROOT / "rdcongo_dataset" / "dictionary.json"),
+    ("mauritius", DATA_ROOT / "mauritius_dataset" / "dictionary.json"),
+    ("nigeria", DATA_ROOT / "nigeria_dataset" / "dictionary.json"),
+    ("reunion", DATA_ROOT / "reunion_dataset" / "dictionary.json"),
+    ("centralafrican", DATA_ROOT / "centralafrican_dataset" / "dictionary.json"),
+    ("cameroon", DATA_ROOT / "cameroon_dataset" / "dictionary.json"),
 )
 
 
@@ -60,14 +72,6 @@ def load_catalog() -> Dict[str, DatasetRef]:
                 kind="lexicon",
                 json_path=_json_path(child["path"]),
             )
-
-    catalog["angola"] = DatasetRef(
-        key="angola",
-        family="angola",
-        variety=None,
-        kind="lexicon",
-        json_path=DATA_ROOT / "angola_dataset" / "dictionary.json",
-    )
 
     missing = [ref.key for ref in catalog.values() if not ref.json_path.exists()]
     if missing:

@@ -1,0 +1,33 @@
+{
+  "language": "pichi",
+  "language_name": "Pichi",
+  "language_aliases": [
+    "Fernando Po Creole",
+    "Fernandino"
+  ],
+  "iso_639_3": "fpe",
+  "country": "Equatorial Guinea",
+  "parent": "equatorialguinea",
+  "kind": "lexicon",
+  "translation_pairs": [
+    "Pichi → Portuguese",
+    "Pichi → English"
+  ],
+  "isolation": "Pichi only. Do not copy Krio, Naija, Ghanaian Pidgin, Cameroonian Pidgin, or Annobonese. Leave the lexicon empty rather than guessing.",
+  "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
+  "missing_term": {
+    "status": "error",
+    "code": "TERM_NOT_FOUND",
+    "message": "Translation not available in the verified Pichi database."
+  },
+  "license": {
+    "project_original": "CC BY 4.0",
+    "source_extracts": "Cited academic sources retain their original terms. See data/equatorialguinea_dataset/pichi/sources.md."
+  },
+  "project_start_date": "2023-03-23",
+  "collection_start_date": "2026-08-20",
+  "time_since_project_start": "3 years 4 months 28 days",
+  "extraction_notes": "Isolated Pichi lexicon. Empty until a source names Pichi.",
+  "entry_count": 0,
+  "entries": []
+}

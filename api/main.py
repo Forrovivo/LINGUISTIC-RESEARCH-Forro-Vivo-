@@ -27,6 +27,7 @@ from api.knowledge import (
     search_collection,
     search_dataset,
 )
+from api.catalog import FAMILY_INDEXES
 from api.store import (
     Store,
     audio_file,
@@ -36,7 +37,7 @@ from api.store import (
 )
 
 STORE = Store.load()
-FAMILIES = frozenset({"saotome", "caboverde", "guinebissau", "angola"})
+FAMILIES = frozenset(family for family, _ in FAMILY_INDEXES)
 DEFAULT_LIMIT = 50
 MAX_LIMIT = 1000
 
@@ -49,7 +50,7 @@ app = FastAPI(
         "Each dataset is isolated. Missing terms return TERM_NOT_FOUND. "
         "This API does not invent translations or merge languages."
     ),
-    version="2.2.0",
+    version="2.3.0",
     servers=[
         {"url": API_ORIGIN, "description": "Production"},
         {"url": "http://127.0.0.1:8000", "description": "Local"},
@@ -152,7 +153,7 @@ def site_root() -> RedirectResponse:
 def root() -> Dict[str, Any]:
     return {
         "name": "ForroVivo Linguistic Research API",
-        "version": "2.2.0",
+        "version": "2.3.0",
         "platform": "ForroVivo",
         "initiative": "Linguistic Research",
         "founder": "Henriques Pontes",
@@ -167,7 +168,8 @@ def root() -> Dict[str, Any]:
         "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
         "isolation": (
             "Each path serves one dataset. Parent indexes are not merged lexicons. "
-            "data/angola_dataset/ is Angola Contruy (country). It is not Angolar / Ngola."
+            "data/angola_dataset/ is an Angola country index (Contruy, Umbundu, Kimbundu, Kikongo). "
+            "It is not Angolar / Ngola."
         ),
         "graph": (
             "Each entry includes an attested relation graph: "

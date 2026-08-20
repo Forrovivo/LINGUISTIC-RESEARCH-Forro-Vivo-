@@ -64,7 +64,7 @@ Translation pairs:
 
 Never insert Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau, or Angola Contruy vocabulary into an Angolar entry.
 
-Angolar / Ngola is a São Tomé creole. Canonical path: `data/saotome_dataset/angolar/`. It is not Angola Contruy. `data/angola_dataset/` is a separate country dataset.
+Angolar / Ngola is a São Tomé creole. Canonical path: `data/saotome_dataset/angolar/`. It is not Angola Contruy. `data/angola_dataset/contruy/` is the Angola Contruy lexicon.
 
 ---
 
@@ -145,19 +145,44 @@ The parent files `data/guinebissau_dataset/dictionary.md` and `dictionary.json` 
 
 ---
 
-## Language F: Angola Contruy
+## Language F: Angola
 
-**Angola Contruy is not Angolar.**
+**Angola Contruy is not Angolar.** Umbundu is not Kimbundu. Kikongo of Angola is not Kituba.
 
-- Canonical path: `data/angola_dataset/`
+The parent path `data/angola_dataset/` is an **index**, not a merged lexicon.
+
+### F1. Angola Contruy
+
+- Canonical path: `data/angola_dataset/contruy/`
 - Country: Angola
 - Angolar / Ngola stays in `data/saotome_dataset/angolar/`
 
 Use only forms a cited source labels as **Angola Contruy** or as the Portuguese-lexifier creole of Angola the country.
 
 Do not copy Angolar, Forro, Lung’Ie, Cabo Verdean, or Guinea-Bissau vocabulary into this folder.
-Do not insert Kimbundu, Umbundu, or Angolan Portuguese unless the source names Angola Contruy.
+Do not insert Umbundu, Kimbundu, Kikongo, or Angolan Portuguese unless the source names Angola Contruy.
 Leave the lexicon empty rather than guessing. APiCS 36 is Angolar evidence, not Angola Contruy evidence.
+
+### F2. Umbundu
+
+- Canonical path: `data/angola_dataset/umbundu/`
+- ISO 639-3: `umb`
+
+Use only forms a cited source labels as **Umbundu**. Do not copy Kimbundu, Kikongo, or Contruy.
+
+### F3. Kimbundu
+
+- Canonical path: `data/angola_dataset/kimbundu/`
+- ISO 639-3: `kmb`
+
+Use only forms a cited source labels as **Kimbundu**. Do not copy Umbundu, Kikongo, or Contruy.
+
+### F4. Kikongo
+
+- Canonical path: `data/angola_dataset/kikongo/`
+- ISO 639-3: `kng`
+
+Use only forms a cited source labels as **Kikongo of Angola**. Do not copy Umbundu, Kimbundu, Contruy, or Kituba.
 
 ---
 
@@ -663,7 +688,11 @@ data/
 └── angola_dataset/
     ├── dictionary.md
     ├── dictionary.json
-    └── sources.md
+    ├── sources.md
+    ├── contruy/
+    ├── umbundu/
+    ├── kimbundu/
+    └── kikongo/
 ```
 
 A combined index may also be created:

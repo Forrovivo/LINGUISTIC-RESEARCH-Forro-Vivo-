@@ -32,7 +32,9 @@ Those three extracts stay in their island folders. They are not copied to other 
 
 Open island-labelled chapters in Lang (ed.) 2014 (*A variação geográfica do crioulo caboverdiano*, FAU, CC BY-NC-ND) supply Fogo (Lopes), Maio (Moreira), Santo Antão (Baptista), and Boa Vista lemmas quoted from Costa & Duarte 1886. Moreira 2020 adds a Fogo grammar and lexicon. Swolkien 2015 adds São Vicente leftovers. Lang 2018 adds Santiago grammar lemmas. Swolkien & Cobbinah 2019 adds Santo Antão fieldwork. Souza 2007 adds Fogo- and Santo Antão-labelled phonology examples. Lopes 2012 and Zanoli 2014 add São Nicolau-labelled forms.
 
-Sal stays empty until a source names that island as the variety of a lemma. Lang (ed.) 2014 notes that Sal still mixes immigrant island varieties.
+Sal stays empty until a source names that island as the variety of a lemma. Lang (ed.) 2014 notes that Sal still mixes immigrant island varieties. Wikipedia Sal pages were not used.
+
+The Lang et al. Santiago dictionary now has a CC BY 4.0 reprint catalogued at Open FAU; the PDF was not retrieved in this pass because the repository presented a bot-challenge page. It remains Santiago-only evidence when an extract is obtained.
 
 ## Not used as Cabo Verdean evidence
 

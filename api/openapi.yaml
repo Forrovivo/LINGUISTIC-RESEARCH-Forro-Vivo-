@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: ForroVivo Linguistic Research API
-  version: "2.2.0"
+  version: "2.3.0"
   description: >
     ForroVivo is the platform and ecosystem. This API publishes machine-readable
     linguistic data for the Linguistic Research initiative within it.
@@ -16,8 +16,10 @@ info:
 servers:
   - url: https://api.forrovivo.com
     description: Production
+  - url: http://127.0.0.1:8787
+    description: Cloudflare Worker local
   - url: http://127.0.0.1:8000
-    description: Local
+    description: Python local
 paths:
   /health:
     get:
@@ -132,7 +134,24 @@ paths:
           required: true
           schema:
             type: string
-            enum: [saotome, caboverde, guinebissau, angola]
+            enum:
+              [
+                saotome,
+                caboverde,
+                guinebissau,
+                angola,
+                seychelles,
+                equatorialguinea,
+                southafrica,
+                ghana,
+                sierraleone,
+                rdcongo,
+                mauritius,
+                nigeria,
+                reunion,
+                centralafrican,
+                cameroon,
+              ]
       responses:
         "200":
           description: Metadata without the full entry list
@@ -166,7 +185,24 @@ paths:
           required: true
           schema:
             type: string
-            enum: [saotome, caboverde, guinebissau]
+            enum:
+              [
+                saotome,
+                caboverde,
+                guinebissau,
+                angola,
+                seychelles,
+                equatorialguinea,
+                southafrica,
+                ghana,
+                sierraleone,
+                rdcongo,
+                mauritius,
+                nigeria,
+                reunion,
+                centralafrican,
+                cameroon,
+              ]
         - in: path
           name: variety
           required: true

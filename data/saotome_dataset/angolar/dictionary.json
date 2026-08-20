@@ -10,7 +10,7 @@
     "Angolar → Portuguese",
     "Angolar → English"
   ],
-  "isolation": "Angolar / Ngola only, spoken on São Tomé. This is not Angola Contruy and not data/angola_dataset/. Do not insert Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau, Angola Contruy, Kimbundu, Umbundu, or Angolan Portuguese.",
+  "isolation": "Angolar / Ngola only, spoken on São Tomé. This is not Angola Contruy and not data/angola_dataset/contruy/. Do not insert Forro, Lung’Ie, Cabo Verdean, Guinea-Bissau, Angola Contruy, Kimbundu, Umbundu, Kikongo, or Angolan Portuguese.",
   "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
   "missing_term": {
     "status": "error",

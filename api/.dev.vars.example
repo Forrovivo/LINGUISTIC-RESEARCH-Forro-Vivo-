@@ -1,0 +1,3 @@
+# Optional. Public GitHub data works without a token.
+# Higher rate limits if GitHub starts throttling raw file reads.
+GITHUB_TOKEN=

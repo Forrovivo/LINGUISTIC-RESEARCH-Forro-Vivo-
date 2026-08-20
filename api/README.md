@@ -11,6 +11,17 @@ Read-only HTTP API for attested Portuguese-lexifier creole lexicons.
 **Examples:** [examples/](examples/)  
 **Guide:** [docs/api.md](../docs/api.md)
 
+Production is a Cloudflare Worker. It reads attested files from this GitHub repository and does not invent translations or merge languages.
+
+```text
+cd api
+npm install
+npm run dev
+npx wrangler deploy
+```
+
+Python remains for pytest against local `data/` files:
+
 ```text
 PYTHONPATH=. uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
@@ -22,4 +33,4 @@ https://api.forrovivo.com/v1/languages
 https://api.forrovivo.com/v1/search?dataset=saotome/forro&q=kume
 ```
 
-The service loads `data/*/dictionary.json` and, when present, `knowledge.json` in the same folder. It does not invent translations or merge languages. Production on Vercel uses the root [requirements.txt](../requirements.txt) and [pyproject.toml](../pyproject.toml) entrypoint `api.main:app`. DNS for `api.forrovivo.com` must point at **this** Vercel project, not at the WebPage project. The public brand is `www.forrovivo.com`. The language-learning product is on the App Store.
+DNS for `api.forrovivo.com` must point at **this Worker**, not at the website. The public brand is `www.forrovivo.com`. The language-learning product is on the App Store.
