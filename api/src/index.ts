@@ -35,6 +35,22 @@ const app = new Hono<AppEnv>();
 const KNOWLEDGE_AND_SOURCES = [...DOCUMENT_COLLECTIONS, "sources"] as const;
 const INDEX_COLLECTIONS = ["entries", ...KNOWLEDGE_AND_SOURCES] as const;
 
+function isLocalHost(hostname: string) {
+  return hostname === "localhost" || hostname === "127.0.0.1" || hostname === "[::1]";
+}
+
+app.use("*", async (c, next) => {
+  const url = new URL(c.req.url);
+  if (url.protocol === "http:" && !isLocalHost(url.hostname)) {
+    url.protocol = "https:";
+    return c.redirect(url.toString(), 308);
+  }
+  await next();
+  if (url.protocol === "https:") {
+    c.res.headers.set("Strict-Transport-Security", "max-age=31536000");
+  }
+});
+
 app.use(
   "*",
   cors({
