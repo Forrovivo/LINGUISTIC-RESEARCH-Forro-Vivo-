@@ -16,7 +16,7 @@ Each isolated lexicon folder contains:
 | `knowledge.json` | Optional Knowledge Base records (grammar, proverbs, culture, …) |
 | `Audio/` | Recordings linked from matching entries, when present |
 
-Parent folders `data/saotome_dataset/`, `data/caboverde_dataset/`, `data/guinebissau_dataset/`, and `data/angola_dataset/` are indexes. They must not store a merged word list. Angola Contruy is `data/angola_dataset/contruy/`, not an alias of Angolar.
+Parent folders `data/saotome_dataset/`, `data/caboverde_dataset/`, `data/guinebissau_dataset/`, `data/angola_dataset/`, and the other `data/*_dataset/` country folders are indexes. They must not store a merged word list. Angola Contruy is `data/angola_dataset/contruy/`, not an alias of Angolar.
 
 Schemas:
 
@@ -106,6 +106,18 @@ If `knowledge.json` is absent, the API still serves the collections as empty lis
 | Umbundu | `data/angola_dataset/umbundu/` |
 | Kimbundu | `data/angola_dataset/kimbundu/` |
 | Kikongo | `data/angola_dataset/kikongo/` |
+| Seychellois | `data/seychelles_dataset/seychellois/` |
+| Annobonese | `data/equatorialguinea_dataset/annobonese/` |
+| Pichi | `data/equatorialguinea_dataset/pichi/` |
+| Fanakalo | `data/southafrica_dataset/fanakalo/` |
+| Ghanaian Pidgin | `data/ghana_dataset/ghanaianpidgin/` |
+| Krio | `data/sierraleone_dataset/krio/` |
+| Kituba | `data/rdcongo_dataset/kituba/` |
+| Mauritian | `data/mauritius_dataset/mauritian/` |
+| Naija | `data/nigeria_dataset/naija/` |
+| Réunion Creole | `data/reunion_dataset/reunioncreole/` |
+| Sango | `data/centralafrican_dataset/sango/` |
+| Cameroonian Pidgin | `data/cameroon_dataset/cameroonianpidgin/` |
 
 Never copy a form from one of these folders into another because the spelling looks similar.
 

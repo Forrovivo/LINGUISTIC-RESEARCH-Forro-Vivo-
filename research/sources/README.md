@@ -41,6 +41,29 @@ Wikipedia, social media, unsourced word lists, and generated text are not accept
 | Umbundu | [../../data/angola_dataset/umbundu/sources.md](../../data/angola_dataset/umbundu/sources.md) |
 | Kimbundu | [../../data/angola_dataset/kimbundu/sources.md](../../data/angola_dataset/kimbundu/sources.md) |
 | Kikongo | [../../data/angola_dataset/kikongo/sources.md](../../data/angola_dataset/kikongo/sources.md) |
+| Seychelles (index) | [../../data/seychelles_dataset/sources.md](../../data/seychelles_dataset/sources.md) |
+| Seychellois | [../../data/seychelles_dataset/seychellois/sources.md](../../data/seychelles_dataset/seychellois/sources.md) |
+| Equatorial Guinea (index) | [../../data/equatorialguinea_dataset/sources.md](../../data/equatorialguinea_dataset/sources.md) |
+| Annobonese | [../../data/equatorialguinea_dataset/annobonese/sources.md](../../data/equatorialguinea_dataset/annobonese/sources.md) |
+| Pichi | [../../data/equatorialguinea_dataset/pichi/sources.md](../../data/equatorialguinea_dataset/pichi/sources.md) |
+| South Africa (index) | [../../data/southafrica_dataset/sources.md](../../data/southafrica_dataset/sources.md) |
+| Fanakalo | [../../data/southafrica_dataset/fanakalo/sources.md](../../data/southafrica_dataset/fanakalo/sources.md) |
+| Ghana (index) | [../../data/ghana_dataset/sources.md](../../data/ghana_dataset/sources.md) |
+| Ghanaian Pidgin | [../../data/ghana_dataset/ghanaianpidgin/sources.md](../../data/ghana_dataset/ghanaianpidgin/sources.md) |
+| Sierra Leone (index) | [../../data/sierraleone_dataset/sources.md](../../data/sierraleone_dataset/sources.md) |
+| Krio | [../../data/sierraleone_dataset/krio/sources.md](../../data/sierraleone_dataset/krio/sources.md) |
+| Democratic Republic of the Congo (index) | [../../data/rdcongo_dataset/sources.md](../../data/rdcongo_dataset/sources.md) |
+| Kituba | [../../data/rdcongo_dataset/kituba/sources.md](../../data/rdcongo_dataset/kituba/sources.md) |
+| Mauritius (index) | [../../data/mauritius_dataset/sources.md](../../data/mauritius_dataset/sources.md) |
+| Mauritian | [../../data/mauritius_dataset/mauritian/sources.md](../../data/mauritius_dataset/mauritian/sources.md) |
+| Nigeria (index) | [../../data/nigeria_dataset/sources.md](../../data/nigeria_dataset/sources.md) |
+| Naija | [../../data/nigeria_dataset/naija/sources.md](../../data/nigeria_dataset/naija/sources.md) |
+| Réunion (index) | [../../data/reunion_dataset/sources.md](../../data/reunion_dataset/sources.md) |
+| Réunion Creole | [../../data/reunion_dataset/reunioncreole/sources.md](../../data/reunion_dataset/reunioncreole/sources.md) |
+| Central African Republic (index) | [../../data/centralafrican_dataset/sources.md](../../data/centralafrican_dataset/sources.md) |
+| Sango | [../../data/centralafrican_dataset/sango/sources.md](../../data/centralafrican_dataset/sango/sources.md) |
+| Cameroon (index) | [../../data/cameroon_dataset/sources.md](../../data/cameroon_dataset/sources.md) |
+| Cameroonian Pidgin | [../../data/cameroon_dataset/cameroonianpidgin/sources.md](../../data/cameroon_dataset/cameroonianpidgin/sources.md) |
 
 The file `research/notes/comparative-seed.md` is a small comparative seed. It is not a merged lexicon.
 

@@ -227,7 +227,7 @@ app.get("/v1", (c) => {
     project_start_date: "2023-03-23",
     principle: "Zero hallucination. Missing data is preferable to incorrect data.",
     isolation:
-      "Each path serves one dataset. Parent indexes are not merged lexicons. data/angola_dataset/ is an Angola country index (Contruy, Umbundu, Kimbundu, Kikongo). It is not Angolar / Ngola.",
+      "Each path serves one dataset. Parent indexes are not merged lexicons. data/angola_dataset/ is an Angola country index (Contruy, Umbundu, Kimbundu, Kikongo). It is not Angolar / Ngola. Other country folders are indexes of their languages.",
     graph:
       "Each entry includes an attested relation graph: means (Portuguese / English concepts), belongs_to (one language), related_to (grammar, culture), appears_in (proverb, story), documented_by (source). Missing edges stay empty. Edges never cross folders.",
     license: {

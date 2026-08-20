@@ -4,7 +4,7 @@
 **Founder and idealist:** Henriques Pontes  
 **Linguistic Research co-founder:** Luis Lima
 
-This repository is the **Linguistic Research** initiative inside the ForroVivo platform. It collects verified dictionary data for Portuguese-lexifier creoles and, under `data/angola_dataset/`, local Bantu languages of Angola. Accuracy comes before coverage. A missing translation is better than a guessed one.
+This repository is the **Linguistic Research** initiative inside the ForroVivo platform. It collects verified dictionary data for African creoles and related languages, stored one country folder at a time. Accuracy comes before coverage. A missing translation is better than a guessed one.
 
 The operational specification is [collection-prompt.md](../research/notes/collection-prompt.md). How to contribute: [CONTRIBUTING.md](../CONTRIBUTING.md). Bibliography: [research/sources](../research/sources/README.md).
 
@@ -25,10 +25,24 @@ Treat each language as an independent linguistic system. Never copy a word from 
 | Umbundu | *umbundu* | umb | `data/angola_dataset/umbundu/` | Umbundu ↔ Portuguese, Umbundu ↔ English |
 | Kimbundu | *kimbundu* | kmb | `data/angola_dataset/kimbundu/` | Kimbundu ↔ Portuguese, Kimbundu ↔ English |
 | Kikongo | *kikongo* | kng | `data/angola_dataset/kikongo/` | Kikongo ↔ Portuguese, Kikongo ↔ English |
+| Seychellois | *seselwa* | crs | `data/seychelles_dataset/seychellois/` | Seychellois ↔ Portuguese, Seychellois ↔ English |
+| Annobonese / Fa d’Ambô | *fa d’ambô* | fab | `data/equatorialguinea_dataset/annobonese/` | Annobonese ↔ Portuguese, Annobonese ↔ English |
+| Pichi | *pichi* | fpe | `data/equatorialguinea_dataset/pichi/` | Pichi ↔ Portuguese, Pichi ↔ English |
+| Fanakalo | *fanakalo* | fng | `data/southafrica_dataset/fanakalo/` | Fanakalo ↔ Portuguese, Fanakalo ↔ English |
+| Ghanaian Pidgin | Ghanaian Pidgin | gpe | `data/ghana_dataset/ghanaianpidgin/` | Ghanaian Pidgin ↔ Portuguese, Ghanaian Pidgin ↔ English |
+| Krio | *krio* | kri | `data/sierraleone_dataset/krio/` | Krio ↔ Portuguese, Krio ↔ English |
+| Kituba | *kituba* | ktu | `data/rdcongo_dataset/kituba/` | Kituba ↔ Portuguese, Kituba ↔ English |
+| Mauritian | *morisien* | mfe | `data/mauritius_dataset/mauritian/` | Mauritian ↔ Portuguese, Mauritian ↔ English |
+| Naija | *naija* | pcm | `data/nigeria_dataset/naija/` | Naija ↔ Portuguese, Naija ↔ English |
+| Réunion Creole | *kréol rénioné* | rcf | `data/reunion_dataset/reunioncreole/` | Réunion Creole ↔ Portuguese, Réunion Creole ↔ English |
+| Sango | *sängö* | sag | `data/centralafrican_dataset/sango/` | Sango ↔ Portuguese, Sango ↔ English |
+| Cameroonian Pidgin | *kamtok* | wes | `data/cameroon_dataset/cameroonianpidgin/` | Cameroonian Pidgin ↔ Portuguese, Cameroonian Pidgin ↔ English |
 
 Angolar / Ngola is a São Tomé creole in `data/saotome_dataset/angolar/`. Angola Contruy is in `data/angola_dataset/contruy/`. They are not the same language. Do not copy between them.
 
 Umbundu, Kimbundu, and Kikongo are local Bantu languages of Angola. They are not Angola Contruy and they are not each other. Kikongo of Angola is not Kituba.
+
+Annobonese is not Forro. Pichi is not Krio. Naija is not Ghanaian Pidgin. Mauritian is not Seychellois. Réunion Creole is not Mauritian.
 
 The São Tomé and Príncipe languages are related Gulf of Guinea creoles. They are not mutually intelligible. Cabo Verdean island creoles and Guinea-Bissau regional Kriol are Upper Guinea creoles; they are not the same language.
 
@@ -36,7 +50,7 @@ Portuguese is the official language of these countries. São Toméan Portuguese 
 
 If a source says only “Cape Verdean” and does not name the island, do not place the form in an island folder. If it says only “Guinea-Bissau Kriol” and does not name the region, do not place the form in a region folder. Do not insert Casamance Kriyol of Senegal.
 
-Parent `dictionary.md` and `dictionary.json` files under `saotome/`, `caboverde/`, `guinebissau/`, and `angola/` are indexes, not merged lexicons.
+Parent `dictionary.md` and `dictionary.json` files under each `*_dataset/` country folder are indexes, not merged lexicons.
 
 ## Zero hallucination
 
@@ -233,6 +247,10 @@ Bissau form → copy into Cacheu
 Angolar JSON → copy into data/angola_dataset/contruy/
 Umbundu word → copy into Kimbundu
 Kikongo of Angola → copy into Kituba
+Naija word → copy into Ghanaian Pidgin
+Krio word → copy into Pichi
+Mauritian word → copy into Seychellois
+Forro word → copy into Annobonese
 ```
 
 ## Objective

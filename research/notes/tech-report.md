@@ -40,10 +40,24 @@ Each language is an independent linguistic system. Relatedness is not a licence 
 | Umbundu | *umbundu* | umb | `data/angola_dataset/umbundu/` |
 | Kimbundu | *kimbundu* | kmb | `data/angola_dataset/kimbundu/` |
 | Kikongo | *kikongo* | kng | `data/angola_dataset/kikongo/` |
+| Seychellois | *seselwa* | crs | `data/seychelles_dataset/seychellois/` |
+| Annobonese / Fa d’Ambô | *fa d’ambô* | fab | `data/equatorialguinea_dataset/annobonese/` |
+| Pichi | *pichi* | fpe | `data/equatorialguinea_dataset/pichi/` |
+| Fanakalo | *fanakalo* | fng | `data/southafrica_dataset/fanakalo/` |
+| Ghanaian Pidgin | Ghanaian Pidgin | gpe | `data/ghana_dataset/ghanaianpidgin/` |
+| Krio | *krio* | kri | `data/sierraleone_dataset/krio/` |
+| Kituba | *kituba* | ktu | `data/rdcongo_dataset/kituba/` |
+| Mauritian | *morisien* | mfe | `data/mauritius_dataset/mauritian/` |
+| Naija | *naija* | pcm | `data/nigeria_dataset/naija/` |
+| Réunion Creole | *kréol rénioné* | rcf | `data/reunion_dataset/reunioncreole/` |
+| Sango | *sängö* | sag | `data/centralafrican_dataset/sango/` |
+| Cameroonian Pidgin | *kamtok* | wes | `data/cameroon_dataset/cameroonianpidgin/` |
 
 The São Tomé and Príncipe languages are Gulf of Guinea creoles. They are not mutually intelligible. Cabo Verdean island creoles and Guinea-Bissau regional Kriol are Upper Guinea creoles; they are not the same language.
 
 `data/angola_dataset/` is an Angola **country index**. Angola Contruy is `data/angola_dataset/contruy/`. It is not Angolar / Ngola. Umbundu, Kimbundu, and Kikongo are local Bantu languages of Angola; they are not Contruy and they are not each other. Kikongo of Angola is not Kituba. São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
+
+The other `data/*_dataset/` folders are country indexes. Annobonese is not Forro. Pichi is not Krio. Naija is not Ghanaian Pidgin. Mauritian is not Seychellois. Réunion Creole is not Mauritian.
 
 If a source says only “Cape Verdean” and does not name the island, the form stays out of island folders. If it says only “Guinea-Bissau Kriol” and does not name the region, the form stays out of region folders. Casamance Kriyol of Senegal is not stored here.
 
@@ -58,7 +72,18 @@ data/
 │   └── lungie/
 ├── caboverde_dataset/        island index; one folder per inhabited island
 ├── guinebissau_dataset/      region index; one folder per region
-└── angola_dataset/           Angola index; Contruy, Umbundu, Kimbundu, Kikongo
+├── angola_dataset/           Angola index; Contruy, Umbundu, Kimbundu, Kikongo
+├── seychelles_dataset/       Seychelles index; Seychellois
+├── equatorialguinea_dataset/ Equatorial Guinea index; Annobonese, Pichi
+├── southafrica_dataset/      South Africa index; Fanakalo
+├── ghana_dataset/            Ghana index; Ghanaian Pidgin
+├── sierraleone_dataset/      Sierra Leone index; Krio
+├── rdcongo_dataset/          DRC index; Kituba
+├── mauritius_dataset/        Mauritius index; Mauritian
+├── nigeria_dataset/          Nigeria index; Naija
+├── reunion_dataset/          Réunion index; Réunion Creole
+├── centralafrican_dataset/   Central African Republic index; Sango
+└── cameroon_dataset/         Cameroon index; Cameroonian Pidgin
 ```
 
 Each lexicon folder holds:
@@ -69,7 +94,7 @@ Each lexicon folder holds:
 - `knowledge.json` — optional Knowledge Base records (grammar, proverbs, culture, …)
 - `Audio/` — recordings linked from matching entries, when present
 
-Parent `dictionary.json` files under `data/saotome_dataset/`, `data/caboverde_dataset/`, `data/guinebissau_dataset/`, and `data/angola_dataset/` are **indexes**. They do not store a merged word list. `research/notes/comparative-seed.md` is a small comparative seed, not a merged lexicon.
+Parent `dictionary.json` files under each `data/*_dataset/` country folder are **indexes**. They do not store a merged word list. `research/notes/comparative-seed.md` is a small comparative seed, not a merged lexicon.
 
 The API catalog is derived from those index files. Adding a labelled island or region folder to the parent index is how the service learns a new isolated dataset. No vocabulary is copied between folders because two spellings look similar.
 

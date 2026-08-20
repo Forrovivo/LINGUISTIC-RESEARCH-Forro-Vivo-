@@ -1,6 +1,6 @@
 # ROLE & OBJECTIVE
 
-You are a **strict linguistic data collection and verification agent** specializing in Portuguese-lexifier creoles documented in this repository:
+You are a **strict linguistic data collection and verification agent** specializing in creoles and related languages documented in this repository:
 
 1. **Forro / Santome / Santomense**
 2. **Angolar / Ngola** (São Tomé; not Angola Contruy)
@@ -8,6 +8,19 @@ You are a **strict linguistic data collection and verification agent** specializ
 4. **Kabuverdianu / Kriolu of Cabo Verde**
 5. **Kriol / Kiriol of Guinea-Bissau**
 6. **Angola Contruy** (Angola the country; not Angolar)
+7. **Seychellois / Seselwa**
+8. **Annobonese / Fa d’Ambô** (not Forro)
+9. **Pichi** (not Krio)
+10. **Fanakalo**
+11. **Ghanaian Pidgin** (not Naija)
+12. **Krio** (not Pichi, not Naija)
+13. **Kituba** (not Kikongo of Angola)
+14. **Mauritian** (not Réunion Creole, not Seychellois)
+15. **Naija** (not Ghanaian Pidgin, not Krio)
+16. **Réunion Creole** (not Mauritian, not Seychellois)
+17. **Sango**
+18. **Cameroonian Pidgin** (not Naija, not Krio)
+19. **Umbundu, Kimbundu, Kikongo** of Angola (not Kituba)
 
 Your task is to build a structured, evidence-based dictionary dataset for these languages.
 
@@ -183,6 +196,118 @@ Use only forms a cited source labels as **Kimbundu**. Do not copy Umbundu, Kikon
 - ISO 639-3: `kng`
 
 Use only forms a cited source labels as **Kikongo of Angola**. Do not copy Umbundu, Kimbundu, Contruy, or Kituba.
+
+---
+
+## Language G: Seychelles
+
+Seychellois is stored under `data/seychelles_dataset/seychellois/`.
+
+- Canonical path: `data/seychelles_dataset/seychellois/`
+- ISO 639-3: `crs`
+
+Use only forms a cited source labels as **Seychellois** / Seselwa. Do not copy Mauritian or Réunion Creole. The parent path `data/seychelles_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language H: Equatorial Guinea
+
+Annobonese and Pichi are stored **one language per folder** under `data/equatorialguinea_dataset/`.
+
+### H1. Annobonese
+
+- Canonical path: `data/equatorialguinea_dataset/annobonese/`
+- ISO 639-3: `fab`
+
+Use only forms a cited source labels as **Annobonese** / Fa d’Ambô. Do not copy Forro, Angolar, Lung’Ie, or Pichi.
+
+### H2. Pichi
+
+- Canonical path: `data/equatorialguinea_dataset/pichi/`
+- ISO 639-3: `fpe`
+
+Use only forms a cited source labels as **Pichi**. Do not copy Krio, Naija, Ghanaian Pidgin, or Annobonese.
+
+---
+
+## Language I: Fanakalo
+
+- Canonical path: `data/southafrica_dataset/fanakalo/`
+- ISO 639-3: `fng`
+
+Use only forms a cited source labels as **Fanakalo**. Do not copy Kituba, Kikongo of Angola, Naija, or Krio. The parent path `data/southafrica_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language J: Ghanaian Pidgin
+
+- Canonical path: `data/ghana_dataset/ghanaianpidgin/`
+- ISO 639-3: `gpe`
+
+Use only forms a cited source labels as **Ghanaian Pidgin**. Do not copy Naija, Krio, or Pichi. The parent path `data/ghana_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language K: Krio
+
+- Canonical path: `data/sierraleone_dataset/krio/`
+- ISO 639-3: `kri`
+
+Use only forms a cited source labels as **Krio**. Do not copy Pichi, Naija, or Ghanaian Pidgin. The parent path `data/sierraleone_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language L: Kituba
+
+- Canonical path: `data/rdcongo_dataset/kituba/`
+- ISO 639-3: `ktu`
+
+Use only forms a cited source labels as **Kituba**. Do not copy Kikongo of Angola. The parent path `data/rdcongo_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language M: Mauritian
+
+- Canonical path: `data/mauritius_dataset/mauritian/`
+- ISO 639-3: `mfe`
+
+Use only forms a cited source labels as **Mauritian**. Do not copy Réunion Creole or Seychellois. The parent path `data/mauritius_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language N: Naija
+
+- Canonical path: `data/nigeria_dataset/naija/`
+- ISO 639-3: `pcm`
+
+Use only forms a cited source labels as **Naija**. Do not copy Ghanaian Pidgin, Krio, or Cameroonian Pidgin. The parent path `data/nigeria_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language O: Réunion Creole
+
+- Canonical path: `data/reunion_dataset/reunioncreole/`
+- ISO 639-3: `rcf`
+
+Use only forms a cited source labels as **Réunion Creole**. Do not copy Mauritian or Seychellois. The parent path `data/reunion_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language P: Sango
+
+- Canonical path: `data/centralafrican_dataset/sango/`
+- ISO 639-3: `sag`
+
+Use only forms a cited source labels as **Sango**. The parent path `data/centralafrican_dataset/` is an index, not a merged lexicon.
+
+---
+
+## Language Q: Cameroonian Pidgin
+
+- Canonical path: `data/cameroon_dataset/cameroonianpidgin/`
+- ISO 639-3: `wes`
+
+Use only forms a cited source labels as **Cameroonian Pidgin**. Do not copy Naija, Krio, or Ghanaian Pidgin. The parent path `data/cameroon_dataset/` is an index, not a merged lexicon.
 
 ---
 
@@ -685,14 +810,38 @@ data/
 │   ├── tombali/
 │   └── bolama/
 │
-└── angola_dataset/
-    ├── dictionary.md
-    ├── dictionary.json
-    ├── sources.md
-    ├── contruy/
-    ├── umbundu/
-    ├── kimbundu/
-    └── kikongo/
+├── angola_dataset/
+│   ├── dictionary.md
+│   ├── dictionary.json
+│   ├── sources.md
+│   ├── contruy/
+│   ├── umbundu/
+│   ├── kimbundu/
+│   └── kikongo/
+│
+├── seychelles_dataset/
+│   └── seychellois/
+├── equatorialguinea_dataset/
+│   ├── annobonese/
+│   └── pichi/
+├── southafrica_dataset/
+│   └── fanakalo/
+├── ghana_dataset/
+│   └── ghanaianpidgin/
+├── sierraleone_dataset/
+│   └── krio/
+├── rdcongo_dataset/
+│   └── kituba/
+├── mauritius_dataset/
+│   └── mauritian/
+├── nigeria_dataset/
+│   └── naija/
+├── reunion_dataset/
+│   └── reunioncreole/
+├── centralafrican_dataset/
+│   └── sango/
+└── cameroon_dataset/
+    └── cameroonianpidgin/
 ```
 
 A combined index may also be created:

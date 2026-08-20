@@ -51,6 +51,18 @@ Each language and variety has its own folder. Parent `dictionary.md` / `dictiona
 | Umbundu | `data/angola_dataset/umbundu/` |
 | Kimbundu | `data/angola_dataset/kimbundu/` |
 | Kikongo | `data/angola_dataset/kikongo/` |
+| Seychellois | `data/seychelles_dataset/seychellois/` |
+| Annobonese / Fa d’Ambô | `data/equatorialguinea_dataset/annobonese/` |
+| Pichi | `data/equatorialguinea_dataset/pichi/` |
+| Fanakalo | `data/southafrica_dataset/fanakalo/` |
+| Ghanaian Pidgin | `data/ghana_dataset/ghanaianpidgin/` |
+| Krio | `data/sierraleone_dataset/krio/` |
+| Kituba | `data/rdcongo_dataset/kituba/` |
+| Mauritian | `data/mauritius_dataset/mauritian/` |
+| Naija | `data/nigeria_dataset/naija/` |
+| Réunion Creole | `data/reunion_dataset/reunioncreole/` |
+| Sango | `data/centralafrican_dataset/sango/` |
+| Cameroonian Pidgin | `data/cameroon_dataset/cameroonianpidgin/` |
 
 Cabo Verde islands: `santiago`, `fogo`, `maio`, `brava`, `saovicente`, `santoantao`, `saonicolau`, `sal`, `boavista`.
 
@@ -91,6 +103,7 @@ Do not fill the gap by analogy.
 - Cabo Verdean Kabuverdianu is not Guinea-Bissau Kriol.
 - Do not copy Angolar into `data/angola_dataset/`. Angola Contruy is not Angolar.
 - Do not mix Umbundu, Kimbundu, and Kikongo. Kikongo of Angola is not Kituba.
+- Do not copy Pichi into Krio, Naija into Ghanaian Pidgin, Mauritian into Seychellois, or Forro into Annobonese.
 - Do not insert Umbundu, Kimbundu, Kikongo, or Angolan Portuguese as Angolar headwords, and do not insert them as Angola Contruy unless a source labels them that way.
 - São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
 - Keep the spelling used in the source. Do not normalize one language into another.

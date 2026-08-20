@@ -169,7 +169,7 @@ def root() -> Dict[str, Any]:
         "isolation": (
             "Each path serves one dataset. Parent indexes are not merged lexicons. "
             "data/angola_dataset/ is an Angola country index (Contruy, Umbundu, Kimbundu, Kikongo). "
-            "It is not Angolar / Ngola."
+            "It is not Angolar / Ngola. Other country folders are indexes of their languages."
         ),
         "graph": (
             "Each entry includes an attested relation graph: "

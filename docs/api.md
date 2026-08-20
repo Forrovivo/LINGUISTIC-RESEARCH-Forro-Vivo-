@@ -92,8 +92,20 @@ São Tomé languages live under `data/saotome_dataset/`, matching `/v1/saotome/f
 | GET | `/v1/angola/umbundu/lookup?headword=` |
 | GET | `/v1/angola/kimbundu/lookup?headword=` |
 | GET | `/v1/angola/kikongo/lookup?headword=` |
+| GET | `/v1/seychelles/seychellois/lookup?headword=` |
+| GET | `/v1/equatorialguinea/annobonese/lookup?headword=` |
+| GET | `/v1/equatorialguinea/pichi/lookup?headword=` |
+| GET | `/v1/southafrica/fanakalo/lookup?headword=` |
+| GET | `/v1/ghana/ghanaianpidgin/lookup?headword=` |
+| GET | `/v1/sierraleone/krio/lookup?headword=` |
+| GET | `/v1/rdcongo/kituba/lookup?headword=` |
+| GET | `/v1/mauritius/mauritian/lookup?headword=` |
+| GET | `/v1/nigeria/naija/lookup?headword=` |
+| GET | `/v1/reunion/reunioncreole/lookup?headword=` |
+| GET | `/v1/centralafrican/sango/lookup?headword=` |
+| GET | `/v1/cameroon/cameroonianpidgin/lookup?headword=` |
 
-`/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau`, and `/v1/angola` are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola/contruy` is Angola Contruy. It does not serve Angolar.
+`/v1/saotome`, `/v1/caboverde`, `/v1/guinebissau`, `/v1/angola`, and the other country keys are indexes. Lookup there returns `TERM_NOT_FOUND`. `/v1/angola/contruy` is Angola Contruy. It does not serve Angolar.
 
 The Knowledge Base uses the same isolation. `/v1/languages` lists lexicons, not a merged word list. `/v1/grammar` (and the sibling collection indexes) list **counts per folder**. Records are read from `/v1/{dataset}/grammar`, `/v1/{dataset}/proverbs`, and the other collections. Empty means unsourced, not “fill from another creole”. `/v1/search` requires `dataset=`.
 

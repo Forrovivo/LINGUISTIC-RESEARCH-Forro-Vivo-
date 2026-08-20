@@ -8,7 +8,7 @@
     "id": {
       "type": "string",
       "minLength": 1,
-      "description": "Folder id: forro, angolar, lungie, an island id, a region id, or an Angola language id."
+      "description": "Folder id: forro, angolar, lungie, an island id, a region id, or a language id inside a country folder."
     },
     "name": { "type": "string" },
     "language_name": { "type": "string" },
