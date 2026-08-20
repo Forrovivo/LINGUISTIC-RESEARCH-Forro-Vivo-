@@ -10,6 +10,28 @@ def test_health():
     response = client.get("/health")
     assert response.status_code == 200
     assert response.json()["status"] == "ok"
+    versioned = client.get("/v1/health")
+    assert versioned.status_code == 200
+    assert versioned.json()["api"] == "v1"
+
+
+def test_developer_headers_and_cors():
+    response = client.get("/v1", headers={"Origin": "https://example.com"})
+    assert response.headers["API-Version"] == "v1"
+    assert 'rel="license"' in response.headers["Link"]
+    assert 'rel="source"' in response.headers["Link"]
+    assert response.headers.get("access-control-allow-origin") == "*"
+
+
+def test_lookup_includes_source_attribution():
+    payload = client.get(
+        "/v1/saotome/forro/lookup", params={"headword": "kume"}
+    ).json()
+    attribution = payload["attribution"]
+    assert attribution["dataset"] == "saotome/forro"
+    assert attribution["sources"] == "/v1/saotome/forro/sources"
+    assert "saotome_dataset/forro" in attribution["github"]
+    assert attribution["license_url"].startswith("https://creativecommons.org/")
 
 
 def test_root_redirects_to_v1():
@@ -31,6 +53,9 @@ def test_public_api_is_api_forrovivo_com():
     assert payload["github"] == "https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-"
     assert payload["app_store"] == "https://apps.apple.com/app/id6751409176"
     assert payload["docs"] == "https://api.forrovivo.com/docs"
+    assert payload["api"] == "v1"
+    assert payload["authentication"].startswith("None")
+    assert payload["naming"] == "/v1/{family}/{variety}/{collection}"
     spec = client.get("/openapi.json").json()
     assert spec["servers"][0]["url"] == "https://api.forrovivo.com"
 
@@ -209,7 +234,7 @@ def test_entry_id_lookup():
 
 def test_knowledge_base_map():
     payload = client.get("/v1").json()
-    assert payload["version"] == "2.3.0"
+    assert payload["version"] == "2.4.0"
     assert payload["knowledge_base"].endswith("/v1/kb")
     mapped = client.get("/v1/kb").json()
     ids = [item["id"] for item in mapped["collections"]]

@@ -16,10 +16,19 @@ APP_STORE_URL = os.environ.get(
     "https://apps.apple.com/app/id6751409176",
 )
 
-CORS_ORIGINS = [
-    "https://forrovivo.com",
-    "https://www.forrovivo.com",
-    API_ORIGIN,
-    "http://127.0.0.1:8000",
-    "http://localhost:8000",
+LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+API_FAMILY = "v1"
+CORS_ALLOW_ORIGIN = "*"
+CORS_EXPOSE_HEADERS = [
+    "API-Version",
+    "Link",
+    "RateLimit-Limit",
+    "RateLimit-Policy",
+    "Retry-After",
 ]
+PROJECT_LICENSE = {
+    "project_original": "CC BY 4.0",
+    "source_extracts": (
+        "Third-party dictionaries and papers keep their original licenses. See research/sources/README.md."
+    ),
+}

@@ -12,6 +12,16 @@
     "enabled": true,
     "head_sampling_rate": 1
   },
+  "ratelimits": [
+    {
+      "name": "API_RATE_LIMIT",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 120,
+        "period": 60
+      }
+    }
+  ],
   "vars": {
     "API_HOST": "api.forrovivo.com",
     "API_ORIGIN": "https://api.forrovivo.com",

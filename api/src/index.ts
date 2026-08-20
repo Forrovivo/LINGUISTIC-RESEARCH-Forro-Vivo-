@@ -12,11 +12,20 @@ import {
   searchDataset,
 } from "./knowledge";
 import {
+  API_FAMILY,
   API_VERSION,
-  CORS_ORIGINS,
-  DEFAULT_LIMIT,
+  CORS_ALLOW_METHODS,
+  CORS_ALLOW_ORIGIN,
+  CORS_EXPOSE_HEADERS,
   FAMILIES,
+  DEFAULT_LIMIT,
+  GITHUB_URL,
+  LICENSE_URL,
   MAX_LIMIT,
+  PROJECT_LICENSE,
+  RATE_LIMIT,
+  attributionLinks,
+  rateLimitPolicy,
   settingsFrom,
 } from "./settings";
 import {
@@ -28,6 +37,7 @@ import {
   searchEntries,
   Store,
 } from "./store";
+import { folderFromJsonPath } from "./catalog";
 
 type AppEnv = { Bindings: Env };
 
@@ -37,6 +47,23 @@ const INDEX_COLLECTIONS = ["entries", ...KNOWLEDGE_AND_SOURCES] as const;
 
 function isLocalHost(hostname: string) {
   return hostname === "localhost" || hostname === "127.0.0.1" || hostname === "[::1]";
+}
+
+const RATE_LIMIT_EXEMPT = new Set([
+  "/health",
+  "/v1/health",
+  "/docs",
+  "/v1/docs",
+  "/openapi.yaml",
+  "/v1/openapi.yaml",
+]);
+
+function clientKey(c: { req: { header: (name: string) => string | undefined } }) {
+  return (
+    c.req.header("cf-connecting-ip") ||
+    c.req.header("x-forwarded-for")?.split(",")[0]?.trim() ||
+    "local"
+  );
 }
 
 app.use("*", async (c, next) => {
@@ -54,11 +81,51 @@ app.use("*", async (c, next) => {
 app.use(
   "*",
   cors({
-    origin: CORS_ORIGINS,
-    allowMethods: ["GET", "HEAD", "OPTIONS"],
-    allowHeaders: ["*"],
+    origin: CORS_ALLOW_ORIGIN,
+    allowMethods: [...CORS_ALLOW_METHODS],
+    allowHeaders: ["Accept", "Content-Type", "If-None-Match"],
+    exposeHeaders: [...CORS_EXPOSE_HEADERS],
+    maxAge: 86400,
   }),
 );
+
+app.use("*", async (c, next) => {
+  await next();
+  const settings = settingsFrom(c.env);
+  c.res.headers.set("API-Version", API_FAMILY);
+  c.res.headers.set("RateLimit-Policy", rateLimitPolicy());
+  c.res.headers.set("Link", attributionLinks(settings.apiOrigin, settings.githubUrl));
+});
+
+app.use("*", async (c, next) => {
+  const path = new URL(c.req.url).pathname;
+  if (c.req.method === "OPTIONS" || RATE_LIMIT_EXEMPT.has(path)) {
+    await next();
+    return;
+  }
+  const limiter = c.env.API_RATE_LIMIT;
+  if (!limiter) {
+    await next();
+    return;
+  }
+  const { success } = await limiter.limit({ key: clientKey(c) });
+  if (!success) {
+    return c.json(
+      {
+        status: "error",
+        code: "RATE_LIMITED",
+        message: "Too many requests. Retry after the period in Retry-After.",
+      },
+      429,
+      {
+        "Retry-After": String(RATE_LIMIT.period),
+        "RateLimit-Limit": String(RATE_LIMIT.limit),
+        "RateLimit-Policy": rateLimitPolicy(),
+      },
+    );
+  }
+  await next();
+});
 
 app.onError((error, c) => {
   if (error instanceof GithubError) {
@@ -139,11 +206,26 @@ function envelope(dataset: Dataset, extra: Record<string, unknown>): Record<stri
     dataset: dataset.ref.key,
     kind: dataset.kind,
     language: dataset.document.language,
+    attribution: datasetAttribution(dataset),
   };
   if (dataset.ref.canonicalKey) {
     payload.canonical_dataset = dataset.ref.canonicalKey;
   }
   return { ...payload, ...extra };
+}
+
+function datasetAttribution(dataset: Dataset): Record<string, unknown> {
+  const license = dataset.document.license;
+  return {
+    dataset: dataset.ref.key,
+    github: `${GITHUB_URL}/tree/main/${folderFromJsonPath(dataset.ref.jsonPath)}`,
+    sources: `/v1/${dataset.ref.key}/sources`,
+    license:
+      license && typeof license === "object"
+        ? license
+        : PROJECT_LICENSE,
+    license_url: LICENSE_URL,
+  };
 }
 
 function presentHit(
@@ -189,7 +271,7 @@ function docsHtml(origin: string): string {
   <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
   <script>
     window.ui = SwaggerUIBundle({
-      url: ${JSON.stringify(`${origin}/openapi.yaml`)},
+      url: ${JSON.stringify(`${origin}/v1/openapi.yaml`)},
       dom_id: "#swagger-ui"
     });
   </script>
@@ -198,6 +280,7 @@ function docsHtml(origin: string): string {
 }
 
 app.get("/health", (c) => c.json({ status: "ok" }));
+app.get("/v1/health", (c) => c.json({ status: "ok", api: API_FAMILY }));
 
 app.get("/", (c) => c.redirect("/v1", 307));
 
@@ -205,8 +288,12 @@ app.get("/docs", (c) => {
   const origin = requestOrigin(c);
   return c.html(docsHtml(origin));
 });
+app.get("/v1/docs", (c) => c.redirect("/docs", 307));
 
-app.get("/openapi.yaml", async (c) => {
+app.get("/openapi.yaml", async (c) => serveOpenApi(c));
+app.get("/v1/openapi.yaml", async (c) => serveOpenApi(c));
+
+async function serveOpenApi(c: { env: Env; json: Function }) {
   const text = await fetchGithubText(c.env, "api/openapi.yaml");
   if (text === null) {
     return c.json(
@@ -221,12 +308,13 @@ app.get("/openapi.yaml", async (c) => {
   return new Response(text, {
     headers: { "Content-Type": "application/yaml; charset=utf-8" },
   });
-});
+}
 
 app.get("/v1", (c) => {
   const settings = settingsFrom(c.env);
   return c.json({
     name: "ForroVivo Linguistic Research API",
+    api: API_FAMILY,
     version: API_VERSION,
     platform: "ForroVivo",
     initiative: "Linguistic Research",
@@ -241,17 +329,20 @@ app.get("/v1", (c) => {
     runtime: "cloudflare-workers",
     data: "github",
     project_start_date: "2023-03-23",
+    authentication: "None. Public read-only GET, HEAD, and OPTIONS.",
+    naming: "/v1/{family}/{variety}/{collection}",
+    cors: "Any origin. GET, HEAD, and OPTIONS. Credentials are not used.",
+    rate_limit: "Fair-use per client. See RateLimit-Policy and Retry-After.",
+    attribution:
+      "Each lexicon keeps its cited sources. Project materials are CC BY 4.0. Source extracts keep their original terms. See Link: rel=license and rel=source.",
     principle: "Zero hallucination. Missing data is preferable to incorrect data.",
     isolation:
       "Each path serves one dataset. Parent indexes are not merged lexicons. data/angola_dataset/ is an Angola country index (Contruy, Umbundu, Kimbundu, Kikongo). It is not Angolar / Ngola. Other country folders are indexes of their languages.",
     graph:
       "Each entry includes an attested relation graph: means (Portuguese / English concepts), belongs_to (one language), related_to (grammar, culture), appears_in (proverb, story), documented_by (source). Missing edges stay empty. Edges never cross folders.",
-    license: {
-      project_original: "CC BY 4.0",
-      source_extracts:
-        "Third-party dictionaries and papers keep their original licenses. See research/sources/README.md.",
-    },
+    license: PROJECT_LICENSE,
     docs: `${settings.apiOrigin}/docs`,
+    openapi: `${settings.apiOrigin}/v1/openapi.yaml`,
     catalog: `${settings.apiOrigin}/v1/datasets`,
     knowledge_base: `${settings.apiOrigin}/v1/kb`,
     languages: `${settings.apiOrigin}/v1/languages`,

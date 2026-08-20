@@ -200,7 +200,7 @@ Behaviour:
 | `/v1/search` without `dataset=` | `DATASET_REQUIRED` |
 | Entry `graph` | Attested edges only; empty arrays when unsourced |
 
-The API is GET, HEAD, and OPTIONS only. CORS allows ForroVivo brand origins. TLS-terminating proxies are supported through forwarded headers. Audio URLs are absolute and stay inside the queried dataset’s `Audio/` folder. Path traversal outside that folder is rejected.
+The API is GET, HEAD, and OPTIONS only. CORS allows any origin. Fair-use rate limits apply. TLS-terminating proxies are supported through forwarded headers. Audio URLs are absolute and stay inside the queried dataset’s `Audio/` folder. Path traversal outside that folder is rejected.
 
 Runtime settings live in `api/settings.py`:
 

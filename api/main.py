@@ -9,12 +9,17 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from uvicorn.middleware.proxy_headers import ProxyHeadersMiddleware
 
+from api import REPO_ROOT
 from api.settings import (
+    API_FAMILY,
     API_HOST,
     API_ORIGIN,
     APP_STORE_URL,
-    CORS_ORIGINS,
+    CORS_ALLOW_ORIGIN,
+    CORS_EXPOSE_HEADERS,
     GITHUB_URL,
+    LICENSE_URL,
+    PROJECT_LICENSE,
     SITE_ORIGIN,
 )
 from api.knowledge import (
@@ -50,7 +55,7 @@ app = FastAPI(
         "Each dataset is isolated. Missing terms return TERM_NOT_FOUND. "
         "This API does not invent translations or merge languages."
     ),
-    version="2.3.0",
+    version="2.4.0",
     servers=[
         {"url": API_ORIGIN, "description": "Production"},
         {"url": "http://127.0.0.1:8000", "description": "Local"},
@@ -59,10 +64,25 @@ app = FastAPI(
 app.add_middleware(ProxyHeadersMiddleware, trusted_hosts="*")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=CORS_ORIGINS,
+    allow_origins=[CORS_ALLOW_ORIGIN],
     allow_methods=["GET", "HEAD", "OPTIONS"],
-    allow_headers=["*"],
+    allow_headers=["Accept", "Content-Type", "If-None-Match"],
+    expose_headers=CORS_EXPOSE_HEADERS,
+    max_age=86400,
 )
+
+
+@app.middleware("http")
+async def developer_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["API-Version"] = API_FAMILY
+    response.headers["Link"] = (
+        f'<{API_ORIGIN}/v1>; rel="index", '
+        f'<{API_ORIGIN}/v1/openapi.yaml>; rel="describedby"; type="application/yaml", '
+        f'<{GITHUB_URL}>; rel="source", '
+        f'<{LICENSE_URL}>; rel="license"'
+    )
+    return response
 
 
 def request_origin(request: Request) -> str:
@@ -100,10 +120,19 @@ def resolve(family: str, variety: Optional[str] = None):
 
 
 def envelope(dataset, extra: Dict[str, Any]) -> Dict[str, Any]:
+    license_payload = dataset.document.get("license") or PROJECT_LICENSE
+    folder = dataset.ref.json_path.parent.relative_to(REPO_ROOT).as_posix()
     payload = {
         "dataset": dataset.ref.key,
         "kind": dataset.kind,
         "language": dataset.document.get("language"),
+        "attribution": {
+            "dataset": dataset.ref.key,
+            "github": f"{GITHUB_URL}/tree/main/{folder}",
+            "sources": f"/v1/{dataset.ref.key}/sources",
+            "license": license_payload,
+            "license_url": LICENSE_URL,
+        },
     }
     if dataset.ref.canonical_key:
         payload["canonical_dataset"] = dataset.ref.canonical_key
@@ -144,6 +173,11 @@ def health() -> Dict[str, str]:
     return {"status": "ok"}
 
 
+@app.get("/v1/health")
+def versioned_health() -> Dict[str, str]:
+    return {"status": "ok", "api": API_FAMILY}
+
+
 @app.get("/")
 def site_root() -> RedirectResponse:
     return RedirectResponse(url="/v1", status_code=307)
@@ -153,7 +187,8 @@ def site_root() -> RedirectResponse:
 def root() -> Dict[str, Any]:
     return {
         "name": "ForroVivo Linguistic Research API",
-        "version": "2.3.0",
+        "api": API_FAMILY,
+        "version": "2.4.0",
         "platform": "ForroVivo",
         "initiative": "Linguistic Research",
         "founder": "Henriques Pontes",
@@ -165,6 +200,14 @@ def root() -> Dict[str, Any]:
         "github": GITHUB_URL,
         "app_store": APP_STORE_URL,
         "project_start_date": "2023-03-23",
+        "authentication": "None. Public read-only GET, HEAD, and OPTIONS.",
+        "naming": "/v1/{family}/{variety}/{collection}",
+        "cors": "Any origin. GET, HEAD, and OPTIONS. Credentials are not used.",
+        "rate_limit": "Fair-use per client. See RateLimit-Policy and Retry-After.",
+        "attribution": (
+            "Each lexicon keeps its cited sources. Project materials are CC BY 4.0. "
+            "Source extracts keep their original terms. See Link: rel=license and rel=source."
+        ),
         "principle": "Zero hallucination. Missing data is preferable to incorrect data.",
         "isolation": (
             "Each path serves one dataset. Parent indexes are not merged lexicons. "
@@ -177,13 +220,9 @@ def root() -> Dict[str, Any]:
             "related_to (grammar, culture), appears_in (proverb, story), "
             "documented_by (source). Missing edges stay empty. Edges never cross folders."
         ),
-        "license": {
-            "project_original": "CC BY 4.0",
-            "source_extracts": (
-                "Third-party dictionaries and papers keep their original licenses. See research/sources/README.md."
-            ),
-        },
+        "license": PROJECT_LICENSE,
         "docs": f"{API_ORIGIN}/docs",
+        "openapi": f"{API_ORIGIN}/v1/openapi.yaml",
         "catalog": f"{API_ORIGIN}/v1/datasets",
         "knowledge_base": f"{API_ORIGIN}/v1/kb",
         "languages": f"{API_ORIGIN}/v1/languages",

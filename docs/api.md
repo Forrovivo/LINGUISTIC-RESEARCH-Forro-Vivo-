@@ -38,7 +38,21 @@ npx wrangler deploy
 
 Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com website. GitHub Actions needs repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
 
-`/` redirects to `/v1`. Health check: `/health`.
+`/` redirects to `/v1`. Health check: `/health` and `/v1/health`.
+
+## Developer contract
+
+| Topic | Behaviour |
+|---|---|
+| Versioning | Data routes are `/v1/...`. `/` redirects to `/v1`. Responses send `API-Version: v1`. JSON `api` is the URL family; `version` is the release. |
+| Naming | Lexicons: `/v1/{family}/{variety}/{collection}`. Country indexes: `/v1/{family}` — not a merged dictionary. Angola Contruy is `/v1/angola/contruy`, not `/v1/angola`. |
+| Authentication | None. Public GET, HEAD, and OPTIONS. |
+| CORS | Any origin. Credentials are not used. |
+| Rate limits | Fair-use per client. Over the policy: `429` `RATE_LIMITED` and `Retry-After`. Read `RateLimit-Policy`. |
+| Attribution | Lookup envelopes include `attribution`. Headers send `Link` with `rel=source` (this GitHub repository) and `rel=license`. Each entry keeps its cited source. Project materials are CC BY 4.0; source extracts keep their original terms. |
+
+Interactive docs: https://api.forrovivo.com/docs  
+Contract: https://api.forrovivo.com/v1/openapi.yaml
 
 ## Run locally
 
@@ -66,6 +80,7 @@ São Tomé languages live under `data/saotome_dataset/`, matching `/v1/saotome/f
 | Method | Path |
 |---|---|
 | GET | `/v1` |
+| GET | `/v1/health` |
 | GET | `/v1/kb` |
 | GET | `/v1/languages` |
 | GET | `/v1/datasets` |
@@ -114,6 +129,6 @@ The Knowledge Base uses the same isolation. `/v1/languages` lists lexicons, not 
 
 A missing headword in a lexicon returns that dataset’s `TERM_NOT_FOUND` object. An unknown path returns `DATASET_NOT_FOUND`. Search never crosses folders.
 
-Each returned entry includes `graph`: meaning concepts (Portuguese / English), `belongs_to` (one language), `related_to` (grammar, culture), `appears_in` (proverb, story), and `documented_by` (source). Empty arrays mean unsourced, not “fill from another creole”.
+Each returned entry includes `graph`: meaning concepts (Portuguese / English), `belongs_to` (one language), `related_to` (grammar, culture), `appears_in` (proverb, story), and `documented_by` (source). Empty arrays mean unsourced, not “fill from another creole”. Lookup also returns `attribution` for the folder.
 
 Interactive docs: https://api.forrovivo.com/docs

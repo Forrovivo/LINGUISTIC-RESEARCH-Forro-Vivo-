@@ -11,7 +11,7 @@ Read-only HTTP API for attested Portuguese-lexifier creole lexicons.
 **Examples:** [examples/](examples/)  
 **Guide:** [docs/api.md](../docs/api.md)
 
-Production is a Cloudflare Worker. It reads attested files from this GitHub repository and does not invent translations or merge languages.
+Production is a Cloudflare Worker. It reads attested files from this GitHub repository and does not invent translations or merge languages. Routes are versioned under `/v1`. CORS allows any origin. Fair-use rate limits apply. Lookup responses include source attribution.
 
 ```text
 cd api

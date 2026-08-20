@@ -1,5 +1,5 @@
 import type { DatasetRef } from "./catalog";
-import { loadCatalog } from "./catalog";
+import { folderFromJsonPath, loadCatalog } from "./catalog";
 import { fetchGithubJson } from "./github";
 import { entryGraph, indexKnowledgeLinks } from "./graph";
 import {
@@ -142,26 +142,30 @@ export class Store {
 
   async ensureAll(): Promise<void> {
     for (const key of this.refs.keys()) {
-      await this.get(key);
+      try {
+        await this.get(key);
+      } catch {
+        continue;
+      }
     }
   }
 
   async catalog(): Promise<Record<string, unknown>[]> {
-    await this.ensureAll();
-    return [...this.datasets.keys()]
-      .sort()
-      .map((key) => {
-        const dataset = this.datasets.get(key)!;
-        const meta = dataset.metadata();
+    return [...this.refs.values()]
+      .sort((a, b) => a.key.localeCompare(b.key))
+      .map((ref) => {
+        const loaded = this.datasets.get(ref.key);
+        const meta = loaded?.metadata();
         return {
-          dataset: key,
-          kind: dataset.kind,
-          language: meta.language,
-          language_name: meta.language_name,
-          iso_639_3: meta.iso_639_3,
-          entry_count: meta.entry_count,
-          canonical_dataset: meta.canonical_dataset,
-          path: dataset.ref.jsonPath,
+          dataset: ref.key,
+          kind: ref.kind,
+          language: meta?.language,
+          language_name: meta?.language_name || ref.languageName,
+          iso_639_3: meta?.iso_639_3,
+          entry_count: meta?.entry_count,
+          canonical_dataset: ref.canonicalKey,
+          path: ref.jsonPath,
+          folder: folderFromJsonPath(ref.jsonPath),
         };
       });
   }

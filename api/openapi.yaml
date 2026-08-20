@@ -1,18 +1,39 @@
 openapi: 3.0.3
 info:
   title: ForroVivo Linguistic Research API
-  version: "2.3.0"
-  description: >
-    ForroVivo is the platform and ecosystem. This API publishes machine-readable
-    linguistic data for the Linguistic Research initiative within it.
-    Each path serves one isolated dataset. Missing terms return TERM_NOT_FOUND.
-    The Knowledge Base collections (grammar, expressions, proverbs, culture,
-    food, music, dance, folklore, stories, places) stay empty until a cited
-    source fills them. Search never crosses folders.
-    Each entry includes an attested relation graph (means, belongs_to,
-    related_to, appears_in, documented_by). Missing edges stay empty.
+  version: "2.4.0"
+  description: |
+    Public, read-only linguistic API. No API key.
+
+    **Versioning.** All data routes live under `/v1`. `/` redirects to `/v1`.
+    Responses send `API-Version: v1`. The JSON field `api` is the URL family;
+    `version` is the release.
+
+    **Naming.** Lexicons use `/v1/{family}/{variety}/{collection}`.
+    Country indexes are `/v1/{family}` and are not merged dictionaries.
+    Lookup Angola Contruy at `/v1/angola/contruy/lookup`, not `/v1/angola/lookup`.
+
+    **Authentication.** None. GET, HEAD, and OPTIONS only.
+
+    **CORS.** Any origin. Credentials are not used.
+
+    **Rate limits.** Fair-use per client. Exceeding the policy returns `429`
+    `RATE_LIMITED` with `Retry-After`. Read `RateLimit-Policy`.
+
+    **Attribution.** Each entry keeps its cited source. Lookup envelopes include
+    `attribution`. Responses send `Link` with `rel=source` (GitHub) and
+    `rel=license`. Project materials are CC BY 4.0; source extracts keep their
+    original terms. Gloss fields are concepts the headword means, not proof the
+    word belongs to Portuguese or English.
+
+    Isolation: missing terms return TERM_NOT_FOUND. Search never crosses folders.
+    Knowledge collections stay empty until a cited source fills them.
   license:
     name: Mixed. Project materials CC BY 4.0. Source extracts keep original terms.
+    url: https://creativecommons.org/licenses/by/4.0/
+  contact:
+    name: ForroVivo Linguistic Research
+    url: https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-
 servers:
   - url: https://api.forrovivo.com
     description: Production
@@ -20,6 +41,52 @@ servers:
     description: Cloudflare Worker local
   - url: http://127.0.0.1:8000
     description: Python local
+tags:
+  - name: Catalog
+  - name: Lookup
+  - name: Knowledge
+components:
+  headers:
+    ApiVersion:
+      schema:
+        type: string
+        example: v1
+      description: URL family. Currently v1.
+    Link:
+      schema:
+        type: string
+      description: index, describedby (OpenAPI), source (GitHub), and license.
+    RateLimitPolicy:
+      schema:
+        type: string
+      description: Fair-use policy for this deployment.
+    RetryAfter:
+      schema:
+        type: string
+      description: Seconds to wait after RATE_LIMITED.
+  responses:
+    RateLimited:
+      description: RATE_LIMITED
+      headers:
+        Retry-After:
+          $ref: "#/components/headers/RetryAfter"
+        RateLimit-Policy:
+          $ref: "#/components/headers/RateLimitPolicy"
+        API-Version:
+          $ref: "#/components/headers/ApiVersion"
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: string
+                example: error
+              code:
+                type: string
+                example: RATE_LIMITED
+              message:
+                type: string
 paths:
   /health:
     get:
@@ -27,12 +94,29 @@ paths:
       responses:
         "200":
           description: OK
-  /v1:
+  /v1/health:
     get:
-      summary: API metadata
+      tags: [Catalog]
+      summary: Versioned health
       responses:
         "200":
-          description: Host, license, and catalog links
+          description: OK
+  /v1/openapi.yaml:
+    get:
+      tags: [Catalog]
+      summary: OpenAPI contract
+      responses:
+        "200":
+          description: application/yaml
+  /v1:
+    get:
+      summary: API metadata, versioning, CORS, rate limit, and attribution
+      tags: [Catalog]
+      responses:
+        "200":
+          description: Host, license, naming, and catalog links
+        "429":
+          $ref: "#/components/responses/RateLimited"
   /v1/datasets:
     get:
       summary: Isolated dataset catalog
@@ -176,6 +260,8 @@ paths:
           description: Matching entries from that dataset only
         "404":
           description: TERM_NOT_FOUND or DATASET_NOT_FOUND
+        "429":
+          $ref: "#/components/responses/RateLimited"
   /v1/{family}/{variety}:
     get:
       summary: Island or region dataset metadata
@@ -237,6 +323,8 @@ paths:
           description: Matching entries from that variety only
         "404":
           description: TERM_NOT_FOUND or DATASET_NOT_FOUND
+        "429":
+          $ref: "#/components/responses/RateLimited"
   /v1/{family}/entries:
     get:
       summary: Paginated list or search inside one dataset
@@ -291,6 +379,90 @@ paths:
       parameters:
         - in: path
           name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: filename
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: audio/mpeg
+        "404":
+          description: AUDIO_NOT_FOUND
+  /v1/{family}/{variety}/entries:
+    get:
+      tags: [Lookup]
+      summary: Paginated entries in one island, region, or language folder
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: variety
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: q
+          required: false
+          schema:
+            type: string
+        - in: query
+          name: offset
+          schema:
+            type: integer
+            minimum: 0
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        "200":
+          description: Page of entries from that folder only
+        "404":
+          description: TERM_NOT_FOUND for indexes
+        "429":
+          $ref: "#/components/responses/RateLimited"
+  /v1/{family}/{variety}/sources:
+    get:
+      tags: [Knowledge]
+      summary: Bibliography for one isolated folder
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: variety
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Cited sources for that folder
+        "404":
+          description: DATASET_NOT_FOUND
+        "429":
+          $ref: "#/components/responses/RateLimited"
+  /v1/{family}/{variety}/audio/{filename}:
+    get:
+      tags: [Lookup]
+      summary: Audio file from that folder only
+      parameters:
+        - in: path
+          name: family
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: variety
           required: true
           schema:
             type: string

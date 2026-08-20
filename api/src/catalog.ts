@@ -7,11 +7,13 @@ export type DatasetRef = {
   variety: string | null;
   kind: "index" | "lexicon";
   jsonPath: string;
+  languageName?: string;
   canonicalKey?: string;
 };
 
 type IndexChild = {
   id?: string;
+  name?: string;
   path?: string;
 };
 
@@ -21,6 +23,10 @@ function jsonPathFrom(relative: string): string {
     return trimmed;
   }
   return `${trimmed}/dictionary.json`;
+}
+
+export function folderFromJsonPath(jsonPath: string): string {
+  return jsonPath.replace(/\/dictionary\.json$/, "");
 }
 
 export async function loadCatalog(env: Env): Promise<Map<string, DatasetRef>> {
@@ -52,6 +58,7 @@ export async function loadCatalog(env: Env): Promise<Map<string, DatasetRef>> {
         variety: childId,
         kind: "lexicon",
         jsonPath: jsonPathFrom(childPath),
+        languageName: typeof child.name === "string" ? child.name : childId,
       });
     }
   }
