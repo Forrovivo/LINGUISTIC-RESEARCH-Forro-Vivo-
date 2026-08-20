@@ -20,6 +20,8 @@ npm run dev
 npx wrangler deploy
 ```
 
+Workers Builds deploys from the repository root. Keep the root `wrangler.jsonc` `name` as `forrovivo-api`.
+
 Python remains for pytest against local `data/` files:
 
 ```text

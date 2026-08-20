@@ -24,8 +24,11 @@ The API is GET-only. Production reads `data/` from this GitHub repository. It do
 | This GitHub repository | Source of truth for `data/**/dictionary.json`, `knowledge.json`, and audio |
 | Cloudflare Worker | GET router at `api.forrovivo.com` |
 | GitHub Actions | Deploys Worker code on changes under `api/` |
+| Workers Builds | Same Worker; `npx wrangler deploy` from the repository root |
 
 The Worker fetches attested files from GitHub (`raw.githubusercontent.com`) and caches them at the edge. A push that only changes `data/` is live after cache TTL. A push that changes `api/` deploys the Worker.
+
+Workers Builds runs at the repository root. Root [`wrangler.jsonc`](../wrangler.jsonc) points `main` at `api/src/index.ts` and installs Worker dependencies before deploy. Root `requirements.txt` is Python pytest support, not the production runtime. The dashboard Worker name must be `forrovivo-api`.
 
 ```text
 cd api
