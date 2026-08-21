@@ -1,0 +1,28 @@
+name: Deploy ForroVivo API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "api/**"
+      - "wrangler.jsonc"
+      - ".github/workflows/deploy-api.yml"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    environment:
+      name: Production
+      url: https://api.forrovivo.com
+    steps:
+      - uses: actions/checkout@v4
+      # Production Worker config is root wrangler.jsonc (main → api/src/index.ts).
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.124.0"
