@@ -1,0 +1,248 @@
+# Linguistic Research — Technical Report (v1.0)
+
+**Product:** Linguistic Research  
+**Pillar:** Research (open licence)  
+**Platform name:** ForroVivo (used across LIVLU TECHNOLOGIES pillars)  
+**Operator:** LIVLU TECHNOLOGIES LTD  
+**Project started:** 23 March 2023  
+**Founder and idealist:** Henriques Pontes  
+**Co-founder:** Luis Lima  
+**Public brand:** https://forrovivo.com  
+**GitHub:** https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-  
+**Public API:** https://api.forrovivo.com  
+**App Store:** https://apps.apple.com/app/id6751409176  
+**Report:** v1.0 baseline inventory  
+**Project Path:** `<project-root>/DATA COLLECTION/`
+
+**Place in LIVLU TECHNOLOGIES:** Individual Research team repo — the open-licence pillar. Sister pillars: Open Knowledge (site) and Learning (ForroVivo App). Do not merge those histories here.
+
+LIVLU TECHNOLOGIES LTD operates three pillars toward one goal. This document describes the technical design of the **Research** initiative: the open datasets and the read-only dictionary API. Collection rules are in [docs/methodology.md](docs/methodology.md). Bibliography is in [research/sources](research/sources/README.md). How to add attested entries is in [CONTRIBUTING.md](CONTRIBUTING.md). The operational specification is [research/notes/collection-prompt.md](research/notes/collection-prompt.md).
+
+For the v2.0 incremental report (Worker production edge, Knowledge Base, Africa indexes, operator alignment), see [TECH_REPORT_v2.0.md](TECH_REPORT_v2.0.md).
+
+## Purpose
+
+The Linguistic Research project publishes verified dictionary data for Portuguese-lexifier creoles so the ForroVivo ecosystem can look up attested forms without inventing translations.
+
+The system has two layers in this repository:
+
+1. **Dataset** — isolated JSON and Markdown lexicons under `data/`.
+2. **API** — GET-only HTTP service in `api/`, public host `api.forrovivo.com`.
+
+The public brand is ForroVivo.com. The language-learning product is on the App Store. Neither is stored in this repository. This repository does not write lexicon data over HTTP. New entries enter the JSON files through source-traced collection, then the API serves those files.
+
+Accuracy comes before coverage. A missing translation is better than a guessed one.
+
+## Languages
+
+Each language is an independent linguistic system. Relatedness is not a licence to copy vocabulary.
+
+| Language | Autonym | ISO 639-3 | Storage |
+|---|---|---|---|
+| Forro / Santome / Santomense | *lungwa santome* | cri | `data/saotome_dataset/forro/` |
+| Angolar / Ngola | *n'golá* | aoa | `data/saotome_dataset/angolar/` |
+| Principense / Lung’Ie | *lung’Ie* | pre | `data/saotome_dataset/lungie/` |
+| Kabuverdianu / Kriolu | island varieties | kea | `data/caboverde_dataset/<island>/` |
+| Kriol / Kiriol of Guinea-Bissau | regional varieties | pov | `data/guinebissau_dataset/<region>/` |
+| Angola Contruy | Angola (country) | — | `data/angola_dataset/contruy/` |
+| Umbundu | *umbundu* | umb | `data/angola_dataset/umbundu/` |
+| Kimbundu | *kimbundu* | kmb | `data/angola_dataset/kimbundu/` |
+| Kikongo | *kikongo* | kng | `data/angola_dataset/kikongo/` |
+| Seychellois | *seselwa* | crs | `data/seychelles_dataset/seychellois/` |
+| Annobonese / Fa d’Ambô | *fa d’ambô* | fab | `data/equatorialguinea_dataset/annobonese/` |
+| Pichi | *pichi* | fpe | `data/equatorialguinea_dataset/pichi/` |
+| Fanakalo | *fanakalo* | fng | `data/southafrica_dataset/fanakalo/` |
+| Ghanaian Pidgin | Ghanaian Pidgin | gpe | `data/ghana_dataset/ghanaianpidgin/` |
+| Krio | *krio* | kri | `data/sierraleone_dataset/krio/` |
+| Kituba | *kituba* | ktu | `data/rdcongo_dataset/kituba/` |
+| Mauritian | *morisien* | mfe | `data/mauritius_dataset/mauritian/` |
+| Naija | *naija* | pcm | `data/nigeria_dataset/naija/` |
+| Réunion Creole | *kréol rénioné* | rcf | `data/reunion_dataset/reunioncreole/` |
+| Sango | *sängö* | sag | `data/centralafrican_dataset/sango/` |
+| Cameroonian Pidgin | *kamtok* | wes | `data/cameroon_dataset/cameroonianpidgin/` |
+
+The São Tomé and Príncipe languages are Gulf of Guinea creoles. They are not mutually intelligible. Cabo Verdean island creoles and Guinea-Bissau regional Kriol are Upper Guinea creoles; they are not the same language.
+
+`data/angola_dataset/` is an Angola **country index**. Angola Contruy is `data/angola_dataset/contruy/`. It is not Angolar / Ngola. Umbundu, Kimbundu, and Kikongo are local Bantu languages of Angola; they are not Contruy and they are not each other. Kikongo of Angola is not Kituba. São Toméan Portuguese is not Forro, Angolar, or Lung’Ie.
+
+The other `data/*_dataset/` folders are country indexes. Annobonese is not Forro. Pichi is not Krio. Naija is not Ghanaian Pidgin. Mauritian is not Seychellois. Réunion Creole is not Mauritian.
+
+If a source says only “Cape Verdean” and does not name the island, the form stays out of island folders. If it says only “Guinea-Bissau Kriol” and does not name the region, the form stays out of region folders. Casamance Kriyol of Senegal is not stored here.
+
+## Dataset architecture
+
+```text
+data/
+├── index.md
+├── saotome_dataset/
+│   ├── forro/
+│   ├── angolar/
+│   └── lungie/
+├── caboverde_dataset/        island index; one folder per inhabited island
+├── guinebissau_dataset/      region index; one folder per region
+├── angola_dataset/           Angola index; Contruy, Umbundu, Kimbundu, Kikongo
+├── seychelles_dataset/       Seychelles index; Seychellois
+├── equatorialguinea_dataset/ Equatorial Guinea index; Annobonese, Pichi
+├── southafrica_dataset/      South Africa index; Fanakalo
+├── ghana_dataset/            Ghana index; Ghanaian Pidgin
+├── sierraleone_dataset/      Sierra Leone index; Krio
+├── rdcongo_dataset/          DRC index; Kituba
+├── mauritius_dataset/        Mauritius index; Mauritian
+├── nigeria_dataset/          Nigeria index; Naija
+├── reunion_dataset/          Réunion index; Réunion Creole
+├── centralafrican_dataset/   Central African Republic index; Sango
+└── cameroon_dataset/         Cameroon index; Cameroonian Pidgin
+```
+
+Each lexicon folder holds:
+
+- `dictionary.json` — machine-readable entries
+- `dictionary.md` — human-readable entries
+- `sources.md` — what was extracted from which work
+- `knowledge.json` — optional Knowledge Base records (grammar, proverbs, culture, …)
+- `Audio/` — recordings linked from matching entries, when present
+
+Parent `dictionary.json` files under each `data/*_dataset/` country folder are **indexes**. They do not store a merged word list. `research/notes/comparative-seed.md` is a small comparative seed, not a merged lexicon.
+
+The API catalog is derived from those index files. Adding a labelled island or region folder to the parent index is how the service learns a new isolated dataset. No vocabulary is copied between folders because two spellings look similar.
+
+## Entry model
+
+An entry names the language being documented and the target languages separately. A Portuguese gloss of a Forro word is not evidence for Angolar or for another island or region.
+
+Fields are stored only when a source supports them. Unavailable information is `null`. Empty-looking completeness is not a goal.
+
+Required when evidence exists:
+
+- identity: `id`, `language`, `headword`, `orthography`, `part_of_speech`
+- translations: `translation_pt`, `translation_en`
+- example: `example`, `example_translation_pt`, `example_translation_en`
+- sound: `pronunciation`, `ipa`, optional `audio`
+- source: `source`, `source_type`, `source_page`, `source_url`
+- quality: `verification_status`, `confidence`
+
+Homographs stay separate entries (same headword, different `id` and part of speech). Variants stay tagged to their sources. Disagreements are `verification_status: disputed`, not a silent choice of one form.
+
+Cross-language comparison is metadata only. It must not rewrite an isolated entry. A relationship is recorded only when a linguistic source supports it.
+
+## Collection pipeline
+
+The collector is a retrieval and verification process, not a translator.
+
+1. Search files in this repository.
+2. Search academic and institutional sources listed for that language.
+3. Use the web only to locate a citable work.
+4. Confirm that the evidence names Forro, Angolar, Lung’Ie, a Cabo Verdean island, a Guinea-Bissau region, Angola Contruy, Umbundu, Kimbundu, or Kikongo — not Portuguese and not another language.
+5. Reject the wrong language, island, or region.
+6. Write the attested fields into that folder’s `dictionary.json` and `dictionary.md`.
+7. Record the citation in that folder’s `sources.md`.
+
+Never:
+
+- invent a translation
+- creolize Portuguese to fill a gap
+- copy Forro into Angolar or Lung’Ie
+- copy Santiago into São Vicente, or Bissau into Cacheu
+- copy Angolar into `data/angola_dataset/contruy/` (Angola Contruy is not Angolar)
+- copy Umbundu into Kimbundu, or Kikongo of Angola into Kituba
+- fabricate examples, IPA, etymology, or cultural notes
+
+If the term is not attested for the queried language, the dataset returns:
+
+```json
+{
+  "status": "error",
+  "code": "TERM_NOT_FOUND",
+  "message": "Translation not available in the verified [LANGUAGE] database."
+}
+```
+
+Confidence values are `high`, `medium`, `low`, `unverified`, and `disputed`. Low or unverified data is never promoted to high without new evidence.
+
+Orthography follows the source. ALUSTP is used when that is the spelling in the source. The API does not rewrite one language into another’s spelling. Lookup may fold case and apostrophes to find the stored form; the stored headword is unchanged.
+
+## API architecture
+
+Production is a Cloudflare Worker (`api/src`). It reads every `dictionary.json` from this GitHub repository, caches the files at the edge, and builds per-dataset indexes by `id` and headword. Optional `knowledge.json` files are linked to those entries by `related_entry_ids` or matching headword. Lookup attaches an attested relation graph: Portuguese/English meaning concepts, language membership, grammar/culture, proverb/story, and source. It does not query a separate database and does not generate lexical content. Python FastAPI (`api/main.py`) remains the local pytest harness over files on disk.
+
+Public host: **https://api.forrovivo.com**  
+Worker local host: `http://127.0.0.1:8787`  
+Python local host: `http://127.0.0.1:8000`  
+OpenAPI: https://api.forrovivo.com/docs
+
+URL layout follows the folders:
+
+```text
+GET /v1
+GET /v1/kb
+GET /v1/languages
+GET /v1/datasets
+GET /v1/search?dataset=saotome/forro&q=
+GET /v1/saotome/forro
+GET /v1/saotome/forro/lookup?headword=
+GET /v1/saotome/forro/grammar
+GET /v1/saotome/forro/search?q=
+GET /v1/saotome/angolar/lookup?headword=
+GET /v1/saotome/lungie/lookup?headword=
+GET /v1/caboverde/{island}/lookup?headword=
+GET /v1/guinebissau/{region}/lookup?headword=
+GET /v1/angola/contruy/lookup?headword=
+GET /v1/angola/umbundu/lookup?headword=
+GET /v1/angola/kimbundu/lookup?headword=
+GET /v1/angola/kikongo/lookup?headword=
+```
+
+`family` is `saotome`, `caboverde`, `guinebissau`, or `angola`. São Tomé languages are `/v1/saotome/forro`, `/v1/saotome/angolar`, and `/v1/saotome/lungie`. Island and region folders stay under Cabo Verde and Guinea-Bissau. Angola languages are `/v1/angola/contruy`, `/v1/angola/umbundu`, `/v1/angola/kimbundu`, and `/v1/angola/kikongo`.
+
+Behaviour:
+
+| Request | Result |
+|---|---|
+| Lexicon lookup, attested headword | Entries from that dataset only |
+| Lexicon lookup, missing headword | `TERM_NOT_FOUND` for that dataset |
+| Parent index (`/v1/caboverde/lookup`, `/v1/saotome/lookup`, …) | `TERM_NOT_FOUND` from the index (not a merged lexicon) |
+| Unknown path | `DATASET_NOT_FOUND` |
+| `/v1/angola/…` | Index. Query `/v1/angola/contruy`, `/v1/angola/umbundu`, `/v1/angola/kimbundu`, or `/v1/angola/kikongo`. Does not serve Angolar |
+| Search `q=` | Restricted to the dataset in the path |
+| Knowledge Base collection, no `knowledge.json` yet | Empty list for that folder |
+| `/v1/search` without `dataset=` | `DATASET_REQUIRED` |
+| Entry `graph` | Attested edges only; empty arrays when unsourced |
+
+The API is GET, HEAD, and OPTIONS only. CORS allows any origin. Fair-use rate limits apply. TLS-terminating proxies are supported through forwarded headers. Audio URLs are absolute and stay inside the queried dataset’s `Audio/` folder. Path traversal outside that folder is rejected.
+
+Runtime settings live in `api/settings.py`:
+
+- `FORROVIVO_API_HOST` — default `api.forrovivo.com`
+- `FORROVIVO_API_ORIGIN` — default `https://api.forrovivo.com`
+- `FORROVIVO_SITE_ORIGIN` — default `https://www.forrovivo.com`
+- `FORROVIVO_GITHUB_URL` — default `https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-`
+- `FORROVIVO_APP_STORE_URL` — default `https://apps.apple.com/app/id6751409176`
+
+## Hosts
+
+| Host | Role |
+|---|---|
+| https://www.forrovivo.com | Public brand |
+| https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo- | Open research and datasets |
+| https://api.forrovivo.com | Machine-readable linguistic data |
+| https://apps.apple.com/app/id6751409176 | Language-learning product |
+| http://127.0.0.1:8787 | Local Cloudflare Worker |
+| http://127.0.0.1:8000 | Local Python pytest harness |
+
+DNS for `api.forrovivo.com` must point at this Cloudflare Worker. GitHub is the data origin. The website project is `www.forrovivo.com` only.
+
+## Quality controls
+
+Isolation is enforced in storage and in routing. A Forro headword cannot appear as an Angolar result. Tests in `api/tests/` check that property against the real JSON files (Forro `kume` is not returned for Angolar; `/v1/angola/contruy` is Angola Contruy and does not serve Angolar; parent Angola lookup is not a merged list; parent Cabo Verde lookup is not a merged list).
+
+Licenses stay on the entry. Original project materials are CC BY 4.0. *Dicionário livre santome/português* extracts remain CC BY-NC. APiCS audio remains CC BY 4.0. Other publications keep publisher or author terms. See [LICENSE](LICENSE) and [research/sources](research/sources/README.md).
+
+## Out of scope
+
+This technical design does not include:
+
+- generative translation
+- a merged “all creoles” search or a word graph that hops folders
+- write APIs for lexicon data
+- the ForroVivo.com website UI or the App Store language-learning product
+- substitution of Portuguese, Kimbundu, Umbundu, Kikongo, or Casamance Kriyol for a missing creole form

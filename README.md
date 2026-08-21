@@ -35,7 +35,7 @@ No invented words. No mixed languages. Missing beats guessing.
 </div>
 
 > **30-second version**  
-> **ForroVivo** = the platform. **This repo** = the open research lab inside it.  
+> **LIVLU TECHNOLOGIES LTD** = the operator. **Research** = this open pillar (datasets + API). Sister pillars: **Open Knowledge** (site) and **Learning** (ForroVivo App).  
 > Click a language. Or hit the API. If a word is not attested, you get `TERM_NOT_FOUND` — not a guess.
 
 Jump:
@@ -55,15 +55,15 @@ Jump:
 
 <a id="start-here"></a>
 
-## 🚀 Start here
+## Place in LIVLU TECHNOLOGIES
 
-**ForroVivo** is the platform and ecosystem. This GitHub folder is the **Linguistic Research** initiative: attested lexicons + a read-only API.
+**LIVLU TECHNOLOGIES** runs three individual team projects toward one goal. This repository is the **Research** pillar: attested lexicons + a read-only API. It is the open-licence surface.
 
-The website UI and the App Store app live somewhere else. Not here.
+Open Knowledge (website) and Learning (ForroVivo App) live in separate repositories. Not here. Do not merge those histories into this repo.
 
-| 🟢 Brand | 🟣 Research | 🔵 Data | ⚫ Product |
+| 🟢 Open Knowledge | 🟣 Research (this repo) | 🔵 API | ⚫ Learning |
 |---|---|---|---|
-| [ForroVivo.com](https://www.forrovivo.com) | [This repo](https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-) | [api.forrovivo.com](https://api.forrovivo.com) | [App Store](https://apps.apple.com/app/id6751409176) |
+| [forrovivo.com](https://www.forrovivo.com) | [This repo](https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-) | [api.forrovivo.com](https://api.forrovivo.com) | [App Store](https://apps.apple.com/app/id6751409176) |
 
 **Project started:** 23 March 2023  
 **Founder and idealist:** Henriques Pontes  
@@ -187,7 +187,7 @@ ForroVivo.com and the App Store app = other codebases.
 | ✅ Tests | pytest against local files (Python FastAPI) |
 | 🧰 Scripts | `validate-data` · `import-data` · `build-index` |
 
-[requirements.txt](api/requirements.txt) · [tech report](research/notes/tech-report.md)
+[requirements.txt](api/requirements.txt) · [TECH_REPORT.md](TECH_REPORT.md) · [TECH_REPORT_v2.0.md](TECH_REPORT_v2.0.md)
 
 ---
 
@@ -412,7 +412,8 @@ Angola Contruy is **not Angolar**. Umbundu is not Kimbundu. Kikongo of Angola is
 | [docs/data-model.md](docs/data-model.md) | Entry shape |
 | [docs/api.md](docs/api.md) | HTTP paths, including the Knowledge Base |
 | [research/sources/README.md](research/sources/README.md) | Bibliography |
-| [research/notes/tech-report.md](research/notes/tech-report.md) | How the API is built |
+| [TECH_REPORT.md](TECH_REPORT.md) | v1.0 technical baseline (datasets + API) |
+| [TECH_REPORT_v2.0.md](TECH_REPORT_v2.0.md) | v2.0 incremental report (Worker, KB, indexes) |
 | [data/index.md](data/index.md) | Dataset map |
 
 ---
@@ -435,6 +436,10 @@ Wikipedia, social media, unsourced lists, and generated text are **not** enough 
 
 ## 📜 License
 
+**Operator:** LIVLU TECHNOLOGIES LTD · **Pillar:** Research  
+
+**This is the open-source LIVLU TECHNOLOGIES pillar.** Open Knowledge and Learning (ForroVivo App) remain proprietary under the LIVLU EULA.
+
 Project materials (this README, rules, structure, our notes) = [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
 That is **our** work. Cited dictionaries keep **their** licenses.
 
@@ -447,3 +452,6 @@ That is **our** work. Cited dictionaries keep **their** licenses.
 > ForroVivo Linguistic Research, available under CC BY 4.0. Includes material from Araujo & Hagemeijer (2013), *Dicionário livre santome/português*, CC BY-NC.
 
 Full text: [LICENSE](LICENSE)
+
+Product policies: [Privacy](https://www.forrovivo.com/legal/privacy) · [Terms](https://www.forrovivo.com/legal/terms) · [Company](https://www.forrovivo.com/legal/company) · [EULA](https://www.forrovivo.com/legal/eula)  
+Contact: support@forrovivo.com | geral@forrovivo.com
