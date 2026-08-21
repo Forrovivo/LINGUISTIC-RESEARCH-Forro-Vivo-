@@ -16,8 +16,8 @@
   "kv_namespaces": [
     {
       "binding": "API_KEYS",
-      "id": "local-dev",
-      "preview_id": "local-dev"
+      "id": "dca0489e37514a7192f9e31c9b3251d7",
+      "preview_id": "dca0489e37514a7192f9e31c9b3251d7"
     }
   ],
   "ratelimits": [

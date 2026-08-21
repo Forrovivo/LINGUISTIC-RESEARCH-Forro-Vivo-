@@ -15,6 +15,12 @@
     "enabled": true,
     "head_sampling_rate": 1
   },
+  "kv_namespaces": [
+    {
+      "binding": "API_KEYS",
+      "id": "dca0489e37514a7192f9e31c9b3251d7"
+    }
+  ],
   "ratelimits": [
     {
       "name": "API_RATE_LIMIT",
