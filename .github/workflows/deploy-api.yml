@@ -32,3 +32,20 @@ jobs:
       # This job only proves the Worker bundle builds without Cloudflare credentials.
       - name: Dry-run Worker bundle
         run: npx --prefix api wrangler deploy --dry-run --outdir /tmp/worker-bundle --config wrangler.jsonc
+
+  # GitHub Environments → Production was left failed by the old Wrangler token
+  # deploy. Live hosting is Cloudflare Workers Builds; this job records that
+  # the Worker bundle verified so the environment is not stuck on a failed deploy.
+  production-status:
+    name: Production
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: Production
+      url: https://api.forrovivo.com
+    permissions:
+      contents: read
+    steps:
+      - name: Record live Worker host
+        run: echo "api.forrovivo.com is deployed by Cloudflare Workers Builds."
