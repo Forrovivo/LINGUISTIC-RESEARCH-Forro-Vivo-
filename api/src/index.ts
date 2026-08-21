@@ -157,8 +157,20 @@ app.use("*", async (c, next) => {
   }
   const limiter = c.env.API_RATE_LIMIT;
   if (!limiter) {
-    await next();
-    return;
+    const host = new URL(c.req.url).hostname;
+    if (isLocalHost(host)) {
+      await next();
+      return;
+    }
+    return c.json(
+      {
+        status: "error",
+        code: "RATE_LIMIT_UNAVAILABLE",
+        message:
+          "Rate limiting is not configured on this deployment. Requests are refused until it is restored.",
+      },
+      503,
+    );
   }
   const client = c.get("apiClient");
   const { success } = await limiter.limit({
