@@ -37,7 +37,7 @@ npm install
 npx wrangler deploy
 ```
 
-Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com website. GitHub Actions needs repository or **Production** environment secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Vercel is not the public API host.
+Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com website. GitHub Actions needs repository or **Production** environment secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
 
 `/` redirects to `/v1`. Health check: `/health` and `/v1/health`.
 
