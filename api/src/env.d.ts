@@ -3,6 +3,7 @@ interface RateLimitBinding {
 }
 
 interface Env {
+  API_KEYS?: KVNamespace;
   API_RATE_LIMIT?: RateLimitBinding;
   GITHUB_TOKEN?: string;
   API_HOST?: string;

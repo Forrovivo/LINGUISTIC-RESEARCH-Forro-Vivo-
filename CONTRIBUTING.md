@@ -1,21 +1,23 @@
 # Contributing
 
-**ForroVivo** is the platform and ecosystem. This repository is the **Linguistic Research** project: an open research initiative within it.
+**ForroVivo** is the platform and ecosystem. This repository is the **Research** pillar: an open research initiative operated by **LIVLU TECHNOLOGIES LTD**.
 
 | Surface | Role |
 |---|---|
-| [ForroVivo.com](https://www.forrovivo.com) | Public brand |
-| [This GitHub repository](https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-) | Open research and datasets |
+| [ForroVivo.com](https://www.forrovivo.com) | Public brand (Open Knowledge) |
+| [This GitHub repository](https://github.com/Forrovivo/linguistic-research) | Open research and datasets |
 | [api.forrovivo.com](https://api.forrovivo.com) | Machine-readable linguistic data |
-| [ForroVivo on the App Store](https://apps.apple.com/app/id6751409176) | Language-learning product |
+| [ForroVivo on the App Store](https://apps.apple.com/app/id6751409176) | Language-learning product (Learning pillar) |
 
+**Operator:** LIVLU TECHNOLOGIES LTD  
 **Project started:** 23 March 2023  
 **Founder and idealist:** Henriques Pontes  
-**Linguistic Research co-founder:** Luis Lima
+**Linguistic Research co-founder:** Luis Lima  
+**Place in LIVLU TECHNOLOGIES:** Individual Research team repo — the **only open** product pillar. Sister pillars Open Knowledge and Learning are proprietary and live in separate repositories.
 
 Contribute **attested** dictionary data here. Do not add the website UI or the App Store app to this folder.
 
-Follow [docs/methodology.md](docs/methodology.md) for collection rules and [research/sources/README.md](research/sources/README.md) for bibliography. The operational specification is [research/notes/collection-prompt.md](research/notes/collection-prompt.md).
+Follow [docs/methodology.md](docs/methodology.md) for collection rules and [research/sources/README.md](research/sources/README.md) for bibliography. The operational specification is [research/notes/collection-prompt.md](research/notes/collection-prompt.md). Implementation tracker: [CONTEXT.md](CONTEXT.md).
 
 ## What to contribute
 

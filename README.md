@@ -63,7 +63,7 @@ Open Knowledge (website) and Learning (ForroVivo App) live in separate repositor
 
 | 🟢 Open Knowledge | 🟣 Research (this repo) | 🔵 API | ⚫ Learning |
 |---|---|---|---|
-| [forrovivo.com](https://www.forrovivo.com) | [This repo](https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-) | [api.forrovivo.com](https://api.forrovivo.com) | [App Store](https://apps.apple.com/app/id6751409176) |
+| [forrovivo.com](https://www.forrovivo.com) | [This repo](https://github.com/Forrovivo/linguistic-research) | [api.forrovivo.com](https://api.forrovivo.com) | [App Store](https://apps.apple.com/app/id6751409176) |
 
 **Project started:** 23 March 2023  
 **Founder and idealist:** Henriques Pontes  
@@ -187,7 +187,7 @@ ForroVivo.com and the App Store app = other codebases.
 | ✅ Tests | pytest against local files (Python FastAPI) |
 | 🧰 Scripts | `validate-data` · `import-data` · `build-index` |
 
-[requirements.txt](api/requirements.txt) · [TECH_REPORT.md](TECH_REPORT.md) · [TECH_REPORT_v2.0.md](TECH_REPORT_v2.0.md)
+[requirements.txt](api/requirements.txt) · [CONTEXT.md](CONTEXT.md) · [TECH_REPORT.md](TECH_REPORT.md) · [TECH_REPORT_v2.0.md](TECH_REPORT_v2.0.md)
 
 ---
 
@@ -412,6 +412,11 @@ Angola Contruy is **not Angolar**. Umbundu is not Kimbundu. Kikongo of Angola is
 | [docs/data-model.md](docs/data-model.md) | Entry shape |
 | [docs/api.md](docs/api.md) | HTTP paths, including the Knowledge Base |
 | [research/sources/README.md](research/sources/README.md) | Bibliography |
+| [CONTEXT.md](CONTEXT.md) | Implementation masterplan (phases, next work) |
+| [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) | No product UI — presentation honesty rules for consumers |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute attested data (open Research pillar) |
+| [TERMS.md](TERMS.md) | Product-only terms (company umbrella in workspace `LEGAL/`) |
+| [PRIVACY.md](PRIVACY.md) | Product-only privacy (company umbrella in workspace `LEGAL/`) |
 | [TECH_REPORT.md](TECH_REPORT.md) | v1.0 technical baseline (datasets + API) |
 | [TECH_REPORT_v2.0.md](TECH_REPORT_v2.0.md) | v2.0 incremental report (Worker, KB, indexes) |
 | [data/index.md](data/index.md) | Dataset map |

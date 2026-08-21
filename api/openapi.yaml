@@ -3,7 +3,7 @@ info:
   title: ForroVivo Linguistic Research API
   version: "2.4.0"
   description: |
-    Public, read-only linguistic API. No API key.
+    Public, read-only linguistic API. Public GET needs no key.
 
     **Versioning.** All data routes live under `/v1`. `/` redirects to `/v1`.
     Responses send `API-Version: v1`. The JSON field `api` is the URL family;
@@ -11,9 +11,9 @@ info:
 
     **Naming.** Lexicons use `/v1/{family}/{variety}/{collection}`.
     Country indexes are `/v1/{family}` and are not merged dictionaries.
-    Lookup Angola Contruy at `/v1/angola/contruy/lookup`, not `/v1/angola/lookup`.
 
-    **Authentication.** None. GET, HEAD, and OPTIONS only.
+    **Authentication.** Optional. Issue a key with `POST /v1/keys`. Send
+    `Authorization: Bearer <key>`. Public lookup stays open without a key.
 
     **CORS.** Any origin. Credentials are not used.
 
@@ -33,7 +33,7 @@ info:
     url: https://creativecommons.org/licenses/by/4.0/
   contact:
     name: ForroVivo Linguistic Research
-    url: https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-
+    url: https://github.com/Forrovivo/linguistic-research
 servers:
   - url: https://api.forrovivo.com
     description: Production
@@ -117,6 +117,25 @@ paths:
           description: Host, license, naming, and catalog links
         "429":
           $ref: "#/components/responses/RateLimited"
+  /v1/keys:
+    post:
+      summary: Issue or replace an optional API key
+      tags: [Catalog]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+      responses:
+        "201":
+          description: Key shown once
+        "400":
+          description: INVALID_EMAIL
   /v1/datasets:
     get:
       summary: Isolated dataset catalog

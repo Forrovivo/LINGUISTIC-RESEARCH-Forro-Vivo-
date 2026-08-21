@@ -50,14 +50,26 @@ def test_public_api_is_api_forrovivo_com():
     assert payload["host"] == "api.forrovivo.com"
     assert payload["url"] == "https://api.forrovivo.com"
     assert payload["homepage"] == "https://www.forrovivo.com"
-    assert payload["github"] == "https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-"
+    assert payload["github"] == "https://github.com/Forrovivo/linguistic-research"
     assert payload["app_store"] == "https://apps.apple.com/app/id6751409176"
     assert payload["docs"] == "https://api.forrovivo.com/docs"
     assert payload["api"] == "v1"
-    assert payload["authentication"].startswith("None")
+    assert payload["authentication"].startswith("Optional")
     assert payload["naming"] == "/v1/{family}/{variety}/{collection}"
     spec = client.get("/openapi.json").json()
     assert spec["servers"][0]["url"] == "https://api.forrovivo.com"
+
+
+def test_issue_api_key_is_shown_once_and_rotates():
+    created = client.post("/v1/keys", json={"email": "keys@forrovivo.com"})
+    assert created.status_code == 201
+    first = created.json()["key"]
+    assert first.startswith("fv_live_")
+    rotated = client.post("/v1/keys", json={"email": "keys@forrovivo.com"})
+    assert rotated.status_code == 201
+    second = rotated.json()["key"]
+    assert second != first
+    assert client.post("/v1/keys", json={"email": "not-an-email"}).status_code == 400
 
 
 def test_catalog_lists_isolated_datasets():

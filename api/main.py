@@ -2,6 +2,10 @@
 
 from __future__ import annotations
 
+import hashlib
+import re
+import secrets
+from datetime import datetime, timezone
 from typing import Any, Dict, Optional
 
 from fastapi import FastAPI, Query, Request
@@ -65,11 +69,20 @@ app.add_middleware(ProxyHeadersMiddleware, trusted_hosts="*")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[CORS_ALLOW_ORIGIN],
-    allow_methods=["GET", "HEAD", "OPTIONS"],
-    allow_headers=["Accept", "Content-Type", "If-None-Match"],
+    allow_methods=["GET", "HEAD", "POST", "OPTIONS"],
+    allow_headers=["Accept", "Content-Type", "If-None-Match", "Authorization", "X-Api-Key"],
     expose_headers=CORS_EXPOSE_HEADERS,
     max_age=86400,
 )
+
+KEY_PREFIX = "fv_live_"
+EMAIL_PATTERN = re.compile(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
+KEY_BY_HASH: Dict[str, Dict[str, str]] = {}
+HASH_BY_EMAIL: Dict[str, str] = {}
+
+
+def _sha256_hex(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
 
 
 @app.middleware("http")
@@ -183,6 +196,45 @@ def site_root() -> RedirectResponse:
     return RedirectResponse(url="/v1", status_code=307)
 
 
+@app.post("/v1/keys")
+def issue_api_key(payload: Dict[str, Any]) -> Any:
+    email = payload.get("email") if isinstance(payload, dict) else None
+    normalized = email.strip().lower() if isinstance(email, str) else ""
+    if not normalized or EMAIL_PATTERN.match(normalized) is None:
+        return JSONResponse(
+            {
+                "status": "error",
+                "code": "INVALID_EMAIL",
+                "message": "A valid email address is required.",
+            },
+            status_code=400,
+        )
+    presented = KEY_PREFIX + secrets.token_hex(24)
+    digest = _sha256_hex(presented)
+    previous = HASH_BY_EMAIL.get(normalized)
+    if previous:
+        KEY_BY_HASH.pop(previous, None)
+    record = {
+        "email": normalized,
+        "created_at": datetime.now(timezone.utc).isoformat(),
+        "prefix": presented[:16],
+    }
+    KEY_BY_HASH[digest] = record
+    HASH_BY_EMAIL[normalized] = digest
+    return JSONResponse(
+        {
+            "status": "ok",
+            "key": presented,
+            "email": normalized,
+            "prefix": record["prefix"],
+            "created_at": record["created_at"],
+            "shown_once": True,
+            "usage": "Authorization: Bearer <key>",
+        },
+        status_code=201,
+    )
+
+
 @app.get("/v1")
 def root() -> Dict[str, Any]:
     return {
@@ -200,7 +252,10 @@ def root() -> Dict[str, Any]:
         "github": GITHUB_URL,
         "app_store": APP_STORE_URL,
         "project_start_date": "2023-03-23",
-        "authentication": "None. Public read-only GET, HEAD, and OPTIONS.",
+        "authentication": (
+            "Optional. Public GET stays open. Issue a key with POST /v1/keys. "
+            "Send Authorization: Bearer <key>."
+        ),
         "naming": "/v1/{family}/{variety}/{collection}",
         "cors": "Any origin. GET, HEAD, and OPTIONS. Credentials are not used.",
         "rate_limit": "Fair-use per client. See RateLimit-Policy and Retry-After.",

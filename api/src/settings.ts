@@ -2,7 +2,7 @@ export const SITE_ORIGIN = "https://www.forrovivo.com";
 export const API_HOST = "api.forrovivo.com";
 export const API_ORIGIN = "https://api.forrovivo.com";
 export const GITHUB_URL =
-  "https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-";
+  "https://github.com/Forrovivo/linguistic-research";
 export const APP_STORE_URL = "https://apps.apple.com/app/id6751409176";
 export const LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/";
 export const API_FAMILY = "v1";

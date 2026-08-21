@@ -38,8 +38,12 @@ import {
   Store,
 } from "./store";
 import { folderFromJsonPath } from "./catalog";
+import { issueKey, lookupKey, presentedKey, type KeyRecord } from "./keys";
 
-type AppEnv = { Bindings: Env };
+type AppEnv = {
+  Bindings: Env;
+  Variables: { apiClient?: KeyRecord };
+};
 
 const app = new Hono<AppEnv>();
 const KNOWLEDGE_AND_SOURCES = [...DOCUMENT_COLLECTIONS, "sources"] as const;
@@ -83,7 +87,13 @@ app.use(
   cors({
     origin: CORS_ALLOW_ORIGIN,
     allowMethods: [...CORS_ALLOW_METHODS],
-    allowHeaders: ["Accept", "Content-Type", "If-None-Match"],
+    allowHeaders: [
+      "Accept",
+      "Content-Type",
+      "If-None-Match",
+      "Authorization",
+      "X-Api-Key",
+    ],
     exposeHeaders: [...CORS_EXPOSE_HEADERS],
     maxAge: 86400,
   }),
@@ -98,6 +108,40 @@ app.use("*", async (c, next) => {
 });
 
 app.use("*", async (c, next) => {
+  const token = presentedKey(
+    c.req.header("Authorization"),
+    c.req.header("X-Api-Key"),
+  );
+  if (!token) {
+    await next();
+    return;
+  }
+  if (!c.env.API_KEYS) {
+    return c.json(
+      {
+        status: "error",
+        code: "KEYS_UNAVAILABLE",
+        message: "API keys are not available on this deployment.",
+      },
+      503,
+    );
+  }
+  const record = await lookupKey(c.env.API_KEYS, token);
+  if (!record) {
+    return c.json(
+      {
+        status: "error",
+        code: "KEY_INVALID",
+        message: "That API key is not valid.",
+      },
+      401,
+    );
+  }
+  c.set("apiClient", record);
+  await next();
+});
+
+app.use("*", async (c, next) => {
   const path = new URL(c.req.url).pathname;
   if (c.req.method === "OPTIONS" || RATE_LIMIT_EXEMPT.has(path)) {
     await next();
@@ -108,7 +152,10 @@ app.use("*", async (c, next) => {
     await next();
     return;
   }
-  const { success } = await limiter.limit({ key: clientKey(c) });
+  const client = c.get("apiClient");
+  const { success } = await limiter.limit({
+    key: client ? `key:${client.email}` : clientKey(c),
+  });
   if (!success) {
     return c.json(
       {
@@ -310,6 +357,52 @@ async function serveOpenApi(c: { env: Env; json: Function }) {
   });
 }
 
+app.post("/v1/keys", async (c) => {
+  if (!c.env.API_KEYS) {
+    return c.json(
+      {
+        status: "error",
+        code: "KEYS_UNAVAILABLE",
+        message: "API keys are not available on this deployment.",
+      },
+      503,
+    );
+  }
+  let email = "";
+  try {
+    const body: unknown = await c.req.json();
+    if (body && typeof body === "object" && "email" in body) {
+      const value = (body as { email?: unknown }).email;
+      if (typeof value === "string") email = value;
+    }
+  } catch {
+    email = "";
+  }
+  const issued = await issueKey(c.env.API_KEYS, email);
+  if ("error" in issued) {
+    return c.json(
+      {
+        status: "error",
+        code: "INVALID_EMAIL",
+        message: "A valid email address is required.",
+      },
+      400,
+    );
+  }
+  return c.json(
+    {
+      status: "ok",
+      key: issued.ok.key,
+      email: issued.ok.email,
+      prefix: issued.ok.prefix,
+      created_at: issued.ok.created_at,
+      shown_once: true,
+      usage: "Authorization: Bearer <key>",
+    },
+    201,
+  );
+});
+
 app.get("/v1", (c) => {
   const settings = settingsFrom(c.env);
   return c.json({
@@ -329,7 +422,8 @@ app.get("/v1", (c) => {
     runtime: "cloudflare-workers",
     data: "github",
     project_start_date: "2023-03-23",
-    authentication: "None. Public read-only GET, HEAD, and OPTIONS.",
+    authentication:
+      "Optional. Public GET stays open. Issue a key with POST /v1/keys. Send Authorization: Bearer <key>.",
     naming: "/v1/{family}/{variety}/{collection}",
     cors: "Any origin. GET, HEAD, and OPTIONS. Credentials are not used.",
     rate_limit: "Fair-use per client. See RateLimit-Policy and Retry-After.",

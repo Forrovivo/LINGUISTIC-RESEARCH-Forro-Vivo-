@@ -8,7 +8,7 @@
 **Founder and idealist:** Henriques Pontes  
 **Co-founder:** Luis Lima  
 **Public brand:** https://forrovivo.com  
-**GitHub:** https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-  
+**GitHub:** https://github.com/Forrovivo/linguistic-research  
 **Public API:** https://api.forrovivo.com  
 **App Store:** https://apps.apple.com/app/id6751409176  
 **Report:** v1.0 baseline inventory  
@@ -215,7 +215,7 @@ Runtime settings live in `api/settings.py`:
 - `FORROVIVO_API_HOST` — default `api.forrovivo.com`
 - `FORROVIVO_API_ORIGIN` — default `https://api.forrovivo.com`
 - `FORROVIVO_SITE_ORIGIN` — default `https://www.forrovivo.com`
-- `FORROVIVO_GITHUB_URL` — default `https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-`
+- `FORROVIVO_GITHUB_URL` — default `https://github.com/Forrovivo/linguistic-research`
 - `FORROVIVO_APP_STORE_URL` — default `https://apps.apple.com/app/id6751409176`
 
 ## Hosts
@@ -223,7 +223,7 @@ Runtime settings live in `api/settings.py`:
 | Host | Role |
 |---|---|
 | https://www.forrovivo.com | Public brand |
-| https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo- | Open research and datasets |
+| https://github.com/Forrovivo/linguistic-research | Open research and datasets |
 | https://api.forrovivo.com | Machine-readable linguistic data |
 | https://apps.apple.com/app/id6751409176 | Language-learning product |
 | http://127.0.0.1:8787 | Local Cloudflare Worker |

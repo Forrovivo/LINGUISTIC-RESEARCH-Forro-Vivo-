@@ -29,11 +29,11 @@
     "API_HOST": "api.forrovivo.com",
     "API_ORIGIN": "https://api.forrovivo.com",
     "SITE_ORIGIN": "https://www.forrovivo.com",
-    "GITHUB_URL": "https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-",
+    "GITHUB_URL": "https://github.com/Forrovivo/linguistic-research",
     "GITHUB_OWNER": "Forrovivo",
-    "GITHUB_REPO": "LINGUISTIC-RESEARCH-Forro-Vivo-",
+    "GITHUB_REPO": "linguistic-research",
     "GITHUB_REF": "main",
-    "GITHUB_DATA_ORIGIN": "https://raw.githubusercontent.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-/main",
+    "GITHUB_DATA_ORIGIN": "https://raw.githubusercontent.com/Forrovivo/linguistic-research/main",
     "APP_STORE_URL": "https://apps.apple.com/app/id6751409176",
     "GITHUB_CACHE_TTL": "300"
   }

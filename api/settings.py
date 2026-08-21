@@ -9,7 +9,7 @@ API_HOST = os.environ.get("FORROVIVO_API_HOST", "api.forrovivo.com")
 API_ORIGIN = os.environ.get("FORROVIVO_API_ORIGIN", "https://api.forrovivo.com")
 GITHUB_URL = os.environ.get(
     "FORROVIVO_GITHUB_URL",
-    "https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-",
+    "https://github.com/Forrovivo/linguistic-research",
 )
 APP_STORE_URL = os.environ.get(
     "FORROVIVO_APP_STORE_URL",

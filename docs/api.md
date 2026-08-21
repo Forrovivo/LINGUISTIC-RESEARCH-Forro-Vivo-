@@ -4,8 +4,9 @@
 
 | Surface | Role |
 |---|---|
-| [ForroVivo.com](https://www.forrovivo.com) | Public brand |
-| [GitHub](https://github.com/Forrovivo/LINGUISTIC-RESEARCH-Forro-Vivo-) | Open research and datasets |
+| [forrovivo.com](https://forrovivo.com) | Public brand (Open Knowledge). `www` redirects there. |
+| [forrovivo.com/api](https://forrovivo.com/api) | Developer playground on the Open Knowledge site |
+| [GitHub](https://github.com/Forrovivo/linguistic-research) | Open research and datasets |
 | [api.forrovivo.com](https://api.forrovivo.com) | Machine-readable linguistic data |
 | [ForroVivo on the App Store](https://apps.apple.com/app/id6751409176) | Language-learning product |
 
@@ -51,7 +52,8 @@ Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com webs
 | Rate limits | Fair-use per client. Over the policy: `429` `RATE_LIMITED` and `Retry-After`. Read `RateLimit-Policy`. |
 | Attribution | Lookup envelopes include `attribution`. Headers send `Link` with `rel=source` (this GitHub repository) and `rel=license`. Each entry keeps its cited source. Project materials are CC BY 4.0; source extracts keep their original terms. |
 
-Interactive docs: https://api.forrovivo.com/docs  
+Interactive docs (web UI): https://forrovivo.com/api  
+The Worker also serves HTML at `/docs`.  
 Contract: https://api.forrovivo.com/v1/openapi.yaml
 
 ## Run locally
@@ -131,4 +133,4 @@ A missing headword in a lexicon returns that dataset’s `TERM_NOT_FOUND` object
 
 Each returned entry includes `graph`: meaning concepts (Portuguese / English), `belongs_to` (one language), `related_to` (grammar, culture), `appears_in` (proverb, story), and `documented_by` (source). Empty arrays mean unsourced, not “fill from another creole”. Lookup also returns `attribution` for the folder.
 
-Interactive docs: https://api.forrovivo.com/docs
+Interactive docs (web UI): https://forrovivo.com/api
