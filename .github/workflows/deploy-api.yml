@@ -16,8 +16,10 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+      # Deploy from repo root: root wrangler.jsonc sets main → api/src/index.ts
+      # and runs `npm ci --prefix api` via the build command before upload.
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          workingDirectory: api
+          wranglerVersion: "4.28.0"
