@@ -1,4 +1,5 @@
 export const KEY_PREFIX = "fv_live_";
+export const KEYS_ISSUE_HEADER = "X-ForroVivo-Keys-Issue";
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export type KeyRecord = {
@@ -35,6 +36,25 @@ export function presentedKey(
   const token = bearer || apiKeyHeader?.trim();
   if (!token || !token.startsWith(KEY_PREFIX)) return null;
   return token;
+}
+
+/** Constant-time compare for the server-to-server keys-issue secret. */
+export function keysIssueAuthorized(
+  configuredSecret: string | undefined,
+  presentedSecret: string | undefined,
+): "ok" | "NOT_CONFIGURED" | "UNAUTHORIZED" {
+  const expected = configuredSecret?.trim() ?? "";
+  if (!expected) return "NOT_CONFIGURED";
+  const presented = presentedSecret?.trim() ?? "";
+  if (!presented) return "UNAUTHORIZED";
+  const left = new TextEncoder().encode(presented);
+  const right = new TextEncoder().encode(expected);
+  if (left.byteLength !== right.byteLength) return "UNAUTHORIZED";
+  let diff = 0;
+  for (let i = 0; i < left.byteLength; i++) {
+    diff |= left[i]! ^ right[i]!;
+  }
+  return diff === 0 ? "ok" : "UNAUTHORIZED";
 }
 
 export async function issueKey(

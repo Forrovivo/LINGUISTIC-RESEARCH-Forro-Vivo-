@@ -4,6 +4,8 @@ interface RateLimitBinding {
 
 interface Env {
   API_KEYS?: KVNamespace;
+  /** Server-to-server secret required to call POST /v1/keys (Open Knowledge only). */
+  KEYS_ISSUE_SECRET?: string;
   API_RATE_LIMIT?: RateLimitBinding;
   GITHUB_TOKEN?: string;
   API_HOST?: string;

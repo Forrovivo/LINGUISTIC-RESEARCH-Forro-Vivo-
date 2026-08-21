@@ -38,7 +38,14 @@ import {
   Store,
 } from "./store";
 import { folderFromJsonPath } from "./catalog";
-import { issueKey, lookupKey, presentedKey, type KeyRecord } from "./keys";
+import {
+  issueKey,
+  keysIssueAuthorized,
+  KEYS_ISSUE_HEADER,
+  lookupKey,
+  presentedKey,
+  type KeyRecord,
+} from "./keys";
 
 type AppEnv = {
   Bindings: Env;
@@ -93,6 +100,7 @@ app.use(
       "If-None-Match",
       "Authorization",
       "X-Api-Key",
+      KEYS_ISSUE_HEADER,
     ],
     exposeHeaders: [...CORS_EXPOSE_HEADERS],
     maxAge: 86400,
@@ -358,6 +366,32 @@ async function serveOpenApi(c: { env: Env; json: Function }) {
 }
 
 app.post("/v1/keys", async (c) => {
+  const issueAuth = keysIssueAuthorized(
+    c.env.KEYS_ISSUE_SECRET,
+    c.req.header(KEYS_ISSUE_HEADER),
+  );
+  if (issueAuth === "NOT_CONFIGURED") {
+    return c.json(
+      {
+        status: "error",
+        code: "KEYS_ISSUE_NOT_CONFIGURED",
+        message:
+          "Key issuance is not configured on this deployment. Keys are issued only through the API Platform.",
+      },
+      503,
+    );
+  }
+  if (issueAuth === "UNAUTHORIZED") {
+    return c.json(
+      {
+        status: "error",
+        code: "KEYS_ISSUE_UNAUTHORIZED",
+        message:
+          "Key issuance requires the API Platform. Public clients cannot mint keys.",
+      },
+      401,
+    );
+  }
   if (!c.env.API_KEYS) {
     return c.json(
       {
@@ -423,7 +457,7 @@ app.get("/v1", (c) => {
     data: "github",
     project_start_date: "2023-03-23",
     authentication:
-      "Optional. Public GET stays open. Issue a key with POST /v1/keys. Send Authorization: Bearer <key>.",
+      "Optional. Public GET stays open. Optional keys are issued only via the API Platform (server-to-server). Send Authorization: Bearer <key>.",
     naming: "/v1/{family}/{variety}/{collection}",
     cors: "Any origin. GET, HEAD, and OPTIONS. Credentials are not used.",
     rate_limit: "Fair-use per client. See RateLimit-Policy and Retry-After.",

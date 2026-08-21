@@ -12,8 +12,10 @@ info:
     **Naming.** Lexicons use `/v1/{family}/{variety}/{collection}`.
     Country indexes are `/v1/{family}` and are not merged dictionaries.
 
-    **Authentication.** Optional. Issue a key with `POST /v1/keys`. Send
-    `Authorization: Bearer <key>`. Public lookup stays open without a key.
+    **Authentication.** Optional. Public GET stays open without a key. Optional
+    client keys are issued only through the API Platform on forrovivo.com
+    (server-to-server). Send `Authorization: Bearer <key>`. Public lookup stays
+    open without a key.
 
     **CORS.** Any origin. Credentials are not used.
 
@@ -119,8 +121,18 @@ paths:
           $ref: "#/components/responses/RateLimited"
   /v1/keys:
     post:
-      summary: Issue or replace an optional API key
+      summary: Issue or replace an optional API key (API Platform only)
+      description: >
+        Server-to-server. Requires the X-ForroVivo-Keys-Issue secret shared with
+        the Open Knowledge API Platform. Public clients cannot mint keys.
       tags: [Catalog]
+      parameters:
+        - in: header
+          name: X-ForroVivo-Keys-Issue
+          required: true
+          schema:
+            type: string
+          description: Shared issue secret (not an end-user API key)
       requestBody:
         required: true
         content:
@@ -136,6 +148,10 @@ paths:
           description: Key shown once
         "400":
           description: INVALID_EMAIL
+        "401":
+          description: KEYS_ISSUE_UNAUTHORIZED
+        "503":
+          description: KEYS_UNAVAILABLE or KEYS_ISSUE_NOT_CONFIGURED
   /v1/datasets:
     get:
       summary: Isolated dataset catalog
