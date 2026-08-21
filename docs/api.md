@@ -24,10 +24,9 @@ The API is GET-only. Production reads `data/` from this GitHub repository. It do
 |---|---|
 | This GitHub repository | Source of truth for `data/**/dictionary.json`, `knowledge.json`, and audio |
 | Cloudflare Worker | GET router at `api.forrovivo.com` |
-| GitHub Actions | Deploys Worker code on changes under `api/` |
-| Workers Builds | Same Worker; `npx wrangler deploy` from the repository root |
+| Workers Builds | Deploys the Worker on push to `main` (`npx wrangler deploy` from the repository root) |
 
-The Worker fetches attested files from GitHub (`raw.githubusercontent.com`) and caches them at the edge. A push that only changes `data/` is live after cache TTL. A push that changes `api/` deploys the Worker.
+The Worker fetches attested files from GitHub (`raw.githubusercontent.com`) and caches them at the edge. A push that only changes `data/` is live after cache TTL. A push that changes Worker code under `api/` or root `wrangler.jsonc` triggers Workers Builds.
 
 Workers Builds runs at the repository root. Root [`wrangler.jsonc`](../wrangler.jsonc) points `main` at `api/src/index.ts` and installs Worker dependencies before deploy. Root `requirements.txt` is Python pytest support, not the production runtime. The dashboard Worker name must match wrangler `name`: `linguistic-research-forro-vivo`.
 
@@ -37,7 +36,7 @@ npm install
 npx wrangler deploy
 ```
 
-Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com website. GitHub Actions needs repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+Attach DNS `api.forrovivo.com` to **this Worker**, not to the ForroVivo.com website. Manual deploys use the same root config (`npx wrangler deploy` from the repository root after `npm ci --prefix api`, or let the root `build.command` run).
 
 `/` redirects to `/v1`. Health check: `/health` and `/v1/health`.
 
