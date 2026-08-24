@@ -17,7 +17,7 @@
 
 Contribute **attested** dictionary data here. Do not add the website UI or the App Store app to this folder.
 
-Follow [docs/methodology.md](docs/methodology.md) for collection rules and [research/sources/README.md](research/sources/README.md) for bibliography. The operational specification is [research/notes/collection-prompt.md](research/notes/collection-prompt.md). Implementation tracker: [CONTEXT.md](CONTEXT.md).
+Follow [docs/methodology.md](docs/methodology.md) for collection rules and [research/sources/README.md](research/sources/README.md) for bibliography. The operational specification is [research/notes/collection-prompt.md](research/notes/collection-prompt.md). Implementation tracker: [CONTEXT.md](CONTEXT.md). Grok Bot **Tela** loads [AGENTS.md](AGENTS.md) and must apply `collection-prompt.md` to every linguistic change.
 
 ## What to contribute
 
