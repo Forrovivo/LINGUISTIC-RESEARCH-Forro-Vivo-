@@ -8,6 +8,7 @@ const ALLOWED_PATHS = new Set([
   "forro/learning_path.json",
   "forro/models.json",
   "forro/voice_audio.zip",
+  "cabo_verde/dictionary.json",
 ]);
 
 function datasetsOrigin(env: Env): string {
