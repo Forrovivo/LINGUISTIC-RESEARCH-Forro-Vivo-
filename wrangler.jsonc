@@ -21,6 +21,14 @@
       "id": "dca0489e37514a7192f9e31c9b3251d7"
     }
   ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "forrovivo-learner-progress",
+      "database_id": "1e266c7d-7361-4507-b1a4-aa6a04612ad0",
+      "migrations_dir": "api/migrations"
+    }
+  ],
   "ratelimits": [
     {
       "name": "API_RATE_LIMIT",

@@ -40,3 +40,30 @@ https://api.forrovivo.com/v1/search?dataset=saotome/forro&q=kume
 ```
 
 DNS for `api.forrovivo.com` must point at **this Worker**, not at the website. The public brand is `forrovivo.com`. The developer playground is `https://forrovivo.com/api`. The language-learning product is on the App Store.
+
+## Learning app: progress sync (D1)
+
+Signed-in ForroVivo learners can back up academy progress to D1 via `/app/v1/progress` (separate from the public Research `/v1` API).
+
+```text
+# Once (replace database_id in wrangler.jsonc):
+cd api
+npx wrangler d1 create forrovivo-learner-progress
+npx wrangler d1 migrations apply forrovivo-learner-progress --remote
+
+# Shared HMAC secret (same value as iOS PROGRESS_SYNC_HMAC_SECRET):
+npx wrangler secret put PROGRESS_SYNC_SECRET
+
+npx wrangler deploy
+```
+
+Routes:
+
+```text
+GET    /app/v1/progress/health
+GET    /app/v1/progress?studyLanguage=forro
+PUT    /app/v1/progress
+DELETE /app/v1/progress?studyLanguage=forro
+```
+
+Auth: `X-ForroVivo-Account: apple:<subject>` or `google:<subject>`, plus `Authorization: Bearer <hex hmac-sha256(account, PROGRESS_SYNC_SECRET)>`.
