@@ -22,12 +22,15 @@ The API is GET-only. Production reads `data/` from this GitHub repository. It do
 
 | Layer | Role |
 |---|---|
-| This GitHub repository | Source of truth for `data/**/dictionary.json`, `knowledge.json`, and audio |
+| This GitHub repository | Source of truth for open `data/**/dictionary.json`, `knowledge.json`, and audio |
+| Private [Forrovivo/datasets](https://github.com/Forrovivo/datasets) | Learning-app language packs (not open research) |
 | Cloudflare Worker | GET router at `api.forrovivo.com` (production) |
+| `/v1/…` | Open Linguistic Research API |
+| `/app/v1/catalog/…` | Learning remote catalog edge (streams private datasets) |
 | Workers Builds | Production deploy of the Worker on push to `main` |
 | GitHub Actions (`Verify ForroVivo API`) | Bundle dry-run only — no Cloudflare credentials |
 
-The Worker fetches attested files from GitHub (`raw.githubusercontent.com`) and caches them at the edge. A push that only changes `data/` is live after cache TTL. A push that changes Worker code under `api/` or root `wrangler.jsonc` deploys the Worker via Workers Builds.
+The Worker fetches open research files from this repository and caches them at the edge. Learning packs are allowlisted under `/app/v1/catalog/` and read from private `Forrovivo/datasets` with a GitHub token secret (`GITHUB_TOKEN` or `DATASETS_GITHUB_TOKEN`). A push that only changes research `data/` is live after cache TTL. A push that changes Worker code under `api/` or root `wrangler.jsonc` deploys the Worker via Workers Builds.
 
 Deploy runs at the repository root. Root [`wrangler.jsonc`](../wrangler.jsonc) points `main` at `api/src/index.ts` and installs Worker dependencies before upload. Root `requirements.txt` is Python pytest support, not the production runtime. The dashboard Worker name must match wrangler `name`: `linguistic-research-forro-vivo`.
 

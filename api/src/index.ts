@@ -46,6 +46,7 @@ import {
   presentedKey,
   type KeyRecord,
 } from "./keys";
+import { proxyRemoteCatalogFile } from "./remoteCatalog";
 
 type AppEnv = {
   Bindings: Env;
@@ -67,6 +68,7 @@ const RATE_LIMIT_EXEMPT = new Set([
   "/v1/docs",
   "/openapi.yaml",
   "/v1/openapi.yaml",
+  "/app/v1/catalog/health",
 ]);
 
 function clientKey(c: { req: { header: (name: string) => string | undefined } }) {
@@ -348,6 +350,39 @@ function docsHtml(origin: string): string {
 
 app.get("/health", (c) => c.json({ status: "ok" }));
 app.get("/v1/health", (c) => c.json({ status: "ok", api: API_FAMILY }));
+
+/** Learning remote catalog: private GitHub datasets → streamed via this Worker. */
+app.get("/app/v1/catalog/health", (c) =>
+  c.json({
+    status: "ok",
+    surface: "remote-catalog",
+    datasetsRepo: `${c.env.DATASETS_GITHUB_OWNER || "Forrovivo"}/${c.env.DATASETS_GITHUB_REPO || "datasets"}`,
+  }),
+);
+app.get("/app/v1/catalog/manifest.json", (c) =>
+  proxyRemoteCatalogFile(c.env, "manifest.json"),
+);
+app.get("/app/v1/catalog/*", (c) => {
+  const url = new URL(c.req.url);
+  const prefix = "/app/v1/catalog/";
+  const relative = url.pathname.startsWith(prefix)
+    ? url.pathname.slice(prefix.length)
+    : "";
+  return proxyRemoteCatalogFile(c.env, relative);
+});
+app.on("HEAD", "/app/v1/catalog/manifest.json", async (c) => {
+  const response = await proxyRemoteCatalogFile(c.env, "manifest.json");
+  return new Response(null, { status: response.status, headers: response.headers });
+});
+app.on("HEAD", "/app/v1/catalog/*", async (c) => {
+  const url = new URL(c.req.url);
+  const prefix = "/app/v1/catalog/";
+  const relative = url.pathname.startsWith(prefix)
+    ? url.pathname.slice(prefix.length)
+    : "";
+  const response = await proxyRemoteCatalogFile(c.env, relative);
+  return new Response(null, { status: response.status, headers: response.headers });
+});
 
 app.get("/", (c) => c.redirect("/v1", 307));
 

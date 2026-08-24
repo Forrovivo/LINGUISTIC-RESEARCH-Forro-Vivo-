@@ -39,6 +39,10 @@
     "GITHUB_REPO": "linguistic-research",
     "GITHUB_REF": "main",
     "GITHUB_DATA_ORIGIN": "https://raw.githubusercontent.com/Forrovivo/linguistic-research/main",
+    "DATASETS_GITHUB_OWNER": "Forrovivo",
+    "DATASETS_GITHUB_REPO": "datasets",
+    "DATASETS_GITHUB_REF": "main",
+    "DATASETS_GITHUB_DATA_ORIGIN": "https://raw.githubusercontent.com/Forrovivo/datasets/main",
     "APP_STORE_URL": "https://apps.apple.com/app/id6751409176",
     "GITHUB_CACHE_TTL": "300"
   }
