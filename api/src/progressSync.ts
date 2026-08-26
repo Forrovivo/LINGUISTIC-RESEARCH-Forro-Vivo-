@@ -1,119 +1,18 @@
 import type { Context } from "hono";
+import {
+  LEARNER_ACCOUNT_HEADER,
+  LEARNER_SCHEMA_VERSION,
+  authorizeLearnerRequest,
+  jsonError,
+  parseStudyLanguage,
+} from "./learnerAuth";
 
 type ProgressEnv = {
   Bindings: Env;
 };
 
-export const PROGRESS_SCHEMA_VERSION = 1;
-export const PROGRESS_ACCOUNT_HEADER = "X-ForroVivo-Account";
-
-function jsonError(
-  code: string,
-  message: string,
-  status: 400 | 401 | 404 | 405 | 413 | 500 | 503,
-) {
-  return Response.json({ status: "error", code, message }, { status });
-}
-
-function timingSafeEqual(a: string, b: string): boolean {
-  if (a.length !== b.length) return false;
-  let mismatch = 0;
-  for (let i = 0; i < a.length; i++) {
-    mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
-  }
-  return mismatch === 0;
-}
-
-function hex(bytes: ArrayBuffer): string {
-  return [...new Uint8Array(bytes)]
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
-}
-
-async function hmacSha256Hex(message: string, secret: string): Promise<string> {
-  const enc = new TextEncoder();
-  const key = await crypto.subtle.importKey(
-    "raw",
-    enc.encode(secret),
-    { name: "HMAC", hash: "SHA-256" },
-    false,
-    ["sign"],
-  );
-  const sig = await crypto.subtle.sign("HMAC", key, enc.encode(message));
-  return hex(sig);
-}
-
-function presentedBearer(authorization: string | undefined): string | null {
-  if (!authorization) return null;
-  const match = /^Bearer\s+(.+)$/i.exec(authorization.trim());
-  return match?.[1]?.trim() || null;
-}
-
-function parseAccountKey(raw: string | undefined): string | null {
-  if (!raw) return null;
-  const trimmed = raw.trim();
-  const match = /^(apple|google):[^\s]+$/i.exec(trimmed);
-  if (!match) return null;
-  const [provider, subject] = trimmed.split(":", 2);
-  if (!provider || !subject || subject.length > 256) return null;
-  return `${provider.toLowerCase()}:${subject}`;
-}
-
-function parseStudyLanguage(raw: string | null): string | null {
-  if (!raw) return null;
-  const trimmed = raw.trim().toLowerCase();
-  if (!/^[a-z0-9_-]{2,32}$/.test(trimmed)) return null;
-  return trimmed;
-}
-
-async function authorizeProgressRequest(
-  c: Context<ProgressEnv>,
-): Promise<{ accountKey: string } | Response> {
-  const secret = c.env.PROGRESS_SYNC_SECRET;
-  if (!secret) {
-    return jsonError(
-      "PROGRESS_UNAVAILABLE",
-      "Progress sync is not configured on this deployment.",
-      503,
-    );
-  }
-  if (!c.env.DB) {
-    return jsonError(
-      "PROGRESS_UNAVAILABLE",
-      "Progress storage is not configured on this deployment.",
-      503,
-    );
-  }
-
-  const accountKey = parseAccountKey(c.req.header(PROGRESS_ACCOUNT_HEADER));
-  if (!accountKey) {
-    return jsonError(
-      "PROGRESS_AUTH_INVALID",
-      "Missing or invalid account header.",
-      401,
-    );
-  }
-
-  const token = presentedBearer(c.req.header("Authorization"));
-  if (!token) {
-    return jsonError(
-      "PROGRESS_AUTH_INVALID",
-      "Missing progress authorization.",
-      401,
-    );
-  }
-
-  const expected = await hmacSha256Hex(accountKey, secret);
-  if (!timingSafeEqual(expected, token.toLowerCase())) {
-    return jsonError(
-      "PROGRESS_AUTH_INVALID",
-      "Progress authorization failed.",
-      401,
-    );
-  }
-
-  return { accountKey };
-}
+export const PROGRESS_SCHEMA_VERSION = LEARNER_SCHEMA_VERSION;
+export const PROGRESS_ACCOUNT_HEADER = LEARNER_ACCOUNT_HEADER;
 
 export async function handleProgressHealth(c: Context<ProgressEnv>) {
   return c.json({
@@ -126,7 +25,7 @@ export async function handleProgressHealth(c: Context<ProgressEnv>) {
 }
 
 export async function handleProgressGet(c: Context<ProgressEnv>) {
-  const auth = await authorizeProgressRequest(c);
+  const auth = await authorizeLearnerRequest(c);
   if (auth instanceof Response) return auth;
 
   const studyLanguage = parseStudyLanguage(c.req.query("studyLanguage"));
@@ -168,7 +67,7 @@ export async function handleProgressGet(c: Context<ProgressEnv>) {
 }
 
 export async function handleProgressPut(c: Context<ProgressEnv>) {
-  const auth = await authorizeProgressRequest(c);
+  const auth = await authorizeLearnerRequest(c);
   if (auth instanceof Response) return auth;
 
   let body: {
@@ -240,7 +139,7 @@ export async function handleProgressPut(c: Context<ProgressEnv>) {
 }
 
 export async function handleProgressDelete(c: Context<ProgressEnv>) {
-  const auth = await authorizeProgressRequest(c);
+  const auth = await authorizeLearnerRequest(c);
   if (auth instanceof Response) return auth;
 
   const studyLanguage = parseStudyLanguage(c.req.query("studyLanguage"));

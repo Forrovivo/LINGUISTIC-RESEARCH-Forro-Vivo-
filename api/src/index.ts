@@ -48,11 +48,17 @@ import {
 } from "./keys";
 import { proxyRemoteCatalogFile } from "./remoteCatalog";
 import {
+  handleAccountDelete,
+  handleAccountGet,
+  handleAccountHealth,
+  handleAccountPut,
+} from "./accountSync";
+import { LEARNER_ACCOUNT_HEADER } from "./learnerAuth";
+import {
   handleProgressDelete,
   handleProgressGet,
   handleProgressHealth,
   handleProgressPut,
-  PROGRESS_ACCOUNT_HEADER,
 } from "./progressSync";
 
 type AppEnv = {
@@ -77,6 +83,7 @@ const RATE_LIMIT_EXEMPT = new Set([
   "/v1/openapi.yaml",
   "/app/v1/catalog/health",
   "/app/v1/progress/health",
+  "/app/v1/account/health",
 ]);
 
 function clientKey(c: { req: { header: (name: string) => string | undefined } }) {
@@ -110,7 +117,7 @@ app.use(
       "If-None-Match",
       "Authorization",
       "X-Api-Key",
-      PROGRESS_ACCOUNT_HEADER,
+      LEARNER_ACCOUNT_HEADER,
       KEYS_ISSUE_HEADER,
     ],
     exposeHeaders: [...CORS_EXPOSE_HEADERS],
@@ -392,6 +399,12 @@ app.on("HEAD", "/app/v1/catalog/*", async (c) => {
   const response = await proxyRemoteCatalogFile(c.env, relative);
   return new Response(null, { status: response.status, headers: response.headers });
 });
+
+/** Signed-in learner account registry + progress backup (Apple / Google, D1). */
+app.get("/app/v1/account/health", (c) => handleAccountHealth(c));
+app.get("/app/v1/account", (c) => handleAccountGet(c));
+app.put("/app/v1/account", (c) => handleAccountPut(c));
+app.delete("/app/v1/account", (c) => handleAccountDelete(c));
 
 /** Learning progress sync: signed-in Apple / Google accounts only. */
 app.get("/app/v1/progress/health", (c) => handleProgressHealth(c));

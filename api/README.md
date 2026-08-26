@@ -41,9 +41,9 @@ https://api.forrovivo.com/v1/search?dataset=saotome/forro&q=kume
 
 DNS for `api.forrovivo.com` must point at **this Worker**, not at the website. The public brand is `forrovivo.com`. The developer playground is `https://forrovivo.com/api`. The language-learning product is on the App Store.
 
-## Learning app: progress sync (D1)
+## Learning app: learner accounts + progress sync (D1)
 
-Signed-in ForroVivo learners can back up academy progress to D1 via `/app/v1/progress` (separate from the public Research `/v1` API).
+Signed-in ForroVivo learners register an account row and can back up academy progress to D1 (separate from the public Research `/v1` API).
 
 ```text
 # Once (replace database_id in wrangler.jsonc):
@@ -57,7 +57,16 @@ npx wrangler secret put PROGRESS_SYNC_SECRET
 npx wrangler deploy
 ```
 
-Routes:
+Account registry:
+
+```text
+GET    /app/v1/account/health
+GET    /app/v1/account
+PUT    /app/v1/account
+DELETE /app/v1/account
+```
+
+Progress backup:
 
 ```text
 GET    /app/v1/progress/health
@@ -65,5 +74,7 @@ GET    /app/v1/progress?studyLanguage=forro
 PUT    /app/v1/progress
 DELETE /app/v1/progress?studyLanguage=forro
 ```
+
+`DELETE /app/v1/account` removes the learner account row and all progress snapshots for that identity.
 
 Auth: `X-ForroVivo-Account: apple:<subject>` or `google:<subject>`, plus `Authorization: Bearer <hex hmac-sha256(account, PROGRESS_SYNC_SECRET)>`.
